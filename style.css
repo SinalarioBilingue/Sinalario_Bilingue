@@ -24,14 +24,19 @@ html, body {
 
 .texto {
     position: absolute;
-    top: 4%; /* Ajusta a distância do topo */
+    top: 0%; /* Ajusta a distância do topo */
     left: 50%;
     transform: translateX(-50%); /* Centraliza horizontalmente o texto */
     color: black;
-    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
-    font-family: monospace;
+    font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
     text-align: center; /* Garante que o texto esteja centralizado dentro do próprio contêiner */
+  
 }
+
+
 
 
 .Logo {
@@ -48,13 +53,16 @@ html, body {
 }
 
 .Lupa {
-    font-family: monospace;
+    font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
     text-align: right;
     position: absolute;
-    top: 25px; /* Distância do topo */
+    top: 0px; /* Distância do topo */
     right: 170px; /* Distância da direita */
     z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */
-    font-size: 2.5em;
+    
 }
 
 .apresentacao {
