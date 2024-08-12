@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
+    background-color: rgb(241, 242, 248);
+
+}
+
+.svg-container {
+    
+    position: sticky;
+    top: 0;
+    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
+    height: 60vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    background: url('/layer/layered-waves-haikei\ \(9\).svg') no-repeat center center;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
+    
+}
+
+.texto {
+    position: absolute;
+    top: 4%; /* Ajusta a distância do topo */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente o texto */
+    color: black;
+    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: monospace;
+    text-align: center; /* Garante que o texto esteja centralizado dentro do próprio contêiner */
+}
+
+
+.Logo {
+    position: absolute; /* Posiciona o logo em relação ao contêiner pai */
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+}
+
+.Logo img {
+    max-width: 250px; /* Define um tamanho máximo para a logo */
+    height: auto; /* Mantém a proporção da imagem */
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.Lupa {
+    font-family: monospace;
+    text-align: right;
+    position: absolute;
+    top: 25px; /* Distância do topo */
+    right: 170px; /* Distância da direita */
+    z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */
+    font-size: 2.5em;
+}
+
+.apresentacao {
+    text-align: center;
+    margin-top: -250px;
+    }
+
+.linha{
+    margin-top: -300px;
+    margin-bottom:  0px;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
+    height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    background: url('/layer/layered-waves-haikei\ \(4\).svg') no-repeat center center;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
+}
+.linha2{
+
+    margin-top: -50px;
+    margin: 0px;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
+    height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    background: url('/layer/layered-waves-haikei\ \(5\).svg') no-repeat center center;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
+}
+
+
+.categorias1{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.componentes{
+    margin-top: -18%;
+    text-align: center;
+    display: flex;
+}
+
+.texto-componentes{
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 40px;
+    font-size: 3em;
+    background-color: aqua;
+}
+
+.video-componentes{
+    height: 200px;
+}
