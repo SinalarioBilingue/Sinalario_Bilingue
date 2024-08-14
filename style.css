@@ -4,23 +4,33 @@ body {
     padding: 0;
     height: 100%;
     overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
-    background-color: rgb(241, 242, 248);
+    background-color: rgb(251, 251, 252);
 
 }
 
-.svg-container {
-    
-    position: sticky;
-    top: 0;
-    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 60vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
-    background: url('/layer/layered-waves-haikei\ \(9\).svg') no-repeat center center;
+.cabecalho {
+    background: url('/layer/AAAAAAAAA.png') no-repeat center center;
+    transform: scaleY(0.5);  /* Achata a imagem verticalmente */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
-    
+    top: -10%;
+    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
+    height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    position: sticky;
+    z-index: 2;
+    margin-top: -7%;
+}
+
+.svg-container {     
+    position: sticky;
+    top: 0;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    z-index: 3; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 
 .texto {
@@ -34,7 +44,6 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center; /* Garante que o texto esteja centralizado dentro do próprio contêiner */
-  
 }
 
 .Logo {
@@ -64,10 +73,14 @@ body {
 
 .apresentacao {
     text-align: center;
-    margin-top: -17%;
+    margin-top: 3%;
     font-family: "Bebas Neue", ;
     font-size: 100%; 
-    }
+    max-width:  100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+}
 
 .linha{
     margin-top: -300px;
@@ -83,7 +96,6 @@ body {
     z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 .linha2{
-
     margin-top: -50px;
     padding-top: 6%;
     padding-bottom: 5%;
@@ -98,21 +110,36 @@ body {
 }
 
 .componentes{
-    margin-top: -20%;
+    margin-top: 0%;
     display: flex;
     align-items: center;
-    justify-content: space-between 50%;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    z-index: 1000;
 }
 
 .video-componentes{
     height: 200px;
     border-radius: 50px;
+    margin-left: 3%;
 }
 
 .texto-componentes{
-    width: 21%;
-    margin-top: 0%;
-    margin-right: 1em;
-    margin-left: 1em;
-    font-size: 3em;
+    background: rgb(241, 242, 248);
+    border-radius: 25px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px;
+    font-size: 2em;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    margin-left: 3%;
+}
+
+.texto-componentes:hover{
+    letter-spacing: 0.25em;
+    background-color: rgb(169, 232, 169);
+    box-shadow: 0 0 35px rgb(14, 229, 14);
 }

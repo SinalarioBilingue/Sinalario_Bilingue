@@ -1,0 +1,44 @@
+.categorias{
+    margin-top: -20%;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+
+.video-componentes,
+.video-equipamentos,
+.video-unidades,
+.video-conceitos{
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 3%;
+}
+
+
+.texto-unidades,
+.texto-conceitos,
+.texto-componentes,
+.texto-equipamentos{
+    background: rgb(241, 242, 248);
+    border-radius: 25px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px;
+    font-size: 2em;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    margin-left: 3%;
+}
+
+.texto-unidades:hover,
+.texto-conceitos:hover,
+.texto-componentes:hover,
+.texto-equipamentos:hover{
+    letter-spacing: 0.25em;
+    background-color: rgb(151, 233, 151);
+    box-shadow: 0 0 50px rgb(17, 172, 6);
+}
