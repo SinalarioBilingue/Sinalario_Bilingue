@@ -9,7 +9,7 @@ body {
 }
 
 .cabecalho {
-    background: url('/layer/AAAAAAAAA.png') no-repeat center center;
+    background: url('/layer/imagem-fundo.png') no-repeat center center;
     transform: scaleY(0.5);  /* Achata a imagem verticalmente */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     display: flex; /* Usa Flexbox para layout */
@@ -35,7 +35,7 @@ body {
 
 .texto {
     position: absolute;
-    top: 2%; /* Ajusta a distância do topo */
+    top: 0; /* Ajusta a distância do topo */
     left: 50%;
     transform: translateX(-50%); /* Centraliza horizontalmente o texto */
     color: black;
@@ -48,7 +48,7 @@ body {
 
 .Logo {
     position: absolute; /* Posiciona o logo em relação ao contêiner pai */
-    top: 10px; /* Distância do topo */
+    top: 0; /* Distância do topo */
     left: 10px; /* Distância da esquerda */
 }
 
@@ -82,6 +82,10 @@ body {
     height: auto;
 }
 
+.videoapresentacao{
+    margin-top: 3%;
+}
+
 .linha{
     margin-top: -300px;
     padding-top: 8%;
@@ -95,6 +99,7 @@ body {
     align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
+
 .linha2{
     margin-top: -50px;
     padding-top: 6%;
@@ -109,8 +114,8 @@ body {
     z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 
-.componentes{
-    margin-top: 0%;
+.categorias{
+    margin-top: 3%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -118,13 +123,19 @@ body {
     z-index: 1000;
 }
 
-.video-componentes{
+.video-componentes,
+.video-equipamentos,
+.video-unidades,
+.video-conceitos{
     height: 200px;
     border-radius: 50px;
     margin-left: 3%;
 }
 
-.texto-componentes{
+.texto-componentes,
+.texto-equipamentos,
+.texto-unidades,
+.texto-conceitos{
     background: rgb(241, 242, 248);
     border-radius: 25px;
     position: relative;
@@ -138,8 +149,20 @@ body {
     margin-left: 3%;
 }
 
-.texto-componentes:hover{
+.texto-componentes:hover,
+.texto-equipamentos:hover,
+.texto-unidades:hover,
+.texto-conceitos:hover{
     letter-spacing: 0.25em;
     background-color: rgb(169, 232, 169);
     box-shadow: 0 0 35px rgb(14, 229, 14);
+}
+
+.video-equipamentos{
+    margin-left: 2.5%;
+}
+
+.texto-conceitos{
+    margin-left: 6.5%;
+    margin-right: 4%;
 }
