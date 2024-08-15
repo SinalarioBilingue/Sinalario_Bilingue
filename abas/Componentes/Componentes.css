@@ -5,10 +5,11 @@ html, body {
     overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
     background-color: rgb(255, 255, 255);
     position: relative; /* Define o corpo como relativo para que os itens sejam posicionados em relação a ele */
+    
 }
 
 .cabecalho {
-    background: url('/layer/teste\ peaks.png') no-repeat center center;
+    background: url('/abas/Componentes/peak2.0.png') no-repeat center center;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Organiza os itens na vertical */
@@ -26,7 +27,7 @@ html, body {
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 1000; /* Garante que o svg-container fique na frente do cabeçalho */
-    top: 50px;
+    top: 30px;
     letter-spacing: 0.25em;
 
 }
@@ -47,7 +48,7 @@ html, body {
 .Logo {
     position: absolute; /* Posiciona o logo em relação ao contêiner pai */
     top: -10px; /* Distância do topo */
-    left: 40px; /* Distância da esquerda */
+    left: 60px; /* Distância da esquerda */
     z-index: 1000; /* Garante que a Logo fique na frente do cabeçalho */
 }
 
@@ -96,7 +97,8 @@ html, body {
     z-index: 0;
     padding: 6px;
     border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 70%, rgb(19, 174, 19));
+    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
+
     animation: 3s spin linear infinite;
 }
 
@@ -110,7 +112,7 @@ html, body {
     z-index: 0;
     padding: 6px;
     border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 70%, rgb(19, 174, 19));
+    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
     animation: 3s spin linear infinite;
 }
 
@@ -124,7 +126,7 @@ html, body {
     z-index: 0;
     padding: 6px;
     border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 70%, rgb(19, 174, 19));
+    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
     animation: 3s spin linear infinite;
 }
 
