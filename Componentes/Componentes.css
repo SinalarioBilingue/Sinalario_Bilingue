@@ -1,0 +1,356 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
+    background-color: rgb(255, 255, 255);
+    position: relative; /* Define o corpo como relativo para que os itens sejam posicionados em relação a ele */
+}
+
+.cabecalho {
+    background: url('/layer/teste\ peaks.png') no-repeat center center;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
+    height: 130vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    z-index: 0; /* Certifique-se de que o cabeçalho tenha um z-index menor */
+    margin-top: -25%;
+    transform: scaleY(0.3);  /* Achata a imagem verticalmente */
+}
+
+.svg-container {
+    position: relative; /* Posiciona o SVG em relação ao contêiner pai */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    z-index: 1000; /* Garante que o svg-container fique na frente do cabeçalho */
+    top: 50px;
+    letter-spacing: 0.25em;
+
+}
+
+.texto {
+    position: absolute;
+    top: 50%; /* Ajusta a distância do topo */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente o texto */
+    color: black;
+    font-size: 300%; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; /* Garante que o texto esteja centralizado dentro do próprio contêiner */
+}
+
+.Logo {
+    position: absolute; /* Posiciona o logo em relação ao contêiner pai */
+    top: -10px; /* Distância do topo */
+    left: 40px; /* Distância da esquerda */
+    z-index: 1000; /* Garante que a Logo fique na frente do cabeçalho */
+}
+
+.Logo img {
+    max-width: 250px; /* Define um tamanho máximo para a logo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.Lupa {
+    font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    text-align: right;
+    top: -30px;
+    right: 10%; /* Distância da direita */
+    z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */  
+}
+
+.niveis {
+    position: relative;
+    width: 100%;
+    height: 200vh; /* Ajusta a altura para preencher a viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente os itens */
+    justify-content: space-between; /* Centraliza verticalmente os itens */
+
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false; 
+}
+
+.animacao1{
+
+    width: 80%; /* Ajuste conforme necessário */
+    height: 60px; /* Defina uma altura fixa para os itens */
+    margin-left: 9.6%;
+    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
+    top: 35.5%; /* Alinha ao topo da seção */
+    left: 0; /* Alinha à esquerda da seção */
+    z-index: 0;
+    padding: 6px;
+    border-radius: 50px;
+    background-image: conic-gradient(from var(--angle), transparent 70%, rgb(19, 174, 19));
+    animation: 3s spin linear infinite;
+}
+
+.animacao2{
+    width: 80%; /* Ajuste conforme necessário */
+    height: 60px; /* Defina uma altura fixa para os itens */
+    margin-left: 9.6%;
+    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
+    top: 173.8%; /* Alinha ao topo da seção */
+    left: 0; /* Alinha à esquerda da seção */
+    z-index: 0;
+    padding: 6px;
+    border-radius: 50px;
+    background-image: conic-gradient(from var(--angle), transparent 70%, rgb(19, 174, 19));
+    animation: 3s spin linear infinite;
+}
+
+.animacao3{
+    width: 80%; /* Ajuste conforme necessário */
+    height: 60px; /* Defina uma altura fixa para os itens */
+    margin-left: 9.6%;
+    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
+    top: 342.7%; /* Alinha ao topo da seção */
+    left: 0; /* Alinha à esquerda da seção */
+    z-index: 0;
+    padding: 6px;
+    border-radius: 50px;
+    background-image: conic-gradient(from var(--angle), transparent 70%, rgb(19, 174, 19));
+    animation: 3s spin linear infinite;
+}
+
+
+
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+
+    }
+}
+
+.basicos,
+.intermediario,
+.avancados {
+    text-align: center; /* Alinha o texto ao centro dentro do elemento */
+    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold;
+    margin: 20px 0; /* Adiciona margem vertical entre os itens */
+    margin: 10%;
+    background-color: white;
+    border-radius: 45px;
+    padding-top: 5px;
+}
+
+.niveis-.basicos:hoover,
+.niveis-.intermediario:hoover,
+.niveis-.avancados:hoover{
+    box-shadow: 0 0 35px rgb(14, 229, 14);
+}
+
+.basicos{
+    margin-top: -20%;
+}
+
+.video-resistor,
+.video-diodo,
+.video-potenciometro,
+.video-botaoechave,
+.video-led,
+.video-display,
+.video-portaslogicas,
+.video-diodozener,
+.video-ptc,
+.video-ntc,
+.video-ldr,
+.video-transistortbj,
+.video-circuitointegrado,
+.video-capacitor,
+.video-rele,
+.video-indutor,
+.video-transformador,
+.video-amplificadoroperacional,
+.video-motor {
+    height: 200px;
+    border-radius: 50px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    flex-basis: calc(50%-10px);
+}
+
+.texto-resistor,
+.texto-diodo,
+.texto-potenciometro,
+.texto-botaoechave,
+.texto-led,
+.texto-display,
+.texto-portaslogicas,
+.texto-diodozener,
+.texto-ptc,
+.texto-ntc,
+.texto-ldr,
+.texto-transistortbj,
+.texto-circuitointegrado,
+.texto-capacitor,
+.texto-rele,
+.texto-indutor,
+.texto-transformador,
+.texto-amplificadoroperacional,
+.texto-motor{
+    background: rgb(241, 242, 248);
+    border-radius: 25px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 20px;
+    font-size: 2em;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    margin: 4%;
+    box-sizing: border-box;
+    flex-basis: calc(50%-10px);
+}
+
+.texto-resistor{
+    margin-left: 6.5%;
+    margin-right: 7%;
+}
+
+.texto-led{
+    margin-left: 9%;
+    margin-right: 9.5%;
+}
+
+.texto-display{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.texto-botaoechave{
+    margin-left: 6.5%;
+    margin-right: 5.2%;
+}
+
+.texto-diodo{
+    margin-left: 11%;
+    margin-right: 10%;
+}
+
+.texto-portaslogicas{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.texto-diodozener{
+    margin-left: 6%;
+    margin-right: 7%;
+}
+
+.texto-ptc{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.texto-ntc{
+    margin-left: 6.5%;
+    margin-right: 7%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.texto-ldr{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.texto-transistortbj{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.texto-circuitointegrado{
+    margin-left: 4%;
+    margin-right: 2.5%;
+}
+
+.texto-capacitor{
+    margin-left: 7%;
+    margin-right: 7.5%;
+}
+
+.texto-rele{
+    margin-left: 10%;
+    margin-right: 8%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.texto-indutor{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.texto-transformador{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.texto-motor{
+    margin-left: 8%;
+    margin-right: 7.5%;
+}
+
+.texto-amplificadoroperacional{
+    margin-left: 22%;
+    margin-right: 8%;
+}
+
+.texto-resistor:hover, /* Resistor */
+.texto-diodo:hover, /* Diodo */
+.texto-potenciometro:hover, /* Potenciômetro */
+.texto-botaoechave:hover, /* Botão e chave */
+.texto-led:hover, /* LED */
+.texto-display:hover, /* Display */
+.texto-portaslogicas:hover, /* Portas lógicas */
+.texto-diodozener:hover, /* Diodo Zener */
+.texto-ptc:hover, /* PTC */
+.texto-ntc:hover, /* NTC */
+.texto-ldr:hover, /* LDR */
+.texto-transistortbj:hover, /* Transistor TBJ */
+.texto-circuitointegrado:hover, /* Circuito Integrado */
+.texto-capacitor:hover, /* Capacitor */
+.texto-rele:hover, /* Relé */
+.texto-indutor:hover, /* Indutor */
+.texto-transformador:hover, /* Transformador */
+.texto-amplificadoroperacional:hover, /* Amplificador Operacional */
+.texto-motor:hover {
+    letter-spacing: 0.25em;
+    background-color: rgb(169, 232, 169);
+    box-shadow: 0 0 35px rgb(14, 229, 14);
+}
+
+.categorias1,
+.categorias2,
+.categorias3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    margin-left: 1%;
+}

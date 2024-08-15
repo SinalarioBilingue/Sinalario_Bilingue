@@ -31,6 +31,8 @@ body {
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 3; /* Garante que o cabeçalho fique sobre outros conteúdos */
+    letter-spacing: 0.25em;
+
 }
 
 .texto {
@@ -69,6 +71,7 @@ body {
     top: 2%; /* Distância do topo */
     right: 10%; /* Distância da direita */
     z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */  
+
 }
 
 .apresentacao {
