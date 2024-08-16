@@ -124,12 +124,11 @@ body {
     border: none;
     text-align: center;
     text-decoration: none;
-    padding-top: 2%;
     color: rgb(0, 0, 0);
     font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     transition: 0.5s;
-    margin: 2em .5em;
+    margin: 2.5em .5em;
     width: 45%;
     max-width: 50%;
     box-sizing: border-box;
@@ -139,4 +138,8 @@ body {
     letter-spacing: 0.15em;
     background-color: rgb(169, 232, 169);
     box-shadow: 0 0 35px rgb(14, 229, 14);
+}
+
+.footer{
+    
 }
