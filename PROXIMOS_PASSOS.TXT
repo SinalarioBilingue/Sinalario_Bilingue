@@ -2,8 +2,6 @@
 
     URGENTES:
 
-1 - Arrumar o pq diabos os conceitos intermediarios e um conceito avançado está desconfigurado
-
 2 - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
 como esse bgl ficou mt grande nos conceitos seria legal ter uma linha só dele no começo
 
@@ -12,7 +10,9 @@ na aba equipamentos
 
 4 - jogar as abas que nao possuem ranking de dificuldades mais pra cima
 
-5 - 
+5 - trocar as ordens da maioria dos itens, seguir como ta no docs que mandamos pro vini
+
+6 - Padronizar o tamanho dos botoes, os do index estão bem menores que os dos componentes e o resto
 
     NAO TAO URGENTES
 
@@ -20,4 +20,4 @@ na aba equipamentos
 
 2 - tentar achar algo interressante para colocar no fundo do site
 
-3 - 
+3 - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
