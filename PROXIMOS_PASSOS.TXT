@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------------------------------------------------------
+
+    URGENTES:
+
+1 - Arrumar o pq diabos os conceitos intermediarios e um conceito avançado está desconfigurado
+
+2 - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
+como esse bgl ficou mt grande nos conceitos seria legal ter uma linha só dele no começo
+
+3 - alinhar no meio quando algum bgl fica sozinho na flex box. EX: Banana Jacaré ficou sozinho alinhado na esquerda
+na aba equipamentos
+
+4 - jogar as abas que nao possuem ranking de dificuldades mais pra cima
+
+5 - 
+
+    NAO TAO URGENTES
+
+1 - Fazer a parte de baixo do site (Rodapé)
+
+2 - tentar achar algo interressante para colocar no fundo do site
+
+3 - 

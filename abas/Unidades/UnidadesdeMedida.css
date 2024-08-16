@@ -73,108 +73,6 @@ body,
     z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */  
 }
 
-.niveis {
-    position: relative;
-
-    width: 100%;
-    max-width: 100vw;
-    height: 200vh; /* Ajusta a altura para preencher a viewport */
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; Centraliza horizontalmente os itens */
-    justify-content: space-between; /* Centraliza verticalmente os itens */
-
-}
-
-/*ANIMATION*/
-
-@property --angle{
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false; 
-}
-
-.animacao1{
-
-    width: 80%; /* Ajuste conforme necessário */
-    height: 60px; /* Defina uma altura fixa para os itens */
-    margin-left: 9.6%;
-    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 39.7%; /* Alinha ao topo da seção */
-    left: 0; /* Alinha à esquerda da seção */
-    z-index: 0;
-    padding: 6px;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-
-    animation: 3s spin linear infinite;
-}
-
-.animacao2{
-    width: 80%; /* Ajuste conforme necessário */
-    height: 60px; /* Defina uma altura fixa para os itens */
-    margin-left: 9.6%;
-    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 185.5%; /* Alinha ao topo da seção */
-    left: 0; /* Alinha à esquerda da seção */
-    z-index: 0;
-    padding: 6px;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 3s spin linear infinite;
-}
-
-.animacao3{
-    width: 80%; /* Ajuste conforme necessário */
-    height: 60px; /* Defina uma altura fixa para os itens */
-    margin-left: 9.6%;
-    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 365.7%; /* Alinha ao topo da seção */
-    left: 0; /* Alinha à esquerda da seção */
-    z-index: 0;
-    padding: 6px;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 3s spin linear infinite;
-}
-
-/*ANIMATION*/
-
-@keyframes spin{
-    from{
-        --angle: 0deg;
-    }
-    to{
-        --angle: 360deg;
-    }
-}
-
-.basicos,
-.intermediario,
-.avancados {
-    text-align: center; /* Alinha o texto ao centro dentro do elemento */
-    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
-    font-weight: bold;
-    margin: 20px 0; /* Adiciona margem vertical entre os itens */
-    margin: 10%;
-    background-color: white;
-    border-radius: 45px;
-    padding-top: 5px;
-}
-
-.niveis-.basicos:hover{
-    box-shadow: 0 0 35px rgb(14, 229, 14);
-}
-.niveis-.intermediario:hover{
-    box-shadow: 0 0 35px rgb(14, 229, 14);
-}
-.niveis-.avancados:hover{
-    box-shadow: 0 0 35px rgb(14, 229, 14);
-}
-
-.basicos{
-    margin-top: -20%;
-}
 
 .video{
     width: 25vw;
@@ -213,9 +111,7 @@ body,
     box-sizing: border-box;
 }
 
-.categorias,
-.categorias2,
-.categorias3{
+.categorias{
     display: flex;
     flex-wrap: wrap;
     row-gap: 50px;
