@@ -8,13 +8,10 @@ body {
 
 }
 
-.cabecalho {
+.fundo-cabecalho {
     background: url('/layer/imagem-fundo.png') no-repeat center center;
     transform: scaleY(0.5);  /* Achata a imagem verticalmente */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Organiza os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
     top: -10%;
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
     height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
@@ -23,19 +20,15 @@ body {
     margin-top: -7%;
 }
 
-.svg-container {     
+.cabecalho {     
     position: sticky;
     top: 0;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Organiza os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 3; /* Garante que o cabeçalho fique sobre outros conteúdos */
     letter-spacing: 0.25em;
-
 }
 
-.texto {
+.nome-site {
     position: absolute;
     top: 0; /* Ajusta a distância do topo */
     left: 50%;
@@ -50,43 +43,29 @@ body {
 
 .Logo {
     position: absolute; /* Posiciona o logo em relação ao contêiner pai */
-    top: 0; /* Distância do topo */
-    left: 10px; /* Distância da esquerda */
-}
-
-.Logo img {
-    max-width: 250px; /* Define um tamanho máximo para a logo */
-    height: auto; /* Mantém a proporção da imagem */
-    padding-left: 50px;
-    padding-top: 20px;
+    top: 1.5vw; /* Distância do topo */
+    left: 4%; /* Distância da esquerda */
 }
 
 .Lupa {
     font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    text-align: right;
     position: absolute;
     top: 2%; /* Distância do topo */
     right: 10%; /* Distância da direita */
-    z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */  
-
+    z-index: 2; /* Garante que a lupa fique sobre outros conteúdos */  
 }
 
 .apresentacao {
     text-align: center;
-    margin-top: 3%;
+    margin-top: -1%;
     font-family: "Bebas Neue", ;
     font-size: 100%; 
     max-width:  100%;
-    max-height:100%;
+    max-height: 100%;
     width: auto;
     height: auto;
-}
-
-.videoapresentacao{
-    margin-top: 3%;
 }
 
 .linha{
@@ -100,7 +79,7 @@ body {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
+    z-index: 1; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 
 .linha2{
@@ -114,58 +93,50 @@ body {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    z-index: 1000; /* Garante que o cabeçalho fique sobre outros conteúdos */
+    z-index: 1; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 
 .categorias{
-    margin-top: 3%;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     row-gap: 100px;
-    z-index: 1000;
+    z-index: 1;
+    margin-top: 3%;
 }
 
-.video-componentes,
-.video-equipamentos,
-.video-unidades,
-.video-conceitos{
+.division{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    max-width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.video {
     height: 200px;
     border-radius: 50px;
-    margin-left: 3%;
 }
 
-.texto-componentes,
-.texto-equipamentos,
-.texto-unidades,
-.texto-conceitos{
+.texto{
     background: rgb(241, 242, 248);
-    border-radius: 25px;
-    position: relative;
-    color: rgb(0, 0, 0);
+    border-radius: 70px;
+    border: none;
+    text-align: center;
     text-decoration: none;
+    padding-top: 2%;
+    color: rgb(0, 0, 0);
     font-family: "Bebas Neue", sans-serif;
-    padding: 20px;
     font-size: 2em;
     transition: 0.5s;
-    letter-spacing: 0.1em;
-    margin-left: 3%;
+    margin: 2em .5em;
+    width: 45%;
+    max-width: 50%;
+    box-sizing: border-box;
 }
 
-.texto-componentes:hover,
-.texto-equipamentos:hover,
-.texto-unidades:hover,
-.texto-conceitos:hover{
-    letter-spacing: 0.25em;
+.texto:hover{
+    letter-spacing: 0.15em;
     background-color: rgb(169, 232, 169);
     box-shadow: 0 0 35px rgb(14, 229, 14);
-}
-
-.video-equipamentos{
-    margin-left: 2.5%;
-}
-
-.texto-conceitos{
-    margin-left: 6.5%;
-    margin-right: 4%;
 }
