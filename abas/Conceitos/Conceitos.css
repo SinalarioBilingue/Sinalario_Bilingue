@@ -107,7 +107,7 @@ body,
     height: 8%; /* Defina uma altura fixa para os itens */
     margin-left: 9.6%;
     position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 357%; /* Alinha ao topo da seção */
+    top: 354.3%; /* Alinha ao topo da seção */
     z-index: 0;
     padding: 0.45%;
     border-radius: 50px;
@@ -120,7 +120,7 @@ body,
     height: 8%; /* Defina uma altura fixa para os itens */
     margin-left: 9.6%;
     position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 571.4%; /* Alinha ao topo da seção */
+    top: 565.8%; /* Alinha ao topo da seção */
     z-index: 0;
     padding: 0.45%;
     border-radius: 50px;
@@ -218,4 +218,11 @@ body,
 
 .page.active{
     display: block;
+}
+
+.ultimo{
+   
+    margin-top: 2%;
+    justify-content: center;
+    display: flex;
 }

@@ -82,21 +82,9 @@ body,
     flex-direction: column;
 }
 
-.basicos,
-.intermediario,
-.avancados {
-    text-align: center; /* Alinha o texto ao centro dentro do elemento */
-    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
-    font-weight: bold;
-    margin: 10%;
-    background-color: white;
-    border-radius: 45px;
-    padding-top: 0.35%;
-}
 
-.basicos{
-    margin-top: -20%;
-}
+
+
 
 .video{
     width: 25vw;
@@ -132,12 +120,11 @@ body,
     max-height: 100vw;
 }
 
-.categorias,
-.categorias2,
-.categorias3{
+.categorias{
     display: flex;
     flex-wrap: wrap;
     row-gap: 50px;
+    margin-top: 4%;
 }
 
 
@@ -162,3 +149,4 @@ body,
 .page.active{
     display: block;
 }
+

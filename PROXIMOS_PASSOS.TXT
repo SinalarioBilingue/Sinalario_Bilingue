@@ -14,7 +14,11 @@ na aba equipamentos
 
 [X] - Padronizar o tamanho dos botoes, os do index estão bem menores que os dos componentes e o resto
 
-[] - Ajustar a content box do serie E12 e sistema internaciol de medidas
+[x] - Ajustar a content box do serie E12 e sistema internaciol de medidas
+
+[]  - Botao back
+
+[]  - 1 por linha com imagem do item (apenas em equipamentos e componentes)
 
 
 -------------------------------------------------------------------------------------------------------------------------------
@@ -28,3 +32,5 @@ na aba equipamentos
 [] - tentar achar algo interressante para colocar no fundo do site
 
 [X] - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
+
+[] -  botao sobe e desce

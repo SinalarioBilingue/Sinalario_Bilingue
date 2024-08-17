@@ -14,7 +14,7 @@ body {
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     top: -10%;
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    height:40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
     position: sticky;
     z-index: 2;
     margin-top: -7%;
