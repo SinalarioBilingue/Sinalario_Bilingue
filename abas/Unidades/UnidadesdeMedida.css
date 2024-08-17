@@ -112,7 +112,7 @@ body,
     max-width: 50%;
     box-sizing: border-box;
 }
-
+.texto1:hover,
 .texto:hover {
     letter-spacing: 0.15em;
     background-color: rgb(169, 232, 169);
@@ -149,4 +149,26 @@ body,
 .page.active{
     display: block;
 }
+.texto1{
+    background: rgb(241, 242, 248);
+    border-radius: 70px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+    transition: 0.5s;
+    margin: .5em 1em;
+    width: 100%; /* Aumenta a largura da box */
+    max-width: none; /* Remove a restrição de largura máxima */
+    box-sizing: border-box;
+}
 
+.inicio{
+    margin-right: 3%;
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    width: 100%; /* Certifique-se de que o pai permite expansão */
+}
