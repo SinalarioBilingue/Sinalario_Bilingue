@@ -69,30 +69,24 @@ body {
 }
 
 .linha{
-    margin-top: -300px;
+    margin-top: -20%;
     padding-top: 8%;
     padding-bottom: 5%;
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
     height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
     background: url('/layer/layered-waves-haikei\ \(4\).svg') no-repeat center center;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Organiza os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 1; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 
 .linha2{
-    margin-top: -50px;
+    margin-top: -2%;
     padding-top: 6%;
     padding-bottom: 5%;
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
     height: 40vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
     background: url('/layer/layered-waves-haikei\ \(5\).svg') no-repeat center center;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Organiza os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 1; /* Garante que o cabeçalho fique sobre outros conteúdos */
 }
 
@@ -122,16 +116,16 @@ body {
     background: rgb(241, 242, 248);
     border-radius: 70px;
     border: none;
-    text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     transition: 0.5s;
-    margin: 2.5em .5em;
-    width: 45%;
+    margin: 1.5em 1em;
+    width: 35%;
     max-width: 50%;
-    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
 }
 
 .texto:hover{

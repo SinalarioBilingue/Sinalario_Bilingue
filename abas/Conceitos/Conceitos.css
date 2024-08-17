@@ -10,8 +10,8 @@ body,
     position: relative; /* Define o corpo como relativo para que os itens sejam posicionados em relação a ele */
 }
 
-.cabecalho {
-    background: url('/abas/Componentes/peak2.0.png') no-repeat center center;
+.fundo-cabecalho {
+    background: url('/abas/Componentes/img/peak2.0.png') no-repeat center center;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Organiza os itens na vertical */
@@ -23,7 +23,7 @@ body,
     transform: scaleY(0.3);  /* Achata a imagem verticalmente */
 }
 
-.svg-container {
+.cabecalho{
     position: relative; /* Posiciona o SVG em relação ao contêiner pai */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Organiza os itens na vertical */
@@ -33,10 +33,9 @@ body,
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
     height: 50vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
     letter-spacing: 0.25em;
-
 }
 
-.texto {
+.nome-categoria {
     position: absolute;
     top: 0%; /* Ajusta a distância do topo */
     left: 50%;
@@ -75,15 +74,11 @@ body,
 
 .niveis {
     position: relative;
-
     width: 100%;
     max-width: 100vw;
     height: 200vh; /* Ajusta a altura para preencher a viewport */
     display: flex;
     flex-direction: column;
-    /* align-items: center; Centraliza horizontalmente os itens */
-    justify-content: space-between; /* Centraliza verticalmente os itens */
-
 }
 
 /*ANIMATION*/
@@ -96,13 +91,12 @@ body,
 
 .animacao1{
     width: 80%; /* Ajuste conforme necessário */
-    height: 60px; /* Defina uma altura fixa para os itens */
+    height: 8%; /* Defina uma altura fixa para os itens */
     margin-left: 9.6%;
     position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
     top: 39.7%; /* Alinha ao topo da seção */
-    left: 0; /* Alinha à esquerda da seção */
     z-index: 0;
-    padding: 6px;
+    padding: 0.45%;
     border-radius: 50px;
     background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
     animation: 3s spin linear infinite;
@@ -110,13 +104,12 @@ body,
 
 .animacao2{
     width: 80%; /* Ajuste conforme necessário */
-    height: 60px; /* Defina uma altura fixa para os itens */
+    height: 8%; /* Defina uma altura fixa para os itens */
     margin-left: 9.6%;
     position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
     top: 357%; /* Alinha ao topo da seção */
-    left: 0; /* Alinha à esquerda da seção */
     z-index: 0;
-    padding: 6px;
+    padding: 0.45%;
     border-radius: 50px;
     background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
     animation: 3s spin linear infinite;
@@ -124,13 +117,12 @@ body,
 
 .animacao3{
     width: 80%; /* Ajuste conforme necessário */
-    height: 60px; /* Defina uma altura fixa para os itens */
+    height: 8%; /* Defina uma altura fixa para os itens */
     margin-left: 9.6%;
     position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 571.3%; /* Alinha ao topo da seção */
-    left: 0; /* Alinha à esquerda da seção */
+    top: 571.4%; /* Alinha ao topo da seção */
     z-index: 0;
-    padding: 6px;
+    padding: 0.45%;
     border-radius: 50px;
     background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
     animation: 3s spin linear infinite;
@@ -156,7 +148,7 @@ body,
     margin: 10%;
     background-color: white;
     border-radius: 45px;
-    padding-top: 5px;
+    padding-top: 0.35%;
 }
 
 .basicos{
@@ -170,34 +162,31 @@ body,
     border-radius: 50px;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     flex-basis: calc(50%-10px); 
     margin-right: 1em;
 }
 
-.texto-teste{
+.texto{
     background: rgb(241, 242, 248);
     border-radius: 70px;
     border: none;
+    text-align: center;
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
     transition: 0.5s;
-    align-items: left;
-    margin:1em 1em;
-    width: 50%;
+    margin: 1.5em 1em;
+    width: 45%;
     max-width: 50%;
     box-sizing: border-box;
-    margin-right: 1vw;
-    margin-left: 1vw;
 }
 
-.texto-teste:hover {
+.texto:hover {
     letter-spacing: 0.15em;
     background-color: rgb(169, 232, 169);
     box-shadow: 0 0 35px rgb(14, 229, 14);
     max-height: 100vw;
-    box-sizing: border-box;
 }
 
 .categorias,

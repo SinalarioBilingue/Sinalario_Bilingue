@@ -1,23 +1,30 @@
 -------------------------------------------------------------------------------------------------------------------------------
 
-    URGENTES:
+                                                    URGENTES:
 
-2 - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
+-------------------------------------------------------------------------------------------------------------------------------                                                    
+
+[] - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
 como esse bgl ficou mt grande nos conceitos seria legal ter uma linha só dele no começo
 
-3 - alinhar no meio quando algum bgl fica sozinho na flex box. EX: Banana Jacaré ficou sozinho alinhado na esquerda
+[] - alinhar no meio quando algum bgl fica sozinho na flex box. EX: Banana Jacaré ficou sozinho alinhado na esquerda
 na aba equipamentos
 
-4 - jogar as abas que nao possuem ranking de dificuldades mais pra cima
+[X] - trocar as ordens da maioria dos itens, seguir como ta no docs que mandamos pro vini
 
-5 - trocar as ordens da maioria dos itens, seguir como ta no docs que mandamos pro vini
+[X] - Padronizar o tamanho dos botoes, os do index estão bem menores que os dos componentes e o resto
 
-6 - Padronizar o tamanho dos botoes, os do index estão bem menores que os dos componentes e o resto
+[] - Ajustar a content box do serie E12 e sistema internaciol de medidas
 
-    NAO TAO URGENTES
 
-1 - Fazer a parte de baixo do site (Rodapé)
+-------------------------------------------------------------------------------------------------------------------------------
+                                    
+                                                NÃO TÃO URGENTES:
 
-2 - tentar achar algo interressante para colocar no fundo do site
+-------------------------------------------------------------------------------------------------------------------------------                                                
 
-3 - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
+[] - Fazer a parte de baixo do site (Rodapé)
+
+[] - tentar achar algo interressante para colocar no fundo do site
+
+[X] - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
