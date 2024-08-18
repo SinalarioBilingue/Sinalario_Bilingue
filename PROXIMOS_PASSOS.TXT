@@ -4,21 +4,23 @@
 
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
-[] - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
+[X] - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
 como esse bgl ficou mt grande nos conceitos seria legal ter uma linha só dele no começo
 
-[] - alinhar no meio quando algum bgl fica sozinho na flex box. EX: Banana Jacaré ficou sozinho alinhado na esquerda
+[X] - alinhar no meio quando algum bgl fica sozinho na flex box. EX: Banana Jacaré ficou sozinho alinhado na esquerda
 na aba equipamentos
 
 [X] - trocar as ordens da maioria dos itens, seguir como ta no docs que mandamos pro vini
 
 [X] - Padronizar o tamanho dos botoes, os do index estão bem menores que os dos componentes e o resto
 
-[x] - Ajustar a content box do serie E12 e sistema internaciol de medidas
+[X] - Ajustar a content box do serie E12 e sistema internaciol de medidas
 
-[]  - Botao back
+[X]  - Botao back
 
-[]  - 1 por linha com imagem do item (apenas em equipamentos e componentes)
+[X] - 1 por linha  (apenas em equipamentos e componentes)
+
+[] - Colocar foto dos itens (apenas em equipamentos e componentes)
 
 
 -------------------------------------------------------------------------------------------------------------------------------

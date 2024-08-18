@@ -51,7 +51,7 @@ body,
 .Logo {
     position: absolute; /* Posiciona o logo em relação ao contêiner pai */
     top: -2%; /* Distância do topo */
-    left: 60px; /* Distância da esquerda */
+    right: 9%; /* Distância da direita (anteriormente left) */
     z-index: 1000; /* Garante que a Logo fique na frente do cabeçalho */
 }
 
@@ -60,16 +60,20 @@ body,
     height: auto; /* Mantém a proporção da imagem */
 }
 
-.Lupa {
+.back-button {
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    border: none; /* Remove bordas */
+    padding: 10px 20px; /* Espessura do botão */
+    text-align: center; /* Alinha o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
     font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     position: absolute;
-    text-align: right;
-    top: -30px;
-    right: 10%; /* Distância da direita */
-    z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */  
+    left: 10%; /* Distância da esquerda (anteriormente right) */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    z-index: 1100; /* Garante que o botão fique sobre outros conteúdos */
 }
 
 .niveis {
@@ -166,6 +170,14 @@ body,
 }
 
 .inicio{
+    
+    margin-right: 3%;
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    width: 100%; /* Certifique-se de que o pai permite expansão */
+}
+.fim{
     margin-right: 3%;
     margin-top: 5%;
     justify-content: center;

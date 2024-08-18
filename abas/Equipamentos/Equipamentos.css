@@ -51,7 +51,7 @@ body,
 .Logo {
     position: absolute; /* Posiciona o logo em relação ao contêiner pai */
     top: -2%; /* Distância do topo */
-    left: 60px; /* Distância da esquerda */
+    right: 9%; /* Distância da direita (anteriormente left) */
     z-index: 1000; /* Garante que a Logo fique na frente do cabeçalho */
 }
 
@@ -60,16 +60,20 @@ body,
     height: auto; /* Mantém a proporção da imagem */
 }
 
-.Lupa {
+.back-button {
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    border: none; /* Remove bordas */
+    padding: 10px 20px; /* Espessura do botão */
+    text-align: center; /* Alinha o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
     font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     position: absolute;
-    text-align: right;
-    top: -30px;
-    right: 10%; /* Distância da direita */
-    z-index: 1100; /* Garante que a lupa fique sobre outros conteúdos */  
+    left: 10%; /* Distância da esquerda (anteriormente right) */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    z-index: 1100; /* Garante que o botão fique sobre outros conteúdos */
 }
 
 .niveis {
@@ -82,47 +86,32 @@ body,
     flex-direction: column;
 }
 
-.basicos,
-.intermediario,
-.avancados {
-    text-align: center; /* Alinha o texto ao centro dentro do elemento */
-    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
-    font-weight: bold;
-    margin: 10%;
-    background-color: white;
-    border-radius: 45px;
-    padding-top: 0.35%;
-}
 
-.basicos{
-    margin-top: -20%;
-}
 
-.video{
+
+
+
+.video {
     width: 25vw;
     max-width: 25vw;
-    height: 200px;
+    height: 100%;
     border-radius: 50px;
     margin: 0;
     padding: 0;
-    flex-basis: calc(50%-10px); 
-    margin-right: 1em;
+    /* Remova ou ajuste a margem para evitar deslocamento */
 }
 
-.texto{
+.texto {
     background: rgb(241, 242, 248);
     border-radius: 70px;
     border: none;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
     font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     transition: 0.5s;
-    margin: 1.5em 1em;
-    width: 45%;
-    max-width: 50%;
+    width: 60%;
+    max-width: 60%;
     box-sizing: border-box;
+    margin-right: 10%;
 }
 
 .texto:hover {
@@ -131,22 +120,27 @@ body,
     box-shadow: 0 0 35px rgb(14, 229, 14);
     max-height: 100vw;
 }
-
-.categorias,
-.categorias2,
-.categorias3{
+.categorias{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 50px;
+    flex-direction: column;
+    justify-content: space-between ;
+
 }
 
 
-.division{
+.division {
     display: flex;
-    width: 50%;
-    max-width: 50%;
+    width: 55%;
+    max-width: 55%;
     margin: 0;
     padding: 0;
+    justify-content: space-between; /* Distribui o vídeo e o texto */
+    align-items: center; /* Alinha verticalmente */
+    margin-bottom: 2%;
+
 }
 
 .division_size{
