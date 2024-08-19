@@ -1,44 +1,45 @@
-.categorias{
-    margin-top: -20%;
-    margin: 10%;
+body {
+    display: grid;
+    grid-template-columns: auto 0px; 
+  }
+  .container-top {
+    --offset: 100px;
+    --fade: 120px;
+    
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    row-gap: 100px;
-}
-
-.video-componentes,
-.video-equipamentos,
-.video-unidades,
-.video-conceitos{
-    height: 200px;
-    border-radius: 50px;
-    margin-left: 3%;
-}
-
-
-.texto-unidades,
-.texto-conceitos,
-.texto-componentes,
-.texto-equipamentos{
-    background: rgb(241, 242, 248);
-    border-radius: 25px;
-    position: relative;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
-    padding: 20px;
-    font-size: 2em;
-    transition: 0.5s;
-    letter-spacing: 0.1em;
-    margin-left: 3%;
-}
-
-.texto-unidades:hover,
-.texto-conceitos:hover,
-.texto-componentes:hover,
-.texto-equipamentos:hover{
-    letter-spacing: 0.25em;
-    background-color: rgb(151, 233, 151);
-    box-shadow: 0 0 50px rgb(17, 172, 6);
-}
+    width: 60px;
+    justify-self: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    -webkit-mask:linear-gradient(#0000 calc(100vh + var(--offset)),#000 calc(100vh + var(--offset) + var(--fade)));
+  }
+  
+  .top {
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    
+    /* visual styling */
+    width:100%;
+    aspect-ratio:1;
+    background:#ff8b24;
+    border-radius:10px;
+  }
+  .top:before {
+    content:"";
+    position:absolute;
+    inset:30%;
+    transform:translateY(20%) rotate(-45deg);
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+  
+  /* remove the below if you don't want smooth scrolling */
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
