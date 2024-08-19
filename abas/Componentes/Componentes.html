@@ -31,10 +31,10 @@
             <div class="animacao3"></div>
         </section>
 
-        <button class="scrollTop" onclick="backTop();">
+        <button class="scrollTop" onclick="backTop()">
             <img src="img/scrollTop.svg" alt="">
         </button>
-
+        
         <main class="niveis">
             <article>
                 <h1 class="basicos"> <span>BÁSICOS</span></h1> 
@@ -169,19 +169,8 @@
         </main>
     </section>
 
-    <script>
-       window.addEventListener('scroll', function(){
-        let scroll = document.querySelector('.scrollTop')
-            scroll.classList.toggle('active',window.scroll > 450);
-       })
 
-       function backTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            })
-       }
-    </script>
+        <div style="height: 2000px; background-color: lightgray;"></div>
 
 
 </body>
