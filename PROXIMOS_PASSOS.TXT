@@ -22,6 +22,9 @@ na aba equipamentos
 
 [] - Colocar foto dos itens (apenas em equipamentos e componentes)
 
+[] - Aumentar Height de alguns itens em equipamentos e componentes (acabei diminuindo sem querer quando separei
+um em cada linha)
+
 
 -------------------------------------------------------------------------------------------------------------------------------
                                     
@@ -38,3 +41,5 @@ na aba equipamentos
 [] - Botao de subida para o topo da página{
     (https://youtu.be/ult27eSRA-o?si=-RgeF6GVpXZzNaix) -> VER
 }
+
+[] - Pensar em algo interressante para colocar na esquerda do nome do projeto na página principal

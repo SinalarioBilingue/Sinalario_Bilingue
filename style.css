@@ -54,21 +54,6 @@ body {
     height: auto; /* Mantém a proporção da imagem */
 }
 
-.back-button {
-    background-color: transparent;
-    color: black; /* Cor do texto */
-    border: none; /* Remove bordas */
-    padding: 10px 20px; /* Espessura do botão */
-    text-align: center; /* Alinha o texto */
-    text-decoration: none; /* Remove sublinhado */
-    display: inline-block;
-    font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
-    font-family: "Bebas Neue", sans-serif;
-    position: absolute;
-    left: 10%; /* Distância da esquerda (anteriormente right) */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    z-index: 1100; /* Garante que o botão fique sobre outros conteúdos */
-}
 
 .apresentacao {
     text-align: center;
