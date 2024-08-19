@@ -9,7 +9,7 @@ body {
 }
 
 .fundo-cabecalho {
-    background: url('/layer/imagem-fundo.png') no-repeat center center;
+    background: url('/img/imagem-fundo.png') no-repeat center center;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     top: 0; /* Ajusta a posição para o topo */
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */

@@ -35,4 +35,4 @@ na aba equipamentos
 
 [X] - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
 
-[] -  botao sobe e desce
+[] - Botao de subida para o topo da página
