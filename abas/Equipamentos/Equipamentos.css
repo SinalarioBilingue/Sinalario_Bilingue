@@ -156,3 +156,7 @@ body,
 .page.active{
     display: block;
 }
+
+.imagens{
+    transform: scale(0.5); /* Equal to scaleX(0.7) scaleY(0.7) */
+}

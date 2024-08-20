@@ -27,13 +27,15 @@ um em cada linha)
 
 [] - Deixar as animaçoes responsiva.
 
+[] - Arrumar os espaços entre os compoenentes. 
+
 -------------------------------------------------------------------------------------------------------------------------------
                                     
                                                 NÃO TÃO URGENTES:
 
 -------------------------------------------------------------------------------------------------------------------------------                                                
 
-[] - Fazer a parte de baixo do site (Rodapé)
+[] - Terminar a parte de baixo do site (Rodapé)
 
 [] - tentar achar algo interressante para colocar no fundo do site
 

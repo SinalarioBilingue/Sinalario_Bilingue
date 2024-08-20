@@ -181,10 +181,8 @@ body,
     text-align: center; /* Alinha o texto ao centro dentro do elemento */
     font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
     font-weight: bold;
-    margin: 10%;
     background-color: white;
     border-radius: 45px;
-    padding-top: 0.35%;
 }
 
 .basicos{
@@ -240,15 +238,9 @@ body,
     height: 50%;
     justify-content: space-evenly; /* Distribui o vídeo e o texto */
     align-items: center; /* Alinha verticalmente */
-    margin-bottom: 2%;
 
 }
 
-.division_size{
-    width: 70vw;
-    min-width: 70vw;
-    padding: 50em;
-}
 
 .page{
     display: none;
