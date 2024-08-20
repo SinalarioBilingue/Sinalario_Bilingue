@@ -20,11 +20,12 @@ na aba equipamentos
 
 [X] - 1 por linha  (apenas em equipamentos e componentes)
 
-[] - Colocar foto dos itens (apenas em equipamentos e componentes)
+[] - Colocar foto dos itens (apenas em equipamentos e componentes) (ver pqq o tamanho da img do resistor ficou grande)
 
 [] - Aumentar Height de alguns itens em equipamentos e componentes (acabei diminuindo sem querer quando separei
 um em cada linha)
 
+[] - Deixar as animaçoes responsiva.
 
 -------------------------------------------------------------------------------------------------------------------------------
                                     

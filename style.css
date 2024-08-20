@@ -10,19 +10,24 @@ body {
 
 .fundo-cabecalho {
     background: url('/img/imagem-fundo.png') no-repeat center center;
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    top: 0; /* Ajusta a posição para o topo */
-    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 28vh; /* Ajusta a altura para preencher a tela */
+    background-size: 120% auto; /* Aumenta a largura da imagem para 120% do contêiner */
+    background-position: center;
+    top: -15%; 
+    width: 100vw; 
+    height: 60vh; /* Mantém a altura do contêiner */
     position: sticky;
     z-index: 2;
-    margin-top: 0; /* Remove a margem negativa */
-    overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
+    margin-top: -10%;
+    overflow: hidden; 
+    transform: scaleY(0.5);
+    align-items: start;
 }
+
+
 
 .cabecalho {
     position: sticky;
-    top: 7%;
+    top: 5%;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     z-index: 3; /* Garante que o cabeçalho fique sobre outros conteúdos */
     letter-spacing: 0.25em;
@@ -93,7 +98,7 @@ body {
     flex-wrap: wrap;
     row-gap: 100px;
     z-index: 1;
-    margin-top: 3%;
+    margin-top: 15%;
     justify-content: space-around;
 }
 
@@ -134,3 +139,17 @@ body {
     background-color: rgb(169, 232, 169);
     box-shadow: 0 0 35px rgb(14, 229, 14);
 }
+
+.footer {
+    background: url('/img/FOOTERAAAA.png') no-repeat center center;
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    top: 0; /* Ajusta a posição para o topo */
+    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
+    height: 40vh; /* Ajusta a altura para preencher a tela */
+    position: sticky;
+    z-index: 2;
+    margin-top: 0; /* Remove a margem negativa */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
+    margin-bottom: 0;
+}
+
