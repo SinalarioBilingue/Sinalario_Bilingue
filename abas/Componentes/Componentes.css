@@ -8,6 +8,7 @@ body,
     overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
     background-color: rgb(255, 255, 255);
     position: relative; /* Define o corpo como relativo para que os itens sejam posicionados em relação a ele */
+    scroll-behavior: smooth;
 }
 
 .fundo-cabecalho {
@@ -77,33 +78,37 @@ body,
     z-index: 1100; /* Garante que o botão fique sobre outros conteúdos */
 }
 
-.scrollTop {
-    outline: none;
-    border: 0;
-    background-color: white;
+#ScrollTopButton {
+    position: fixed;
+    background-color: rgb(14, 229, 14);
     width: 60px;
     height: 60px;
     padding: 8px;
+    bottom: 30px;
+    right: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
     z-index: 999;
+    transition: bottom 200ms, transform 200ms;
     cursor: pointer;
-    opacity: 1;  /* Tornar visível por padrão para testes */
-    visibility: visible;  /* Tornar visível por padrão para testes */
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    text-decoration: none;
 }
 
-.scrollTop.active {
-    opacity: 1;
-    visibility: visible;
+#ScrollTopButton:hover {
+    bottom: 35px;
 }
 
+#ScrollTopButton span {
+    transition: 0.2s ease-out;
+    color: black;
+    font-size: 3rem;
+}
 
+#ScrollTopButton:hover span {
+    transform: translateY(-4px);
+}
 
 .niveis {
     position: relative;

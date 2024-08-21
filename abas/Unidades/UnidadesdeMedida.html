@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wdth,wght@50..200,200..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     
     <link rel="stylesheet" href="UnidadesdeMedida.css">
 
@@ -14,7 +15,7 @@
 </head>
 <body>
     <section class="body">
-        <div class="cabecalho">
+        <div class="cabecalho" id="top">
             <h1 class="nome-categoria">Unidades de medida</h1>
             <a href="https://www.liberato.com.br/" class="Logo">
                 <img src="img/logoLibs.png" alt="Logo Liberato" height="75">
@@ -25,6 +26,10 @@
         
         <main class="niveis">
                 
+            <a href="#top" id="ScrollTopButton">
+                <span class="material-symbols-outlined"> arrow_upward</span>         
+            </a>
+
             <div class="inicio">
                 <div class="division">
                         <button class="texto1" id="SistemaInternacional_Button" onclick="changePage()">Sistema Internacional <br> de Unidades</button>

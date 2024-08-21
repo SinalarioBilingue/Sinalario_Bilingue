@@ -7,14 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wdth,wght@50..200,200..900&family=Permanent+Marker&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="Componentes.css">
 
     <script src="Scripts/JS.js"></script>
 </head>
 <body>
     <section class="body">
-        <div class="cabecalho">
+        <div class="cabecalho" id="top">
             <h1 class="nome-categoria">Componentes</h1>
             <a href="https://www.liberato.com.br/" class="Logo">
                 <img src="/img/Logo-Liberato-FHD-black-.png" alt="Logo Liberato" height="75">
@@ -31,13 +31,14 @@
             <div class="animacao3"></div>
         </section>
 
-
-
-        <button class="scrollTop" onclick="backTop()">
-            <img src="img/scrollTop.svg" alt="">
-        </button>
-        
+             
+   
         <main class="niveis">
+
+            <a href="#top" id="ScrollTopButton">
+                <span class="material-symbols-outlined"> arrow_upward</span>         
+            </a>
+
             <article>
                 <h1 class="basicos"> <span>BÁSICOS</span>
                 </h1> 
@@ -186,9 +187,5 @@
             </article>
         </main>
     </section>
-
-
-
-
 </body>
 </html>

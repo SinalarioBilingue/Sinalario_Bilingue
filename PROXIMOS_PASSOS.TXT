@@ -41,8 +41,6 @@ um em cada linha)
 
 [X] - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
 
-[] - Botao de subida para o topo da página{
-    (https://youtu.be/ult27eSRA-o?si=-RgeF6GVpXZzNaix) -> VER
-}
+[X] - Botao de subida para o topo da página em todas as paginas
 
-[] - Pensar em algo interressante para colocar na esquerda do nome do projeto na página principal
+[] - Colocar um "Sobre" do lado do nome do site para levar para o rodapé.
