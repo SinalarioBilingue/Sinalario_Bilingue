@@ -120,54 +120,53 @@ body,
     flex-direction: column;
 }
 
-/*ANIMATION*/
-
 @property --angle{
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false; 
 }
 
-.animacao1{
-    width: 80%; /* Ajuste conforme necessário */
-    height: 8%; /* Defina uma altura fixa para os itens */
-    margin-left: 9.6%;
-    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 39.7%; /* Alinha ao topo da seção */
-    z-index: 0;
-    padding: 0.45%;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 3s spin linear infinite;
+.animacao1 {
+    top: -130%;
 }
 
-.animacao2{
-    width: 80%; /* Ajuste conforme necessário */
-    height: 8%; /* Defina uma altura fixa para os itens */
-    margin-left: 9.6%;
-    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 354.3%; /* Alinha ao topo da seção */
-    z-index: 0;
-    padding: 0.45%;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 3s spin linear infinite;
+.animacao2 {
+    top: 146%;
 }
 
-.animacao3{
-    width: 80%; /* Ajuste conforme necessário */
-    height: 8%; /* Defina uma altura fixa para os itens */
-    margin-left: 9.6%;
-    position: absolute; /* Posiciona a caixa vermelha em relação à seção basicos */
-    top: 565.8%; /* Alinha ao topo da seção */
-    z-index: 0;
-    padding: 0.45%;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 3s spin linear infinite;
+.animacao3 {
+    top: 255%;
 }
 
-/*ANIMATION*/
+.animacao1, 
+.animacao2, 
+.animacao3 {
+    height: 100%;
+    max-height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    border-radius: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.animacao1:before,
+.animacao2:before, 
+.animacao3:before {
+    content: "";
+    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
+    width: 150%; 
+    height: 150%;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    animation: 3s spin linear infinite;
+}
 
 @keyframes spin{
     from{
@@ -176,6 +175,54 @@ body,
     to{
         --angle: 360deg;
     }
+}
+
+.animacao1:after {
+    content: "BÁSICOS";
+    height: 80%;
+    width: 97.5%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    top: 10%;
+    left: 1.25%;
+    display: grid;
+    place-items: center;
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: black;
+}
+
+.animacao2:after {
+    content: "INTERMEDIÁRIOS";
+    height: 80%;
+    width: 97.5%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    top: 10%;
+    left: 1.25%;
+    display: grid;
+    place-items: center;
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: black;
+}
+
+.animacao3:after {
+    content: "AVANÇADOS";
+    height: 80%;
+    width: 97.5%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+    top: 10%;
+    left: 1.25%;
+    display: grid;
+    place-items: center;
+    font-size: 3em;
+    letter-spacing: 6px;
+    color: black;
 }
 
 .basicos,
@@ -236,8 +283,16 @@ body,
     row-gap: 50px;
 }
 
+.categorias, .categorias2 {
+    margin-bottom: 25%;
+}
 
-.division{
+.categorias3{
+    padding-bottom: 5%;
+}
+
+.division,
+.last_division {
     display: flex;
     width: 50%;
     max-width: 50%;
@@ -259,9 +314,8 @@ body,
     display: block;
 }
 
-.ultimo{
-   
-    margin-top: 2%;
+.last_division{ 
+    margin-left: 25%;
     justify-content: center;
     display: flex;
 }

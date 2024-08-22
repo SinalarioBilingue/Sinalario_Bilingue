@@ -26,12 +26,6 @@
             <a href="http://127.0.0.1:5500/" class="back-button">VOLTAR</a>
         </div>
         <div class="fundo-cabecalho"></div>
-        
-        <section class="animacao">
-            <div class="animacao1"></div>
-            <div class="animacao2"></div>
-            <div class="animacao3"></div>
-        </section>
 
         <main class="niveis">
 
@@ -40,8 +34,7 @@
             </a>
 
             <article>
-                <h1 class="basicos"> <span>BÁSICOS</span></h1> 
-                
+                <div class="animacao1"></div>
                 <section class="categorias">
 
                     <div class="division">
@@ -127,20 +120,17 @@
                         
                         <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
                     </div>
-
-                </section>
-                    <div class="ultimo">
-                        <div class="division">
-                            <button class="texto" id="Período_Button" onclick="changePage()">Período</button>
+                    
+                    <div class="last_division">
+                        <button class="texto" id="Período_Button" onclick="changePage()">Período</button>
                         
-                            <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                        </div>
+                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
                     </div>
+                </section>      
             </article>
 
             <article>
-                
-                <h1 class="intermediario"> <span>INTERMEDIÁRIOS</span></h1>  
+                <div class="animacao2"></div>
 
                 <section class="categorias2">
 
@@ -192,21 +182,19 @@
                         <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
                     </div>
 
-                    
-                </section>
-                <div class="ultimo">
-                    <div class="division">
+                    <div class="last_division">
                         <button class="texto" id="ruido_Button" onclick="changePage()">Ruído</button>
-                        
+                                        
                         <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
                     </div>
-                </div>
+                </section>
             </article>
 
             <article>
-                <h1 class="avancados"> <span>AVANÇADOS</span></h1>                 
-                <section class="categorias3">
+                <div class="animacao3"></div>
 
+                <section class="categorias3">
+                    
                     <div class="division">
                         <button class="texto" id="ac_Button" onclick="changePage()">Tensão Alternada</button>
                         
@@ -218,18 +206,12 @@
                         
                         <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
                     </div>
-
-                
-                </section>
-
-                 <div class="ultimo">
-                <div class="division">
-                    <button class="texto" id="vrms_Button" onclick="changePage()">Tensão Eficaz ou <br>Vrms</button>
-                    
-                    <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                </div>
-                </div>
-            
+                    <div class="last_division">
+                        <button class="texto" id="vrms_Button" onclick="changePage()">Tensão Eficaz ou <br>Vrms</button>
+                        
+                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
+                    </div>
+                </section>   
             </article>
         </main>               
     </section>
