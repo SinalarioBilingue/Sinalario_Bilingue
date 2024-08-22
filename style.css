@@ -14,13 +14,13 @@ body {
     background: url('/img/imagem-fundo.png') no-repeat center center;
     background-size: 120% auto; /* Aumenta a largura da imagem para 120% do contêiner */
     background-position: center;
-    top: -15%; 
+    top: -20%; 
     width: 100vw; 
     height: 60vh; /* Mantém a altura do contêiner */
     position: sticky;
     z-index: 2;
-    margin-top: -10%;
     overflow: hidden; 
+    margin-top: -10%;
     transform: scaleY(0.5);
     align-items: start;
 }

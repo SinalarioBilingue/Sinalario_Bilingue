@@ -20,9 +20,9 @@ body,
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 135vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
+    height: 130vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
     z-index: 0; /* Certifique-se de que o cabeçalho tenha um z-index menor */
-    margin-top: -47%;
+    margin-top: -50%;
     transform: scaleY(0.3);  /* Achata a imagem verticalmente */
 }
 
@@ -32,7 +32,7 @@ body,
     flex-direction: column; /* Organiza os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     z-index: 1000; /* Garante que o svg-container fique na frente do cabeçalho */
-    top: 5%;    
+    top: 3%;    
     width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
     height: 50vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
     letter-spacing: 0.25em;
