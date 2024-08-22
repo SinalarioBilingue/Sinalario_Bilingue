@@ -120,32 +120,37 @@ body,
     flex-direction: column;
 }
 
-
-
-
-
+.division {
+    display: flex;
+    width: 76%;
+    max-width: 76%;
+    height: 50%;
+    justify-content: space-evenly; /* Distribui o vídeo e o texto */
+    align-items: center; /* Alinha verticalmente */
+    margin-top: -8%;
+}
 
 .video {
     width: 25vw;
     max-width: 25vw;
-    height: 100%;
+    height: 50%;
     border-radius: 50px;
-    margin: 0;
+    margin-right: -5%;
+    margin-left: 5%;
     padding: 0;
-    /* Remova ou ajuste a margem para evitar deslocamento */
 }
 
 .texto {
-    background: rgb(241, 242, 248);
     border-radius: 70px;
     border: none;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     transition: 0.5s;
-    width: 60%;
-    max-width: 60%;
+    width: 50%; /* Aumente este valor para expandir a largura */
+    max-width: 50%; /* Ajuste também a largura máxima */
     box-sizing: border-box;
-    margin-right: 10%;
+    padding: 3%;
+    cursor: pointer;
 }
 
 .texto:hover {
@@ -165,17 +170,7 @@ body,
 }
 
 
-.division {
-    display: flex;
-    width: 55%;
-    max-width: 55%;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between; /* Distribui o vídeo e o texto */
-    align-items: center; /* Alinha verticalmente */
-    margin-bottom: 2%;
 
-}
 
 .division_size{
     width: 70vw;

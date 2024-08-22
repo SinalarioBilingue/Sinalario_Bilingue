@@ -119,10 +119,6 @@ body,
     flex-direction: column;
 }
 
-
-
-
-
 .video{
     width: 25vw;
     max-width: 25vw;
@@ -196,20 +192,20 @@ body,
     font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     transition: 0.5s;
-    margin: .5em 1em;
+    margin: 1.5em 1em;
     width: 100%; /* Aumenta a largura da box */
-    max-width: none; /* Remove a restrição de largura máxima */
     box-sizing: border-box;
 }
 
 .inicio{
-    
-    margin-right: 3%;
+    margin-right: 5%;
+    margin-left: -10%;
     margin-top: 5%;
     justify-content: center;
     display: flex;
-    width: 100%; /* Certifique-se de que o pai permite expansão */
+    width: 120%; /* Certifique-se de que o pai permite expansão */
 }
+
 .fim{
     margin-right: 3%;
     margin-top: 5%;

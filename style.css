@@ -5,6 +5,8 @@ body {
     height: 100%;
     overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
     background-color: rgb(251, 251, 252);
+    scroll-behavior: smooth;
+
 
 }
 
@@ -34,10 +36,44 @@ body {
     align-items: center;
 }
 
+#ScrollBottomButton {
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    border: none; /* Remove bordas */
+    padding: 10px 20px; /* Espessura do botão */
+    text-align: center; /* Alinha o texto */
+    top: 4%;
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
+    font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: "Bebas Neue", sans-serif;
+    position: absolute;
+    left: 10%; /* Distância da esquerda (anteriormente right) */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    z-index: 1100; /* Garante que o botão fique sobre outros conteúdos */
+    letter-spacing: 0.10em;
+
+}
+
+#ScrollBottomButton:hover {
+    bottom: 35px;
+}
+
+#ScrollBottomButton span {
+    transition: 0.2s ease-out;
+    color: black;
+    font-size: 3rem;
+}
+
+#ScrollBottomButton:hover span {
+    transform: translateY(-4px);
+}
+
 .nome-site {
     position: absolute;
     top: 5%; /* Ajusta a distância do topo */
     left: 50%;
+    
     transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente o texto */
     color: black;
     font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
@@ -58,6 +94,8 @@ body {
     max-width: 250px; /* Define um tamanho máximo para a logo */
     height: auto; /* Mantém a proporção da imagem */
 }
+
+
 
 
 .apresentacao {
@@ -125,7 +163,7 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     transition: 0.5s;
     margin: 1.5em 1em;
     width: 35%;
@@ -142,14 +180,63 @@ body {
 
 .footer {
     background: url('/img/FOOTERAAAA.png') no-repeat center center;
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    top: 0; /* Ajusta a posição para o topo */
-    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 40vh; /* Ajusta a altura para preencher a tela */
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
     position: sticky;
     z-index: 2;
-    margin-top: 0; /* Remove a margem negativa */
-    overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
-    margin-bottom: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px 0; 
 }
 
+.logos-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    max-width: 1200px; 
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.15em;
+    margin-bottom: -23%;
+
+}
+
+.logoin:hover{
+    letter-spacing: 0.25em;
+
+} 
+
+.logoin a {
+    display: flex; 
+    align-items: center; 
+    color: black;
+    text-decoration: none; 
+    transition: 0.5s;
+}
+
+.logoin a i {
+    font-size: 3rem; 
+    margin-right: 15px; 
+}
+
+.logoin a span {
+    font-size: 2rem; 
+    line-height: 1.5; 
+}
+
+.email {
+    text-align: center; 
+    flex: 1; 
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.email h1 {
+    font-size: 1.5rem; 
+    color: black;  
+    margin: 0; 
+}

@@ -20,22 +20,29 @@ na aba equipamentos
 
 [X] - 1 por linha  (apenas em equipamentos e componentes)
 
-[] - Colocar foto dos itens (apenas em equipamentos e componentes) (ver pqq o tamanho da img do resistor ficou grande)
+[X] - Colocar foto dos itens (apenas em equipamentos e componentes) (ver pq o tamanho da img do resistor ficou grande)
 
-[] - Aumentar Height de alguns itens em equipamentos e componentes (acabei diminuindo sem querer quando separei
+[X] - Aumentar Height de alguns itens em equipamentos e componentes (acabei diminuindo sem querer quando separei
 um em cada linha)
 
-[] - Deixar as animaçoes responsiva.
+[+-] - Deixar as animaçoes responsiva.
 
-[] - Arrumar os espaços entre os compoenentes. 
+[X] - Arrumar os espaços entre os compoenentes. 
 
+[X] - Arrumar o botão Back
+
+[X] - Arrumar os videos cagados dos equipamentos. 
+
+[] - Fazer a última página (decidir design e como vai ficar as coisas)
+
+[X] - Aumentar a caixa das unidades de medida.
 -------------------------------------------------------------------------------------------------------------------------------
                                     
                                                 NÃO TÃO URGENTES:
 
 -------------------------------------------------------------------------------------------------------------------------------                                                
 
-[] - Terminar a parte de baixo do site (Rodapé)
+[X] - Terminar a parte de baixo do site (Rodapé)
 
 [] - tentar achar algo interressante para colocar no fundo do site
 
@@ -43,4 +50,4 @@ um em cada linha)
 
 [X] - Botao de subida para o topo da página em todas as paginas
 
-[] - Colocar um "Sobre" do lado do nome do site para levar para o rodapé.
+[X] - Colocar um "Sobre" do lado do nome do site para levar para o rodapé.

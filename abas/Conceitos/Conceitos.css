@@ -1,5 +1,5 @@
 html, 
-body,
+body, 
 .body {
     margin: 0;
     padding: 0;
@@ -9,6 +9,7 @@ body,
     background-color: rgb(255, 255, 255);
     position: relative; /* Define o corpo como relativo para que os itens sejam posicionados em relação a ele */
     scroll-behavior: smooth;
+    
 
 }
 
