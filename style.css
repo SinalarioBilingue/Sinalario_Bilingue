@@ -185,11 +185,10 @@ body {
     height: 60vh;
     position: sticky;
     z-index: 2;
-    margin: 0;
     display: flex;
     justify-content: center; 
     align-items: center; 
-    padding: 20px 0; 
+
 }
 
 .logos-container {
@@ -200,16 +199,22 @@ body {
     max-width: 1200px; 
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 0.15em;
-    margin-bottom: -23%;
+    margin-bottom: -20%;
 
 }
 
-.logoin:hover{
+.logoin1:hover,
+.logoin2:hover{
     letter-spacing: 0.25em;
 
 } 
 
-.logoin a {
+.logoin1{
+    padding-right: 50px;
+}
+
+.logoin1 a,
+.logoin2 a {
     display: flex; 
     align-items: center; 
     color: black;
@@ -217,12 +222,13 @@ body {
     transition: 0.5s;
 }
 
-.logoin a i {
+.logoin1 a i,
+.logoin2 a i {
     font-size: 3rem; 
-    margin-right: 15px; 
 }
 
-.logoin a span {
+.logoin1 a span,
+.logoin2 a span {
     font-size: 2rem; 
     line-height: 1.5; 
 }
@@ -238,5 +244,4 @@ body {
 .email h1 {
     font-size: 1.5rem; 
     color: black;  
-    margin: 0; 
 }

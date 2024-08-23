@@ -5,14 +5,77 @@ body,
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 1000px;
 }
 
-.basicos {
-    text-align: center; /* Alinha o texto ao centro dentro do elemento */
-    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
-    font-weight: bold;
-    margin: 10%;
-    background-color: white;
-    border-radius: 45px;
-    padding-top: 0.35%;
+.cabecalho{
+    justify-content: space-between;
 }
+
+.titulo {
+    position: absolute;
+    top: 10%; /* Ajusta a distância do topo */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente o texto */
+    color: black;
+    font-size: 4em; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; /* Garante que o texto esteja centralizado dentro do próprio contêiner */
+    letter-spacing: 0.10em;
+
+}
+.Logo {
+    position: absolute; 
+    top: 4%; 
+    right: 5%; 
+    z-index: 1000; 
+}
+
+.Logo img {
+    max-width: 250px; 
+    height: auto; 
+}
+
+
+.conteudo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: none; /* Remove a transição para evitar efeitos colaterais */
+  }
+  .conceito {
+    padding-left: 10vw;
+  }
+  .imagem{
+    padding-left: 35vw;
+  }
+
+.sinal {
+    padding-left: 80vw;
+}
+  .conceito,
+  .imagem,
+  .sinal {
+    transition: 0.5s;
+    transform-origin: center;
+    backface-visibility: hidden;
+   
+  }
+  
+
+  .conceito:hover,
+  .imagem:hover,
+  .sinal:hover {
+    transform: scale(1.05);
+    letter-spacing: 0.10em;
+  }
