@@ -19,6 +19,23 @@
 
 [] -
 
+[] - COMPONENTES FEITOS : 
+
+    [] - Botoes e chaves
+    [] - capacitor
+    [] - Ci 
+    [] - DIODO
+    [X] - DISPLAY
+    [X] - LDR
+    [X] - LED
+    [X] - NTC
+    [X] - PORTASLOGICAS
+    [X] - POTENCIOMETRO
+    [X] - PTC
+    [X] - RESISTOR
+    [] - TRANSISTOR
+    [X] - ZENER
+
 
 
 
