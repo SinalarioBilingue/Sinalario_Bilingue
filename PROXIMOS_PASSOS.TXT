@@ -4,50 +4,29 @@
 
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
-[X] - Alinhar no meio os componentes muito grandes, EX: Sistema Internacional de Medidas
-como esse bgl ficou mt grande nos conceitos seria legal ter uma linha só dele no começo
 
-[X] - alinhar no meio quando algum bgl fica sozinho na flex box. EX: Banana Jacaré ficou sozinho alinhado na esquerda
-na aba equipamentos
+[] - Responsividade do Site (
 
-[X] - trocar as ordens da maioria dos itens, seguir como ta no docs que mandamos pro vini
+    [] - Tela inicial
 
-[X] - Padronizar o tamanho dos botoes, os do index estão bem menores que os dos componentes e o resto
+    [] - Tela de escolha 
 
-[X] - Ajustar a content box do serie E12 e sistema internaciol de medidas
+    [X] - Tela componentes
 
-[X]  - Botao back
+)
 
-[X] - 1 por linha  (apenas em equipamentos e componentes)
+[] - 
 
-[X] - Colocar foto dos itens (apenas em equipamentos e componentes) (ver pq o tamanho da img do resistor ficou grande)
+[] -
 
-[X] - Aumentar Height de alguns itens em equipamentos e componentes (acabei diminuindo sem querer quando separei
-um em cada linha)
 
-[+-] - Deixar as animaçoes responsiva.
 
-[X] - Arrumar os espaços entre os compoenentes. 
 
-[X] - Arrumar o botão Back
-
-[X] - Arrumar os videos cagados dos equipamentos. 
-
-[] - Fazer a última página (decidir design e como vai ficar as coisas)
-
-[X] - Aumentar a caixa das unidades de medida.
 -------------------------------------------------------------------------------------------------------------------------------
                                     
                                                 NÃO TÃO URGENTES:
 
 -------------------------------------------------------------------------------------------------------------------------------                                                
 
-[X] - Terminar a parte de baixo do site (Rodapé)
-
 [] - tentar achar algo interressante para colocar no fundo do site
 
-[X] - colocar todas as imagens em pastas pra n ter 29 arquivos soltos
-
-[X] - Botao de subida para o topo da página em todas as paginas
-
-[X] - Colocar um "Sobre" do lado do nome do site para levar para o rodapé.
