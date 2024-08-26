@@ -6,8 +6,6 @@ body {
     overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
     background-color: rgb(251, 251, 252);
     scroll-behavior: smooth;
-
-
 }
 
 .fundo-cabecalho {
@@ -24,8 +22,6 @@ body {
     transform: scaleY(0.5);
     align-items: start;
 }
-
-
 
 .cabecalho {
     position: sticky;
@@ -94,9 +90,6 @@ body {
     max-width: 250px; /* Define um tamanho máximo para a logo */
     height: auto; /* Mantém a proporção da imagem */
 }
-
-
-
 
 .apresentacao {
     text-align: center;
