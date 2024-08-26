@@ -21,10 +21,10 @@
 
 [] - COMPONENTES FEITOS : 
 
-    [] - Botoes e chaves
-    [] - capacitor
-    [] - Ci 
-    [] - DIODO
+    [X] - Botoes e chaves
+    [X] - capacitor
+    [X] - Ci 
+    [X] - DIODO
     [X] - DISPLAY
     [X] - LDR
     [X] - LED
@@ -33,9 +33,13 @@
     [X] - POTENCIOMETRO
     [X] - PTC
     [X] - RESISTOR
-    [] - TRANSISTOR
+    [X] - TRANSISTOR
     [X] - ZENER
-
+    [] - RELE
+    [] - INDUTOR
+    [] - TRANSFORMADOR
+    [] - MOTORES
+    [] - AMPOP
 
 
 

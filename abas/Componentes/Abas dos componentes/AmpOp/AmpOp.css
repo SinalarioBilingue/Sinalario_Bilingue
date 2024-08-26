@@ -6,10 +6,10 @@ html, body {
     width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
-  
   }
   
   .cabecalho {
+    display: flex;
     position: relative; /* Mantém o contexto para posicionamento absoluto do título */
     text-align: center;
   }
@@ -58,7 +58,6 @@ html, body {
   .back-button:hover {
     transform: scale(1.1); /* Aumenta o tamanho em 10% */
   }
-  
   
   .Logo {
     position: absolute; 
@@ -139,12 +138,11 @@ html, body {
     border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
   }
   
-  
-  
   .animacao-titulo:hover {
     transform: scale(1.05); 
     letter-spacing: 0.15em; 
   }
+
   .row {
     margin-left: 0;
     margin-right: 0;
