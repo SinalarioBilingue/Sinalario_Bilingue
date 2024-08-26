@@ -35,10 +35,10 @@
     [X] - RESISTOR
     [X] - TRANSISTOR
     [X] - ZENER
-    [] - RELE
-    [] - INDUTOR
-    [] - TRANSFORMADOR
-    [] - MOTORES
+    [X] - RELE
+    [X] - INDUTOR
+    [X] - TRANSFORMADOR
+    [X] - MOTORES
     [] - AMPOP
 
 
