@@ -40,7 +40,7 @@
     [] - ALICATES
     
 
-[] - UNIDADES DE MEDIDA FEITOS : 
+[X] - UNIDADES DE MEDIDA FEITOS : 
 
     [X] - AMPERE
     [X] - FARAD
@@ -55,7 +55,7 @@
     [X] - VOLTS
     [X] - WATT
 
-[] - COMPONENTES FEITOS : 
+[X] - COMPONENTES FEITOS : 
 
     [X] - Botoes e chaves
     [X] - capacitor
