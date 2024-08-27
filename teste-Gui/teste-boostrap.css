@@ -1,0 +1,138 @@
+/* Garante que o body e html ocupem toda a altura e largura da viewport */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.fundo-cabecalho{
+  position: fixed;
+  z-index: 1;
+}
+
+.sobre {
+  background-color: transparent;
+  color: black; /* Cor do texto */
+  border: none; /* Remove bordas */  
+  text-align: center; /* Alinha o texto */
+  top: 6%;
+  text-decoration: none; /* Remove sublinhado */
+  display: inline-block;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.5vw;
+  position: fixed;
+  left: 10%; /* Distância da esquerda (anteriormente right) */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  z-index: 2; /* Garante que o botão fique sobre outros conteúdos */
+  letter-spacing: 0.10em;
+  transition: 0.5s;
+}
+
+.sobre:hover {
+  transform: scale(1.2); /* Aumenta o tamanho do texto ao passar o mouse */
+}
+
+.titulo {
+  top: 2%; /* Ajuste para mover o título mais para cima se necessário */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza o título horizontalmente */
+  position: fixed;
+  z-index: 2;
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #000;
+  letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
+}
+
+.logo {
+  width: 15vw;
+  max-width: 80vw;
+  height: auto;
+  top: 5%; 
+  right: 5%; 
+  z-index: 2; 
+  transition: transform 0.3s;
+  position: fixed;
+}
+  
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.apresentacao {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.enunciado {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3vw;
+  color: black;
+}
+
+.videoapresentacao {
+  height: 25vw;
+  border-radius: 50px;
+}
+
+.divisoria, .divisoria2 {
+  transform: scaleX(4);
+}
+
+.divisoria{
+  margin-top: -10%;
+}
+
+  @media (max-width: 600px) {
+    .fundo-cabecalho{
+      margin-top: -3%;
+    }
+    
+    .sobre{
+      font-size: 6vw;
+      margin-left: -1%;
+    }
+
+    .titulo {
+      font-size: 6.7vw; 
+    }
+    
+    .logo{   
+      width: 23vw;
+      margin-top: 2%;
+    }
+      
+  .apresentacao {
+      margin-top: 40%;
+    }
+
+  .enunciado{
+      font-size: 6vw; 
+  }
+  
+  .videoapresentacao {
+      height: 50vw;
+  }
+
+  .divisoria{
+    margin-top: -25%;
+  }
+}
+
+  
+
+  @media (max-width: 400px){
+      .apresentacao{
+        margin-top: 60%;
+      }
+
+      .divisoria{
+        margin-top: -50%;
+      }
+    }
+
+  

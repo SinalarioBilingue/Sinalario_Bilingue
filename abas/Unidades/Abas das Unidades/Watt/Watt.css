@@ -56,7 +56,7 @@ html, body {
   }
   
   .back-button:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    transform: scale(0.7); /* Aumenta o tamanho em 10% */
   }
   
   

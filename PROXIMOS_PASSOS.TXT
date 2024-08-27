@@ -15,9 +15,45 @@
 
 )
 
-[] - 
+[] - UNIDADES DE MEDIDA FEITOS : 
 
-[] -
+    [X] - ARQUENTE
+    [X] - PROTO
+    [X] - COBREPERFURADA 
+    [X] - PLACA COBRE
+    [X] - PINCA
+    [X] - PASTA DE SOLDA
+    [X] - OSCILOSCIOPIO
+    [X] - MULTIMETRO
+    [X] - GERADOR DE SINAIS
+    [X] - MULTIMETRO
+    [X] - GERADOR DE SINAIS
+    [X] - FURADOR
+    [X] - FONTE
+    [X] - FLUXO
+    [X] - FERRO DE SOLDA 
+    [] - ESTANHO
+    [] - CLP
+    [] - CHAVES
+    [] - BJ
+    [] - AMPERIMETRO
+    [] - ALICATES
+    
+
+[] - UNIDADES DE MEDIDA FEITOS : 
+
+    [X] - AMPERE
+    [X] - FARAD
+    [X] - HENRY 
+    [X] - HERTZ
+    [X] - JOULE
+    [X] - OHM
+    [X] - RPM
+    [X] - SERIEe12
+    [X] - SERIEe24
+    [X] - SISTEMAINTERNACIONAL
+    [X] - VOLTS
+    [X] - WATT
 
 [] - COMPONENTES FEITOS : 
 
@@ -39,7 +75,7 @@
     [X] - INDUTOR
     [X] - TRANSFORMADOR
     [X] - MOTORES
-    [] - AMPOP
+    [X] - AMPOP
 
 
 

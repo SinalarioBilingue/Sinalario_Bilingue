@@ -22,7 +22,7 @@ html, body {
   }
   
   .titulo {
-    font-size: 4vw;
+    font-size: 2.9vw;
     text-align: center;
     margin: 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -81,7 +81,8 @@ html, body {
   
   @media (max-width: 768px) {
     .titulo {
-        font-size: 10vw; 
+        font-size: 6vw; 
+        margin-top: -10%;
     }
   
     .back-button{
@@ -98,7 +99,7 @@ html, body {
     }
     
     .Logo img {
-        width: 25vw; 
+        width: 20vw; 
       }
   }
   @media (max-width: 768px) {
@@ -122,8 +123,8 @@ html, body {
     }
   
     .imgs img {
-        width: 60%; 
-        height: 60%;
+        width: 100%; 
+        height: 100%;
   
     }
   }

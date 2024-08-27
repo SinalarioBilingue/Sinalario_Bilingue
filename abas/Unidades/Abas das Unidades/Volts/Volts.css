@@ -6,7 +6,6 @@ html, body {
     width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
-  
   }
   
   .cabecalho {
@@ -89,7 +88,7 @@ html, body {
       top: 4.5vw;
       left: 5%;
       height: 20%;
-      transform: scale(0.6);
+      transform: scale(0.8);
     }
   
     .Logo {
