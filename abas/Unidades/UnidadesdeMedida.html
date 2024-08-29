@@ -7,111 +7,129 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wdth,wght@50..200,200..900&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />   
     <link rel="stylesheet" href="UnidadesdeMedida.css">
-
     <script src="Scripts/JS.js"></script>
 </head>
 <body>
-    <section class="body">
-        <div class="cabecalho" id="top">
-            <h1 class="nome-categoria">Unidades de medida</h1>
-            <a href="https://www.liberato.com.br/" class="Logo">
-                <img src="img/logoLibs.png" alt="Logo Liberato" height="75">
-            </a>
-            <a href="http://127.0.0.1:5500/" class="back-button"><img src="/img/backbutton_tst.png" alt=""></a>
+    <div class="cabecalho" id="top">
+        <img src="/img/imagem-fundo.png" height="200" width="2100" alt="fundo-cabecalho">
+        <div class="titulo-wrapper">
+            <h1 class="titulo">UNIDADES DE MEDIDA</h1>
         </div>
-        <div class="fundo-cabecalho"></div>
-        
-        <main class="niveis">
-                
-            <a href="#top" id="ScrollTopButton">
-                <span class="material-symbols-outlined"> arrow_upward</span>         
-            </a>
+        <a href="https://www.liberato.com.br/" class="Logo" target="_blank">
+            <img src="/img/Logo-Liberato-FHD-black-.png" alt="Logo Liberato" height="75">
+        </a>
 
-            <div class="inicio">
-                <div class="division">
-                        <button class="texto1" id="SistemaInternacional_Button" onclick="changePage()">Sistema Internacional <br> de Unidades</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
+        <a href="http://127.0.0.1:5500/abas/Componentes/Componentes.html" class="back-button"><img src="/img/backbutton_tst.png" alt=""></a>
+
+    </div>
+    <div class="container conteudo">
+        <a href="#top" id="ScrollTopButton">
+            <span class="material-symbols-outlined"> arrow_upward</span>         
+        </a>
+       
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>SISTEMA INTERNACIONAL <br> DE UNIDADES</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
                 </div>
             </div>
-
-
-                <section class="categorias">
-
-                    <div class="division">
-                        <button class="texto" id="serie12_Button" onclick="changePage()">Série E12</button>
-
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-                    
-                    <div class="division">
-                        <button class="texto" id="seriee24_Button" onclick="changePage()">Série E24</button>
-
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="OHM_Button" onclick="changePage()">OHM</button>
-
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="Volts_Button" onclick="changePage()">Volts</button>
-
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="ampere_Button" onclick="changePage()">Ampere</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="Joule_Button" onclick="changePage()">Joule</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="Watt_Button" onclick="changePage()">Watt</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="Hertz_Button" onclick="changePage()">Hertz</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="rpm_Button" onclick="changePage()">RPM</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                    <div class="division">
-                        <button class="texto" id="Farad_Button" onclick="changePage()">Farad</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
-
-                   
-                </section>
-
-                <div class="fim">
-                    <div class="division">
-                        <button class="texto" id="henry_Button" onclick="changePage()">Henry</button>
-                        
-                        <video src="videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video"></video>
-                    </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>Série E12</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
                 </div>
-        </main>
-    </section>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>Série E24</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>OHM</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>VOLTS</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>AMPERE</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>JOULE</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>WATT</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>HERTZ</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>RPM</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>FARAD</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="animacao-titulo"><h2>HENRY</h2></div>
+                </div>   
+                <div class="col-lg-6 col-12">
+                    <div class="videos"><h3><video src="/videos/Shawn Mendes - Why Why Why (Official Music Video).mp4" controls class="video" height="200"></video></h3></div>
+                </div>
+            </div>        
+    </div>
+    
+
+
+
 </body>
 </html>

@@ -7,9 +7,16 @@
 
 [] - Responsividade do Site (
 
-    [] - Tela inicial
+    [X] - Tela inicial
 
-    [] - Tela de escolha 
+    [] - Tela de escolha (
+
+        [] - Tela componentes (Gui)
+        [X] - Tela unidades (Maicon)
+        [X] - Tela equipamentos (Maicon)
+        [] - Tela conceitos (Gui)
+
+    )
 
     [X] - Tela componentes
 

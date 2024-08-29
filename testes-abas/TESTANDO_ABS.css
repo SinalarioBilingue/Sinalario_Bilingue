@@ -115,6 +115,7 @@ html, body {
   @media (max-width: 768px) {
     .titulo {
         font-size: 7vw; 
+        margin-top: 5%;
     }
   
     .back-button{
@@ -151,6 +152,10 @@ html, body {
     }
 }
 
+
+.imgs {
+  margin-top: 5%;
+}
 /* Estilo geral do contêiner de vídeo */
 .videos {
   display: flex; /* Define o contêiner como flexível */
@@ -181,17 +186,26 @@ html, body {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 10em;
   transition: 0.5s;
   box-sizing: border-box;
   
+}
+.animacao-basicos{
+  background: rgb(241, 242, 248);
+  border-radius: 70px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  transition: 0.5s;
+  box-sizing: border-box;
 }
 
 .animacao-titulo:hover {
   letter-spacing: 0.03em;
   background-color: rgb(169, 232, 169);
   box-shadow: 0 0 35px rgb(14, 229, 14);
-  max-height: 100vw;
 }
 
 
