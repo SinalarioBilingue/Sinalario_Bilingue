@@ -127,6 +127,10 @@ html, body {
   
     }
   }
+  .video,
+  .imgs{
+    margin-top: 10% ;
+  }
   
   .animacao-titulo {
     transition: transform 0.5s, letter-spacing 0.5s;

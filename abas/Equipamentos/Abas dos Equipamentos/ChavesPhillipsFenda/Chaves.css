@@ -81,7 +81,8 @@ html, body {
   
   @media (max-width: 768px) {
     .titulo {
-        font-size: 10vw; 
+        margin-top: -3%;
+        font-size:5.9vw; 
     }
   
     .back-button{
@@ -98,7 +99,7 @@ html, body {
     }
     
     .Logo img {
-        width: 25vw; 
+        width: 20vw; 
       }
   }
   @media (max-width: 768px) {
@@ -126,6 +127,11 @@ html, body {
         height: 60%;
   
     }
+  }
+
+  .video,
+  .imgs {
+    margin-top: 10%;
   }
   
   .animacao-titulo {

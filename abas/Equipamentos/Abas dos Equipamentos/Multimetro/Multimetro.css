@@ -81,7 +81,8 @@ html, body {
   
   @media (max-width: 768px) {
     .titulo {
-        font-size: 10vw; 
+        font-size: 7vw; 
+        margin-top: 5%;
     }
   
     .back-button{
