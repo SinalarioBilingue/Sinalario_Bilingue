@@ -177,28 +177,34 @@ html, body {
     margin-top: 10%;
 }
 
+a.btn-link {
+  text-decoration: none !important; /* Remove o sublinhado do link */
+  
+}
 
-.animacao-titulo{
+/* Estilo da animação-titulo */
+.animacao-titulo {
   background: rgb(241, 242, 248);
   border-radius: 70px;
   border: none;
   text-align: center;
-  text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
+  font-size: 10em;
   transition: 0.5s;
   box-sizing: border-box;
   padding: 2vw 2vw;
-
-  
 }
+
+/* Estilo para quando o link é hover */
+
 
 .animacao-titulo:hover {
   letter-spacing: 0.03em;
   background-color: rgb(169, 232, 169);
   box-shadow: 0 0 35px rgb(14, 229, 14);
+  max-height: 100vw;
 }
-
 
 
  
