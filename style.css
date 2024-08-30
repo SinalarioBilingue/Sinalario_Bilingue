@@ -76,6 +76,7 @@ transform: scale(1.2);
 .apresentacao {
 text-align: center;
 margin-top: 15%;
+margin-bottom: 10%;
 }
 
 .enunciado {
@@ -90,11 +91,12 @@ border-radius: 50px;
 }
 
 .divisoria, .divisoria2 {
-transform: scaleX(4);
+margin-bottom: 15%;
+
 }
 
 .divisoria{
-margin-top: -10%;
+margin-top: -15%;
 }
 
 @media (max-width: 500px) {
@@ -130,6 +132,7 @@ margin-top: -10%;
 
 .divisoria{
   margin-top: -25%;
+  margin-bottom: 40%;
 }
 }
 
@@ -139,7 +142,7 @@ margin-top: -10%;
 }
 
 .divisoria{
-  margin-top: -50%;
+  margin-bottom: 55%;
 }
 }
 
