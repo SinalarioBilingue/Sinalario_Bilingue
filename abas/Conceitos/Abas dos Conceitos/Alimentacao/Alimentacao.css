@@ -139,10 +139,7 @@ html, body {
     margin-bottom: 10%;
   }
 
-.animacao-titulo {
-  transition: transform 0.5s, letter-spacing 0.5s;
-  box-shadow: 7px 7px 10px #a7d3b4; /* Sombra na direita e embaixo */
-}
+
 
 .animacao-titulo h2 {
   border-style: solid; 
