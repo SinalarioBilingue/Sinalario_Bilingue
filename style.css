@@ -271,9 +271,11 @@ border-radius: 50px;
                                                   Rodapé
 *******************************************************************************************************/
 
+
+
 #RowLinkedin{
 padding: 0;
-padding-bottom: 2vw;
+
 }
 
 #RowEmail{
@@ -281,8 +283,9 @@ padding: 0;
 }
 
 #bottom{
-margin-bottom: -53vh;
-}
+  margin-bottom: -20vw;
+  }
+ 
 
 #ColLinkedin,
 #ColLinkedin2 {
@@ -299,6 +302,7 @@ color: black;
 font-size: 2vw;
 font-family: "Bebas Neue", sans-serif;
 transition: 0.5s;
+
 }
 
 .login:hover{
@@ -325,7 +329,7 @@ padding-right: 6vw;
 
 @media (max-width: 500px){
   #bottom{
-    margin-bottom: -45vh;
+    margin-bottom: -40vh;
   }
 
   .login,
