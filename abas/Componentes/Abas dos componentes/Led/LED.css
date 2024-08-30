@@ -109,6 +109,7 @@ html, body {
   .txt-exemplo{
       font-size: 6vw; 
       margin-bottom: 10%;
+      margin-top: 10%;
   }
   
     .animacao-titulo h2 {
@@ -132,6 +133,7 @@ html, body {
   
   .video{
     margin-top: 10%;
+    margin-bottom: 10%;
   }
   .animacao-titulo {
     transition: transform 0.5s, letter-spacing 0.5s;
