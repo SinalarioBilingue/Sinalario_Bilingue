@@ -283,11 +283,15 @@ padding: 0;
 
 #RowEmail{
 padding: 0;
-}
 
+}
 #bottom{
-  margin-bottom: -19vw;
-  }
+  z-index: 1000;
+}
+.FundoFooter{
+  transform: translateY(-50%);
+  z-index: -1000;
+}
  
 
 #ColLinkedin,
