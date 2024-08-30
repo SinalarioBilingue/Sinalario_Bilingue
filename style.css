@@ -99,6 +99,12 @@ margin-bottom: 15%;
 margin-top: -15%;
 }
 
+@media (max-width: 1600px) {
+  .fundo-cabecalho img {
+    height: 200px;
+  }
+}
+
 @media (max-width: 500px) {
   .fundo-cabecalho{
     margin-top: -3%;
@@ -214,6 +220,9 @@ border-radius: 50px;
 
 .categorias{
   margin-bottom: 10vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30vw;
 }
 
 .TextoCategoriaUnidades, 
@@ -222,19 +231,16 @@ border-radius: 50px;
 .TextoCategoriaConceitos{
   background: rgb(241, 242, 248);
   border-radius: 70px;
-  padding: 2vw 7vw;
+  padding: 6vw 15vw;
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 5vw;
+  font-size: 6vw;
+  margin-left: -5%;
+  margin-bottom: 5%;
   text-align: center;
   transition: 0.5s;
-  margin-left: 2vw;
-  max-width: 35vw;
-}
-
-.TextoCategoriaConceitos{
-  margin-left: 3.5vw;
+  max-width: 100vw;
 }
 
 .TextoCategoriaUnidades:hover, 
@@ -249,7 +255,7 @@ border-radius: 50px;
 }
 
 .VideoCategoria {
-  height: 25vw;
+  height: 40vw;
   margin-right: 2vw;
   border-radius: 50px;
 }
@@ -331,17 +337,12 @@ padding-right: 6vw;
     margin-bottom: -30vh;
   }
 }
+
 @media (max-width: 1600px) {
   #bottom {
     margin-bottom: -40vh;
   }
 }
-
-
-/* Regra para larguras de tela menores ou iguais a 2000px */
-
-
-
 
 @media (max-width: 500px){
   #bottom{
