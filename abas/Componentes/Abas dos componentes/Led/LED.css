@@ -102,9 +102,7 @@ html, body {
       }
   }
   @media (max-width: 768px) {
-    .txt-conceito {
-        font-size: 4vw; 
-    }
+    
   .txt-conceito,
   .txt-exemplo{
       font-size: 6vw; 
