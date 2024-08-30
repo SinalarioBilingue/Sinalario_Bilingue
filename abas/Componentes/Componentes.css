@@ -7,323 +7,293 @@ html, body {
     box-sizing: border-box;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
   
-  }
+/*******************************************************************************************************
+                                                  cabeçalho
+*******************************************************************************************************/
+
+.cabecalho {
+  position: relative;
+  text-align: center;
+}
   
-  .cabecalho {
-    position: relative; /* Mantém o contexto para posicionamento absoluto do título */
-    text-align: center;
-  }
+.titulo-wrapper {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
   
-  .titulo-wrapper {
-    position: absolute;
-    top: 15%; /* Ajuste para mover o título mais para cima se necessário */
-    left: 50%;
-    transform: translateX(-50%); /* Centraliza o título horizontalmente */
-  }
+.titulo {
+  font-size: 4vw;
+  text-align: center;
+  margin: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #000;
+  letter-spacing: 0.10em;
+  transition: transform 0.5s, letter-spacing 0.5s; 
+}
   
+.titulo:hover{
+  transform: scale(1.05); 
+  letter-spacing: 0.15em;
+}
+  
+.back-button {
+  background-color: transparent;
+  color: black; 
+  border: none; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 280%; 
+  font-family: "Bebas Neue", sans-serif;
+  position: absolute;
+  left: 10%; 
+  cursor: pointer; 
+  z-index: 1100; 
+  top: 10%;
+  transition: transform 0.3s;
+}
+  
+.back-button:hover {
+  transform: scale(1.1);
+}
+  
+.Logo {
+  position: absolute; 
+  top: 15%; 
+  right: 5%; 
+  z-index: 1000; 
+  transition: transform 0.3s;
+}
+  
+.Logo:hover {
+  transform: scale(1.1);
+}
+  
+.Logo img {
+  width: 15vw; 
+  max-width: 80vw; 
+  height: auto; 
+}
+
+@media (max-width: 768px) {
   .titulo {
-    font-size: 4vw;
-    text-align: center;
-    margin: 0;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #000;
-    letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
-    transition: transform 0.5s, letter-spacing 0.5s; /* Define a duração da animação */
-  
+    font-size: 7vw; 
+    margin-top: 5%;
   }
   
-  .titulo:hover{
-    transform: scale(1.05); /* Aumenta o tamanho do texto ao passar o mouse */
-    letter-spacing: 0.15em; /* Aumenta o espaçamento entre letras */
+  .back-button{
+    font-size: 7vw; 
+    top: 4.5vw;
+    left: 5%;
+    height: 20%;
+    transform: scale(0.6);
   }
-  
-  .back-button {
-    background-color: transparent;
-    color: black; 
-    border: none; 
-    padding: 10px 20px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block;
-    font-size: 280%; 
-    font-family: "Bebas Neue", sans-serif;
-    position: absolute;
-    left: 10%; 
-    cursor: pointer; 
-    z-index: 1100; 
-    top: 10%;
-    transition: transform 0.3s; /* Transição para o tamanho */
-  }
-  
-  .back-button:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
-  }
-  
-  #ScrollTopButton {
-    position: fixed;
-    background-color: rgb(14, 229, 14);
-    width: 60px;
-    height: 60px;
-    padding: 8px;
-    bottom: 30px;
-    right: 30px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-    transition: bottom 200ms, transform 200ms;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  #ScrollTopButton:hover {
-    bottom: 35px;
-  }
-  
-  #ScrollTopButton span {
-    transition: 0.2s ease-out;
-    color: black;
-    font-size: 3rem;
-  }
-  
-  #ScrollTopButton:hover span {
-    transform: translateY(-4px);
-  }
-  
   
   .Logo {
-    position: absolute; 
-    top: 15%; 
-    right: 5%; 
-    z-index: 1000; 
-    transition: transform 0.3s;
+    top: 19.5%;
+    right: 3%;
   }
-  
-  .Logo:hover {
-    transform: scale(1.1);
-  }
-  
+    
   .Logo img {
-    width: 15vw; 
-    max-width: 80vw; 
-    height: auto; 
+    width: 25vw; 
   }
   
-  
-  @media (max-width: 768px) {
-    .titulo {
-        font-size: 7vw; 
-        margin-top: 5%;
-    }
-  
-    .back-button{
-      font-size: 7vw; 
-      top: 4.5vw;
-      left: 5%;
-      height: 20%;
-      transform: scale(0.6);
-    }
-  
-    .Logo {
-      top: 19.5%;
-      right: 3%;
-    }
-    
-    .Logo img {
-        width: 25vw; 
-      }
-  
-    .back-button{
-      left: 0%;
-    }
+  .back-button{
+    left: 0%;
   }
+}
   
-  
-  @media (max-width: 768px) {
-    .videos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column; /* Ajusta a direção dos itens se necessário */
-    }
-  
-    .animacao-titulo {
-        font-size: 7vw; /* Ajusta o tamanho do texto para telas menores */
-    }
-  }
-  
-  
-  .imgs {
+   
+/*******************************************************************************************************
+                                                  lista de componentes
+*******************************************************************************************************/  
+.imgs {
   margin-top: 5%;
-  }
-  /* Estilo geral do contêiner de vídeo */
-  .videos {
-  display: flex; /* Define o contêiner como flexível */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100%; /* Garante que o contêiner tenha altura suficiente */
-  margin-top: 5%;
-  }
+}
   
-  /* Estilo do vídeo */
-  .videos video {
+.videos {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%;
+  margin-top: 5%;
+}
+  
+.videos video {
   border-radius: 50px;
+}
+  
+.row {
+  align-items: center;
+  margin-top: 10%;
+}
+  
+a.btn-link {
+  text-decoration: none !important;
+}
+
+  
+.animacao-titulo {
+  background: rgb(241, 242, 248);
+  border-radius: 70px;
+  border: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10em;
+  transition: 0.5s;
+  box-sizing: border-box;
+  padding: 2vw 2vw;
+}
+
+.animacao-titulo:hover {
+  letter-spacing: 0.03em;
+  background-color: rgb(169, 232, 169);
+  box-shadow: 0 0 35px rgb(14, 229, 14);
+  max-height: 100vw;
+}
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false; 
+}
+  
+#ColBasicos {
+  top: -5vh;
+}
+  
+#ColBasicos, 
+#ColIntermediarios, 
+#ColAvançados {
+  height: 16vh;
+  overflow: hidden;
+  border-radius: 50px;
+  background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
+  animation: 2s spin linear infinite;
+}
+  
+@keyframes spin{
+  from{
+      --angle: 0deg;
+  }
+  to{
+      --angle: 360deg;
+  }
+}
+  
+#ColBasicos:after,
+#ColIntermediarios:after, 
+#ColAvançados:after{
+  margin-top: 1.5vh;
+  transform: translateX(-0.5%);
+  height: 80%;
+  width: 101%;
+  background-color: white;
+  border-radius: 50px;
+  display: grid;
+  place-items: center;
+  font-size: 7vh;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.15vw;
+  color: black;
+}
+
+#ColBasicos:after {
+  content: "BÁSICOS";
+}
+  
+#ColIntermediarios:after {
+  content: "INTERMEDIÁRIOS";
+}
+  
+#ColAvançados:after {
+  content: "AVANÇADOS";
+}
+
+@media (max-width: 768px) {
+  .videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
-  .row {
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    margin-top: 10%;
-  }
-  
-  a.btn-link {
-    text-decoration: none !important; /* Remove o sublinhado do link */
-    
-  }
-  
-  /* Estilo da animação-titulo */
   .animacao-titulo {
-    background: rgb(241, 242, 248);
-    border-radius: 70px;
-    border: none;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 10em;
-    transition: 0.5s;
-    box-sizing: border-box;
-    padding: 2vw 2vw;
+    font-size: 7vw;
+    padding: 6vw 15vw;
+    max-width: 100vw;
+  }
+}  
+
+@media (max-width: 500px) {
+  #ColBasicos{
+    height: 9vh;
   }
   
-  /* Estilo para quando o link é hover */
-  
-  
-  .animacao-titulo:hover {
-    letter-spacing: 0.03em;
-    background-color: rgb(169, 232, 169);
-    box-shadow: 0 0 35px rgb(14, 229, 14);
-    max-height: 100vw;
+  #ColBasicos::after{
+    font-size: 4vh;
+    margin-top: 0.9vh;
+    width: 103%;
+    transform: translateX(-1.5%);
   }
   
-  
-  
-  @property --angle{
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false; 
+  #ColIntermediarios{
+    height: 9vh;
   }
   
-  #ColBasicos {
-    top: -5vh;
+  #ColIntermediarios:after{
+    font-size: 4vh;
+    margin-top: 0.9vh;
+    width: 103%;
+    transform: translateX(-1.5%);
   }
   
-  .animacao3 {
-    top: 328%;
+  #ColAvançados{
+    height: 9vh;
   }
-  
-  #ColBasicos, 
-  #ColIntermediarios, 
-  #ColAvançados {
-    height: 16vh;
-    overflow: hidden;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 2s spin linear infinite;
-  }
-  
-  @keyframes spin{
-    from{
-        --angle: 0deg;
-    }
-    to{
-        --angle: 360deg;
-    }
-  }
-  
-  #ColBasicos:after {
-    content: "BÁSICOS";
-    margin-top: 1.5vh;
-    transform: translateX(-0.5%);
-    height: 80%;
-    width: 101%;
-    background-color: white;
-    border-radius: 50px;
-    display: grid;
-    place-items: center;
-    font-size: 7vh;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.15vw;
-    color: black;
-  }
-  
-  #ColIntermediarios:after {
-    content: "INTERMEDIÁRIOS";
-    margin-top: 1.5vh;
-    transform: translateX(-0.5%);
-    height: 80%;
-    width: 101%;
-    background-color: white;
-    border-radius: 50px;
-    display: grid;
-    place-items: center;
-    font-size: 7vh;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.15vw;
-    color: black;
-  }
-  
-  #ColAvançados:after {
-    content: "AVANÇADOS";
-    margin-top: 1.5vh;
-    transform: translateX(-0.5%);
-    height: 80%;
-    width: 101%;
-    background-color: white;
-    border-radius: 50px;
-    display: grid;
-    place-items: center;
-    font-size: 7vh;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.15vw;
-    color: black;
-  }
-  
-  @media (max-width: 500px) {
-    #ColBasicos{
-      height: 9vh;
-    }
-  
-    #ColBasicos::after{
-      font-size: 4vh;
-      margin-top: 0.9vh;
-      width: 103%;
-      transform: translateX(-1.5%);
-    }
-  
-    #ColIntermediarios{
-      height: 9vh;
-    }
-  
-    #ColIntermediarios:after{
-      font-size: 4vh;
-      margin-top: 0.9vh;
-      width: 103%;
-      transform: translateX(-1.5%);
-    }
-  
-    #ColAvançados{
-      height: 9vh;
-    }
     
-    #ColAvançados:after{
-      font-size: 4vh;
-      margin-top: 0.9vh;
-      width: 103%;
-      transform: translateX(-1.5%);
-    }
+  #ColAvançados:after{
+    font-size: 4vh;
+    margin-top: 0.9vh;
+    width: 103%;
+    transform: translateX(-1.5%);
   }
+}
   
+#ScrollTopButton {
+  position: fixed;
+  background-color: rgb(14, 229, 14);
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  transition: bottom 200ms, transform 200ms;
+  cursor: pointer;
+  text-decoration: none;
+}
   
+#ScrollTopButton:hover {
+  bottom: 35px;
+}
   
+#ScrollTopButton span {
+  transition: 0.2s ease-out;
+  color: black;
+  font-size: 3rem;
+}
   
+#ScrollTopButton:hover span {
+  transform: translateY(-4px);
+}  

@@ -14,89 +14,89 @@ html, body {
 *******************************************************************************************************/
 
 .fundo-cabecalho{
-position: fixed;
-z-index: 1;
+  position: fixed;
+  z-index: 1;
 }
 
 .sobre {
-background-color: transparent;
-color: black; /* Cor do texto */
-border: none; /* Remove bordas */  
-text-align: center; /* Alinha o texto */
-top: 6%;
-text-decoration: none; /* Remove sublinhado */
-display: inline-block;
-font-family: "Bebas Neue", sans-serif;
-font-size: 2.5vw;
-position: fixed;
-left: 5%; /* Distância da esquerda (anteriormente right) */
-cursor: pointer; /* Muda o cursor ao passar o mouse */
-z-index: 2; /* Garante que o botão fique sobre outros conteúdos */
-letter-spacing: 0.10em;
-transition: 0.5s;
+  background-color: transparent;
+  color: black; /* Cor do texto */
+  border: none; /* Remove bordas */  
+  text-align: center; /* Alinha o texto */
+  top: 6%;
+  text-decoration: none; /* Remove sublinhado */
+  display: inline-block;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5vw;
+  position: fixed;
+  left: 5%; /* Distância da esquerda (anteriormente right) */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  z-index: 2; /* Garante que o botão fique sobre outros conteúdos */
+  letter-spacing: 0.10em;
+  transition: 0.5s;
 }
 
 .sobre:hover {
-transform: scale(1.2); /* Aumenta o tamanho do texto ao passar o mouse */
+  transform: scale(1.2); /* Aumenta o tamanho do texto ao passar o mouse */
 }
 
 .NomeSite {
-top: 2%; /* Ajuste para mover o título mais para cima se necessário */
-left: 50%;
-transform: translateX(-50%); /* Centraliza o título horizontalmente */
-position: fixed;
-z-index: 2;
-font-size: 3.5vw;
-text-align: center;
-font-family: 'Bebas Neue', sans-serif;
-color: #000;
-letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
-transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+  top: 2%; /* Ajuste para mover o título mais para cima se necessário */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza o título horizontalmente */
+  position: fixed;
+  z-index: 2;
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #000;
+  letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
+  transition: transform 0.3s ease-in-out; /* Suaviza a transição */
 }
 
 .NomeSite:hover {
-transform: translateX(-50%) scale(1.1);
+  transform: translateX(-50%) scale(1.1);
 }
 
 .logo {
-width: 15vw;
-max-width: 80vw;
-height: auto;
-top: 5%; 
-right: 5%; 
-z-index: 2; 
-transition: transform 0.3s;
-position: fixed;
+  width: 15vw;
+  max-width: 80vw;
+  height: auto;
+  top: 5%; 
+  right: 5%; 
+  z-index: 2; 
+  transition: transform 0.3s;
+  position: fixed;
 }
 
 .logo:hover {
-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .apresentacao {
-text-align: center;
-margin-top: 25%;
-margin-bottom: 10%;
+  text-align: center;
+  margin-top: 25%;
+  margin-bottom: 10%;
 }
 
 .enunciado {
-font-family: 'Bebas Neue', sans-serif;
-font-size: 3vw;
-color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3vw;
+  color: black;
 }
 
 .videoapresentacao {
-height: 25vw;
-border-radius: 50px;
+  height: 25vw;
+  border-radius: 50px;
 }
 
 .divisoria, .divisoria2 {
-margin-bottom: 15%;
+  margin-bottom: 15%;
 
 }
 
 .divisoria{
-margin-top: -15%;
+  margin-top: -15%;
 }
 
 @media (max-width: 1600px) {
@@ -158,55 +158,55 @@ margin-top: -15%;
 
 
 .container-fluid{
-margin-top: -10vw;
-margin-bottom: 12vh;
+  margin-top: -8vw;
+  margin-bottom: 12vh;
 }
 
 .row{
-padding-bottom: 5vw;
+  padding-bottom: 5vw;
 }
 
 .categorias{
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .TextoCategoriaUnidades, 
 .TextoCategoriaEquipamentos, 
 .TextoCategoriaComponentes, 
 .TextoCategoriaConceitos{
-background: rgb(241, 242, 248);
-border-radius: 70px;
-padding: 1vw 4vw;
-text-decoration: none;
-color: rgb(0, 0, 0);
-font-family: "Bebas Neue", sans-serif;
-font-size: 2.5vw;
-text-align: center;
-transition: 0.5s;
-margin-left: 2vw;
-max-width: 20vw;
+  background: rgb(241, 242, 248);
+  border-radius: 70px;
+  padding: 1vw 4vw;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5vw;
+  text-align: center;
+  transition: 0.5s;
+  margin-left: 2vw;
+  max-width: 20vw;
 }
 
 .TextoCategoriaConceitos{
-margin-left: 3.5vw;
+  margin-left: 3.5vw;
 }
 
 .TextoCategoriaUnidades:hover, 
 .TextoCategoriaEquipamentos:hover, 
 .TextoCategoriaComponentes:hover, 
 .TextoCategoriaConceitos:hover{
-color: black;
-text-decoration: none;
-letter-spacing: 0.15vw;
-background-color: rgb(169, 232, 169);
-box-shadow: 0 0 35px rgb(14, 229, 14);
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.15vw;
+  background-color: rgb(169, 232, 169);
+  box-shadow: 0 0 35px rgb(14, 229, 14);
 }
 
 .VideoCategoria {
-height: 13vw;
-border-radius: 50px;
+  height: 13vw;
+  border-radius: 50px;
 }
 
 @media (max-width: 500px){
@@ -232,15 +232,15 @@ border-radius: 50px;
   background: rgb(241, 242, 248);
   border-radius: 70px;
   padding: 6vw 15vw;
+  max-width: 100vw;
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 6vw;
+  font-size: 10em;
   margin-left: -5%;
   margin-bottom: 5%;
   text-align: center;
   transition: 0.5s;
-  max-width: 100vw;
 }
 
 .TextoCategoriaUnidades:hover, 
