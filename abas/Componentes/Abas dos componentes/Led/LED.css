@@ -108,6 +108,7 @@ html, body {
   .txt-conceito,
   .txt-exemplo{
       font-size: 6vw; 
+      margin-bottom: 10%;
   }
   
     .animacao-titulo h2 {
