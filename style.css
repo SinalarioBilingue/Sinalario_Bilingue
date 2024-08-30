@@ -20,38 +20,38 @@ html, body {
 
 .sobre {
   background-color: transparent;
-  color: black; /* Cor do texto */
-  border: none; /* Remove bordas */  
-  text-align: center; /* Alinha o texto */
+  color: black; 
+  border: none; 
+  text-align: center; 
   top: 6%;
-  text-decoration: none; /* Remove sublinhado */
+  text-decoration: none; 
   display: inline-block;
   font-family: "Bebas Neue", sans-serif;
   font-size: 2.5vw;
   position: fixed;
-  left: 5%; /* Distância da esquerda (anteriormente right) */
-  cursor: pointer; /* Muda o cursor ao passar o mouse */
-  z-index: 2; /* Garante que o botão fique sobre outros conteúdos */
+  left: 5%;
+  cursor: pointer; 
+  z-index: 2; 
   letter-spacing: 0.10em;
   transition: 0.5s;
 }
 
 .sobre:hover {
-  transform: scale(1.2); /* Aumenta o tamanho do texto ao passar o mouse */
+  transform: scale(1.2); 
 }
 
 .NomeSite {
-  top: 2%; /* Ajuste para mover o título mais para cima se necessário */
+  top: 2%; 
   left: 50%;
-  transform: translateX(-50%); /* Centraliza o título horizontalmente */
+  transform: translateX(-50%);
   position: fixed;
   z-index: 2;
   font-size: 3.5vw;
   text-align: center;
   font-family: 'Bebas Neue', sans-serif;
   color: #000;
-  letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
-  transition: transform 0.3s ease-in-out; /* Suaviza a transição */
+  letter-spacing: 0.10em; 
+  transition: transform 0.3s ease-in-out; 
 }
 
 .NomeSite:hover {
@@ -76,13 +76,19 @@ html, body {
 .apresentacao {
   text-align: center;
   margin-top: 25%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 .enunciado {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 3vw;
   color: black;
+  box-shadow: 7px 7px 10px #a7d3b4; /* Sombra na direita e embaixo */
+  border-width: 5vw;
+  border-style: solid; 
+  border-color: green; 
+  border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
+  margin-bottom: 7%;
 }
 
 .videoapresentacao {
@@ -129,7 +135,8 @@ html, body {
   }
 
 .enunciado{
-    font-size: 6vw; 
+    font-size: 8vw;
+    margin-bottom: 10%;
 }
 
 .videoapresentacao {
@@ -211,7 +218,7 @@ html, body {
 
 @media (max-width: 500px){
 .container-fluid{
-  margin-top: -33vw;
+  margin-top: -10vw;
 }
 
 .row{
@@ -236,11 +243,11 @@ html, body {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 10em;
-  margin-left: -5%;
-  margin-bottom: 5%;
+  font-size: 8vw;
+  margin-bottom: 10%;
   text-align: center;
   transition: 0.5s;
+  margin-left: 0%;
 }
 
 .TextoCategoriaUnidades:hover, 
@@ -256,7 +263,6 @@ html, body {
 
 .VideoCategoria {
   height: 40vw;
-  margin-right: 2vw;
   border-radius: 50px;
 }
 }
