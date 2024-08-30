@@ -1,84 +1,66 @@
-html, 
-body,
-.body {
+/* Garante que o body e html ocupem toda a altura e largura da viewport */
+html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    max-width: 100vw;
-    overflow-x: hidden; /* Evita rolagem horizontal, se necessário */
-    background-color: rgb(255, 255, 255);
-    position: relative; /* Define o corpo como relativo para que os itens sejam posicionados em relação a ele */
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
     scroll-behavior: smooth;
-}
-
-.fundo-cabecalho {
-    background: url('/abas/Componentes/img/peak2.0.png') no-repeat center center;
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Organiza os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 130vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
-    z-index: 0; /* Certifique-se de que o cabeçalho tenha um z-index menor */
-    margin-top: -50%;
-    transform: scaleY(0.3);  /* Achata a imagem verticalmente */
-}
-
-.cabecalho {
-    position: relative; /* Posiciona o SVG em relação ao contêiner pai */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Organiza os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    z-index: 1000; /* Garante que o svg-container fique na frente do cabeçalho */
-    top: 3%;    
-    width: 100vw; /* Garante que o contêiner preencha a largura da viewport */
-    height: 50vh; /* Ajusta a altura do contêiner para preencher a tela e mais */
-    letter-spacing: 0.25em;
-
-}
-
-.nome-categoria {
+  
+  }
+  
+  .cabecalho {
+    position: relative; /* Mantém o contexto para posicionamento absoluto do título */
+    text-align: center;
+  }
+  
+  .titulo-wrapper {
     position: absolute;
-    top: 0%; /* Ajusta a distância do topo */
+    top: 15%; /* Ajuste para mover o título mais para cima se necessário */
     left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente o texto */
-    color: black;
-    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center; /* Garante que o texto esteja centralizado dentro do próprio contêiner */
-}
-
-.Logo {
-    position: absolute; /* Posiciona o logo em relação ao contêiner pai */
-    top: -2%; /* Distância do topo */
-    right: 9%; /* Distância da direita (anteriormente left) */
-    z-index: 1000; /* Garante que a Logo fique na frente do cabeçalho */
-}
-
-.Logo img {
-    max-width: 250px; /* Define um tamanho máximo para a logo */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-.back-button {
+    transform: translateX(-50%); /* Centraliza o título horizontalmente */
+  }
+  
+  .titulo {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
+    transition: transform 0.5s, letter-spacing 0.5s; /* Define a duração da animação */
+  
+  }
+  
+  .titulo:hover{
+    transform: scale(1.05); /* Aumenta o tamanho do texto ao passar o mouse */
+    letter-spacing: 0.15em; /* Aumenta o espaçamento entre letras */
+  }
+  
+  .back-button {
     background-color: transparent;
-    color: black; /* Cor do texto */
-    border: none; /* Remove bordas */
-    padding: 10px 20px; /* Espessura do botão */
-    text-align: center; /* Alinha o texto */
-    text-decoration: none; /* Remove sublinhado */
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
     display: inline-block;
-    font-size: 280%; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 280%; 
     font-family: "Bebas Neue", sans-serif;
     position: absolute;
-    left: 10%; /* Distância da esquerda (anteriormente right) */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    z-index: 1100; /* Garante que o botão fique sobre outros conteúdos */
-}
-
-#ScrollTopButton {
+    left: 10%; 
+    cursor: pointer; 
+    z-index: 1100; 
+    top: 10%;
+    transition: transform 0.3s; /* Transição para o tamanho */
+  }
+  
+  .back-button:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+  
+  #ScrollTopButton {
     position: fixed;
     background-color: rgb(14, 229, 14);
     width: 60px;
@@ -94,199 +76,244 @@ body,
     transition: bottom 200ms, transform 200ms;
     cursor: pointer;
     text-decoration: none;
-}
-
-#ScrollTopButton:hover {
+  }
+  
+  #ScrollTopButton:hover {
     bottom: 35px;
-}
-
-#ScrollTopButton span {
+  }
+  
+  #ScrollTopButton span {
     transition: 0.2s ease-out;
     color: black;
     font-size: 3rem;
-}
-
-#ScrollTopButton:hover span {
+  }
+  
+  #ScrollTopButton:hover span {
     transform: translateY(-4px);
-}
-
-.niveis {
-    position: relative;
-    width: 100%;
-    max-width: 100vw;
-    height: 200vh; /* Ajusta a altura para preencher a viewport */
-    display: flex;
-    flex-direction: column;
-}
-
-@property --angle{
+  }
+  
+  
+  .Logo {
+    position: absolute; 
+    top: 15%; 
+    right: 5%; 
+    z-index: 1000; 
+    transition: transform 0.3s;
+  }
+  
+  .Logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .Logo img {
+    width: 15vw; 
+    max-width: 80vw; 
+    height: auto; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .titulo {
+        font-size: 7vw; 
+        margin-top: 5%;
+    }
+  
+    .back-button{
+      font-size: 7vw; 
+      top: 4.5vw;
+      left: 5%;
+      height: 20%;
+      transform: scale(0.6);
+    }
+  
+    .Logo {
+      top: 19.5%;
+      right: 3%;
+    }
+    
+    .Logo img {
+        width: 25vw; 
+      }
+  
+    .back-button{
+      left: 0%;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .videos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Ajusta a direção dos itens se necessário */
+    }
+  
+    .animacao-titulo {
+        font-size: 7vw; /* Ajusta o tamanho do texto para telas menores */
+    }
+  }
+  
+  
+  .imgs {
+  margin-top: 5%;
+  }
+  /* Estilo geral do contêiner de vídeo */
+  .videos {
+  display: flex; /* Define o contêiner como flexível */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100%; /* Garante que o contêiner tenha altura suficiente */
+  margin-top: 5%;
+  }
+  
+  /* Estilo do vídeo */
+  .videos video {
+  border-radius: 50px;
+  }
+  
+  .row {
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    margin-top: 10%;
+  }
+  
+  
+  .animacao-titulo{
+  background: rgb(241, 242, 248);
+  border-radius: 70px;
+  padding: 2vw 2vw;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  transition: 0.5s;
+  box-sizing: border-box;
+  }
+  
+  .animacao-titulo:hover {
+  letter-spacing: 0.03em;
+  background-color: rgb(169, 232, 169);
+  box-shadow: 0 0 35px rgb(14, 229, 14);
+  }
+  
+  
+  @property --angle{
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false; 
-}
-
-.animacao1 {
-    top: -130%;
-}
-
-.animacao2 {
-    top: 134%;
-}
-
-.animacao3 {
+  }
+  
+  #ColBasicos {
+    top: -5vh;
+  }
+  
+  .animacao3 {
     top: 328%;
-}
-
-.animacao1, 
-.animacao2, 
-.animacao3 {
-    height: 100%;
-    max-height: 100px;
-    width: 100%;
-    max-width: 1000px;
-    position: absolute;
-    margin: auto;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  }
+  
+  #ColBasicos, 
+  #ColIntermediarios, 
+  #ColAvançados {
+    height: 16vh;
     overflow: hidden;
     border-radius: 50px;
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.animacao1:before,
-.animacao2:before, 
-.animacao3:before {
-    content: "";
     background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    width: 150%; 
-    height: 150%;
-    position: absolute;
-    left: -25%;
-    top: -25%;
-    animation: 3s spin linear infinite;
-}
-
-@keyframes spin{
+    animation: 2s spin linear infinite;
+  }
+  
+  @keyframes spin{
     from{
         --angle: 0deg;
     }
     to{
         --angle: 360deg;
     }
-}
-
-.animacao1:after {
+  }
+  
+  #ColBasicos:after {
     content: "BÁSICOS";
+    margin-top: 1.5vh;
+    transform: translateX(-0.5%);
     height: 80%;
-    width: 97.5%;
-    position: absolute;
+    width: 101%;
     background-color: white;
     border-radius: 50px;
-    top: 10%;
-    left: 1.25%;
     display: grid;
     place-items: center;
-    font-size: 3em;
-    letter-spacing: 6px;
-    color: black;
-}
-
-.animacao2:after {
-    content: "INTERMEDIÁRIOS";
-    height: 80%;
-    width: 97.5%;
-    position: absolute;
-    background-color: white;
-    border-radius: 50px;
-    top: 10%;
-    left: 1.25%;
-    display: grid;
-    place-items: center;
-    font-size: 3em;
-    letter-spacing: 6px;
-    color: black;
-}
-
-.animacao3:after {
-    content: "AVANÇADOS";
-    height: 80%;
-    width: 97.5%;
-    position: absolute;
-    background-color: white;
-    border-radius: 50px;
-    top: 10%;
-    left: 1.25%;
-    display: grid;
-    place-items: center;
-    font-size: 3em;
-    letter-spacing: 6px;
-    color: black;
-}
-
-.division {
-    display: flex;
-    width: 76%;
-    max-width: 76%;
-    height: 50%;
-    justify-content: space-evenly; /* Distribui o vídeo e o texto */
-    align-items: center; /* Alinha verticalmente */
-    margin-top: -8%;
-}
-
-.video {
-    width: 25vw;
-    max-width: 25vw;
-    height: 50%;
-    border-radius: 50px;
-    margin-right: -5%;
-    margin-left: 5%;
-    padding: 0;
-}
-
-.texto {
-    border-radius: 70px;
-    border: none;
+    font-size: 7vh;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5em;
-    transition: 0.5s;
-    width: 50%; /* Aumente este valor para expandir a largura */
-    max-width: 50%; /* Ajuste também a largura máxima */
-    box-sizing: border-box;
-    padding: 3%;
-    cursor: pointer;
-}
-
-.texto:hover {
-    letter-spacing: 0.15em;
-    background-color: rgb(169, 232, 169);
-    box-shadow: 0 0 35px rgb(14, 229, 14);
-    max-height: 150vw;
-}
-
-.categorias,
-.categorias2,
-.categorias3{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly ;
-    align-items: center; /* Alinha verticalmente */
-}
-
-.categorias, .categorias2 {
-    margin-bottom: 25%;
-}
-
-.page{
-    display: none;
-}
-
-.page.active{
-    display: block;
-}
-
-.imagens{
-    transform: scale(0.5); /* Equal to scaleX(0.7) scaleY(0.7) */
-}
-
+    letter-spacing: 0.15vw;
+    color: black;
+  }
+  
+  #ColIntermediarios:after {
+    content: "INTERMEDIÁRIOS";
+    margin-top: 1.5vh;
+    transform: translateX(-0.5%);
+    height: 80%;
+    width: 101%;
+    background-color: white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 7vh;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.15vw;
+    color: black;
+  }
+  
+  #ColAvançados:after {
+    content: "AVANÇADOS";
+    margin-top: 1.5vh;
+    transform: translateX(-0.5%);
+    height: 80%;
+    width: 101%;
+    background-color: white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 7vh;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.15vw;
+    color: black;
+  }
+  
+  @media (max-width: 500px) {
+    #ColBasicos{
+      height: 9vh;
+    }
+  
+    #ColBasicos::after{
+      font-size: 4vh;
+      margin-top: 1vh;
+      width: 103%;
+      transform: translateX(-1.5%);
+    }
+  
+    #ColIntermediarios{
+      height: 9vh;
+    }
+  
+    #ColIntermediarios:after{
+      font-size: 4vh;
+      margin-top: 1vh;
+      width: 103%;
+      transform: translateX(-1.5%);
+    }
+  
+    #ColAvançados{
+      height: 9vh;
+    }
+  
+    #ColAvançados:after{
+      font-size: 4vh;
+      margin-top: 1vh;
+      width: 103%;
+      transform: translateX(-1.5%);
+    }
+  }
+  
+  
+  
+  

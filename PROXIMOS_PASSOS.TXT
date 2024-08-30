@@ -11,18 +11,21 @@
 
     [] - Tela de escolha (
 
-        [] - Tela componentes (Gui)
+        [X] - Tela componentes (Gui)
         [X] - Tela unidades (Maicon)
         [X] - Tela equipamentos (Maicon)
-        [] - Tela conceitos (Gui)
+        [] - Tela conceitos (Gui){
+            terminar de ajustar as imagens, indexar as certas
+        }
 
     )
 
     [X] - Tela componentes
-
 )
 
 [] - Fazer a parte dos conceitos utilizados
+
+[] - Indexar os htmls dos itens
 
 [] - Refazer o roteiro para enviar para o vini.
    
