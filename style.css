@@ -285,13 +285,7 @@ padding: 0;
 padding: 0;
 
 }
-#bottom{
-  z-index: 1000;
-}
-.FundoFooter{
-  transform: translateY(-50%);
-  z-index: -1000;
-}
+
  
 
 #ColLinkedin,
