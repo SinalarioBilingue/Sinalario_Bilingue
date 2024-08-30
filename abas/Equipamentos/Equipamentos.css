@@ -145,11 +145,11 @@ html, body {
         flex-direction: column; /* Ajusta a direção dos itens se necessário */
     }
 
-    .animacao-titulo {
-        font-size: 7vw;
-        padding: 6vw 15vw;
-        max-width: 100vw;
-    }
+    .animacao-titulo h2{
+      font-size: 7vw;
+      padding: 4vw 10vw;
+      max-width: 100vw;
+  }
 }
 
 

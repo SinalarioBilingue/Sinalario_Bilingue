@@ -91,8 +91,7 @@ html, body {
 #ScrollTopButton:hover span {
     transform: translateY(-4px);
 }
-  
-  
+
   .Logo {
     position: absolute; 
     top: 15%; 
@@ -144,9 +143,9 @@ html, body {
         flex-direction: column; /* Ajusta a direção dos itens se necessário */
     }
 
-    .animacao-titulo {
+    .animacao-titulo h2{
         font-size: 7vw;
-        padding: 8vw 15vw;
+        padding: 4vw 10vw;
         max-width: 100vw;
     }
 }
@@ -165,8 +164,6 @@ html, body {
  border-radius: 50px;
 }
 
-
-
 .row {
     align-items: center; /* Alinha os itens verticalmente no centro */
     margin-top: 10%;
@@ -177,7 +174,6 @@ a.btn-link {
   
 }
 
-/* Estilo da animação-titulo */
 .animacao-titulo {
   background: rgb(241, 242, 248);
   border-radius: 70px;
@@ -190,9 +186,6 @@ a.btn-link {
   box-sizing: border-box;
   padding: 2vw 2vw;
 }
-
-/* Estilo para quando o link é hover */
-
 
 .animacao-titulo:hover {
   letter-spacing: 0.03em;

@@ -224,9 +224,9 @@ a.btn-link {
     flex-direction: column;
   }
   
-  .animacao-titulo {
+  .animacao-titulo h2{
     font-size: 7vw;
-    padding: 6vw 15vw;
+    padding: 4vw 10vw;
     max-width: 100vw;
   }
 }  
