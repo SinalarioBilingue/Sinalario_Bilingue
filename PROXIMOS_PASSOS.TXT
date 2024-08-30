@@ -5,16 +5,16 @@
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
 
-[] - Responsividade do Site (
+[X] - Responsividade do Site (
 
     [X] - Tela inicial
 
-    [] - Tela de escolha (
+    [X] - Tela de escolha (
 
         [X] - Tela componentes (Gui)
         [X] - Tela unidades (Maicon)
         [X] - Tela equipamentos (Maicon)
-        [] - Tela conceitos (Gui){
+        [X] - Tela conceitos (Gui){
             terminar de ajustar as imagens, indexar as certas
         }
 
@@ -27,7 +27,7 @@
 
 [] - Indexar os htmls dos itens
 
-[] - Refazer o roteiro para enviar para o vini.
+[X] - Refazer o roteiro para enviar para o vini.
    
 
 

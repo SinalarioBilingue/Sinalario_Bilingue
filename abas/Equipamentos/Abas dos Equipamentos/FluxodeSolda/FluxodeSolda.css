@@ -103,36 +103,38 @@ html, body {
       }
   }
   @media (max-width: 768px) {
-    .txt-conceito {
-        font-size: 4vw; 
-    }
-  .txt-exemplo{
-      font-size: 4vw; 
-  }
-  
-    .animacao-titulo h2 {
-        font-size: 6vw;
-    }
-  }
-  
-  @media (max-width: 768px) {
     
-    .video video {
-        width: 100%; 
-        height: 100%;
+    .txt-conceito,
+    .txt-exemplo{
+        font-size: 6vw; 
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
-  
-    .imgs img {
-        width: 60%; 
-        height: 60%;
-  
+    
+      .animacao-titulo h2 {
+          font-size: 6vw;
+      }
     }
-  }
-  
-.video,
-.imgs{
-  margin-top: 10%;
-}
+    
+    @media (max-width: 768px) {
+      
+      .video video {
+          width: 100%; 
+          height: 100%;
+      }
+    
+      .imgs img {
+          width: 80%; 
+          height: 80%;
+    
+      }
+    }
+    
+    .imgs,
+    .video{
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
 
   .animacao-titulo {
     transition: transform 0.5s, letter-spacing 0.5s;
