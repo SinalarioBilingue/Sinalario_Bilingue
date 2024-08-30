@@ -228,6 +228,11 @@ a.btn-link {
     font-size: 7vw;
     padding: 4vw 10vw;
     max-width: 100vw;
+    margin-top: 2%;
+  }
+
+  .animacao-titulo{
+    margin-bottom: 10%;
   }
 }  
 
