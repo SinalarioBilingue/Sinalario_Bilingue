@@ -145,10 +145,10 @@ html, body {
         flex-direction: column; /* Ajusta a direção dos itens se necessário */
     }
 
-
-
     .animacao-titulo {
-        font-size: 7vw; /* Ajusta o tamanho do texto para telas menores */
+        font-size: 7vw;
+        padding: 6vw 15vw;
+        max-width: 100vw;
     }
 }
 

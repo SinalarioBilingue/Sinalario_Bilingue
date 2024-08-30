@@ -151,6 +151,8 @@ html, body {
   
     .animacao-titulo {
         font-size: 7vw; /* Ajusta o tamanho do texto para telas menores */
+        padding: 6vw 15vw;
+        max-width: 100vw;
     }
   }
   
