@@ -105,6 +105,7 @@ html, body {
     .txt-conceito {
         font-size: 4vw; 
     }
+  .txt-conceito,
   .txt-exemplo{
       font-size: 6vw; 
   }
