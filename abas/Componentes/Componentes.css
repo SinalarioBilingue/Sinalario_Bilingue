@@ -108,10 +108,10 @@ html, body {
   }
 }
   
-   
 /*******************************************************************************************************
                                                   lista de componentes
 *******************************************************************************************************/  
+
 .imgs {
   margin-top: 5%;
 }
@@ -137,7 +137,6 @@ a.btn-link {
   text-decoration: none !important;
 }
 
-  
 .animacao-titulo {
   background: rgb(241, 242, 248);
   border-radius: 70px;
@@ -218,10 +217,7 @@ a.btn-link {
 
 @media (max-width: 768px) {
   .videos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-bottom: 5%;
   }
   
   .animacao-titulo h2{
@@ -233,6 +229,7 @@ a.btn-link {
 
   .animacao-titulo{
     margin-bottom: 10%;
+    margin-top: 10%;
   }
 }  
 
