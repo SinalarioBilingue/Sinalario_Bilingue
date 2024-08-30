@@ -286,7 +286,7 @@ html, body {
   
     #ColBasicos::after{
       font-size: 4vh;
-      margin-top: 1vh;
+      margin-top: 0.9vh;
       width: 103%;
       transform: translateX(-1.5%);
     }
@@ -297,7 +297,7 @@ html, body {
   
     #ColIntermediarios:after{
       font-size: 4vh;
-      margin-top: 1vh;
+      margin-top: 0.9vh;
       width: 103%;
       transform: translateX(-1.5%);
     }
@@ -308,7 +308,7 @@ html, body {
   
     #ColAvançados:after{
       font-size: 4vh;
-      margin-top: 1vh;
+      margin-top: 0.9vh;
       width: 103%;
       transform: translateX(-1.5%);
     }
