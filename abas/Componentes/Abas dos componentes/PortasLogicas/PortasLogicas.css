@@ -8,7 +8,9 @@ html, body {
     overflow-x: hidden;
   
   }
-  
+  .video{
+    margin-top: 10%;
+  }
   .cabecalho {
     position: relative; /* Mantém o contexto para posicionamento absoluto do título */
     text-align: center;
