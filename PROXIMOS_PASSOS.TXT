@@ -14,7 +14,9 @@
         [X] - Tela componentes (Gui)
         [X] - Tela unidades (Maicon)
         [X] - Tela equipamentos (Maicon)
-        [X] - Tela conceitos (Gui)
+        [X] - Tela conceitos (Gui){
+            terminar de ajustar as imagens, indexar as certas
+        }
 
     )
 
@@ -23,7 +25,7 @@
 
 [] - Fazer a parte dos conceitos utilizados
 
-[X] - Indexar os htmls dos itens
+[] - Indexar os htmls dos itens
 
 [X] - Refazer o roteiro para enviar para o vini.
    

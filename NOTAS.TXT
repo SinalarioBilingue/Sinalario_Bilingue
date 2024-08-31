@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------------------------------------------------------
+
+                                                    TOMAR CUIDADO:
+
+-------------------------------------------------------------------------------------------------------------------------------                                                    
+
+
+    Se mudar alguma coisas da ultima página precisa cuidar que o diretorio do CSS tá errado, precisa atualizar para que o 
+    diretorio do CSS sejá o do proprio componentes/equipamento/conceito/unidades. Por isso que talvez quando abra ele fique 
+    fora da formatação.
