@@ -1,172 +1,172 @@
-/* Garante que o body e html ocupem toda a altura e largura da viewport */
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  overflow-x: hidden;
-
-}
-
-.cabecalho {
-  position: relative; /* Mantém o contexto para posicionamento absoluto do título */
-  text-align: center;
-}
-
-.titulo-wrapper {
-  position: absolute;
-  top: 15%; /* Ajuste para mover o título mais para cima se necessário */
-  left: 50%;
-  transform: translateX(-50%); /* Centraliza o título horizontalmente */
-}
-
-.titulo {
-  font-size: 4vw;
-  text-align: center;
-  margin: 0;
-  font-family: 'Bebas Neue', sans-serif;
-  color: #000;
-  letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
-  transition: transform 0.5s, letter-spacing 0.5s; /* Define a duração da animação */
-
-}
-
-.titulo:hover{
-  transform: scale(1.05); /* Aumenta o tamanho do texto ao passar o mouse */
-  letter-spacing: 0.15em; /* Aumenta o espaçamento entre letras */
-}
-
-.back-button {
-  background-color: transparent;
-  color: black; 
-  border: none; 
-  padding: 10px 20px; 
-  text-align: center; 
-  text-decoration: none; 
-  display: inline-block;
-  font-size: 280%; 
-  font-family: "Bebas Neue", sans-serif;
-  position: absolute;
-  left: 10%; 
-  cursor: pointer; 
-  z-index: 1100; 
-  top: 10%;
-  transition: transform 0.3s; /* Transição para o tamanho */
-}
-
-.back-button:hover {
-  transform: scale(1.1); /* Aumenta o tamanho em 10% */
-}
-
-
-.Logo {
-  position: absolute; 
-  top: 15%; 
-  right: 5%; 
-  z-index: 1000; 
-  transition: transform 0.3s;
-}
-
-.Logo:hover {
-  transform: scale(1.1);
-}
-
-.Logo img {
-  width: 15vw; 
-  max-width: 80vw; 
-  height: auto; 
-}
-
-
-@media (max-width: 768px) {
-  .titulo {
-      font-size: 7vw; 
-      margin-top: 5%;
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
-  .back-button{
-    font-size: 7vw; 
-    top: 4.5vw;
-    left: 5%;
-    height: 20%;
-    transform: scale(0.6);
+  /*******************************************************************************************************
+                                                  cabeçalho
+  *******************************************************************************************************/
+
+  .cabecalho {
+    position: relative; 
+    text-align: center;
+  }
+
+  .titulo-wrapper {
+    position: absolute;
+    top: 15%; 
+    left: 50%;
+    transform: translateX(-50%); 
+  }
+
+  .titulo {
+    font-size: 2.9vw;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    letter-spacing: 0.10em; 
+    transition: transform 0.5s, letter-spacing 0.5s; 
+
+  }
+
+  .titulo:hover{
+    transform: scale(1.05); 
+    letter-spacing: 0.15em; 
+  }
+
+  .back-button {
+    background-color: transparent;
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 280%; 
+    font-family: "Bebas Neue", sans-serif;
+    position: absolute;
+    left: 10%; 
+    cursor: pointer; 
+    z-index: 1100; 
+    top: 10%;
+    transition: transform 0.3s;
+  }
+
+  .back-button:hover {
+    transform: scale(1.1); 
   }
 
   .Logo {
-    top: 19.5%;
-    right: 3%;
+    position: absolute; 
+    top: 15%; 
+    right: 5%; 
+    z-index: 1000; 
+    transition: transform 0.3s;
   }
-  
+
+  .Logo:hover {
+    transform: scale(1.1);
+  }
+
   .Logo img {
-      width: 25vw; 
-    }
-}
-@media (max-width: 768px) {
-    
-  .txt-conceito,
-  .txt-exemplo{
-      font-size: 6vw; 
-      margin-bottom: 10%;
-      margin-top: 10%;
+    width: 15vw; 
+    max-width: 80vw; 
+    height: auto; 
   }
-  
-    .animacao-titulo h2 {
-        font-size: 6vw;
-    }
-  }
-  
+
   @media (max-width: 768px) {
-    
-    .video video {
-        width: 100%; 
-        height: 100%;
+    .titulo {
+      font-size: 6vw; 
+      margin-top: -10%;
     }
-  
-    .imgs img {
-        width: 80%; 
-        height: 80%;
-  
+
+    .back-button{
+      font-size: 7vw; 
+      top: 4.5vw;
+      left: 5%;
+      height: 20%;
+      transform: scale(0.6);
+    }
+
+    .Logo {
+      top: 19.5%;
+      right: 3%;
+    }
+    
+    .Logo img {
+      width: 20vw; 
     }
   }
-  
+
+  /*******************************************************************************************************
+                                                  conteudo
+  *******************************************************************************************************/
+
   .imgs,
-  .video{
-    margin-top: 10%;
+  .video video{
+    margin-top: 3%;
+    border-radius: 50px;
+  }
+
+  .animacao-titulo {
+    transition: transform 0.5s, letter-spacing 0.5s;
+    box-shadow: 7px 7px 10px #a7d3b4;
+  }
+
+  .animacao-titulo h2 {
+    border-style: solid; 
+    border-color: green; 
+    border-width: 1px 5px 5px 1px;
+    margin-bottom: 3%;
+  }
+
+  .animacao-titulo:hover {
+    transform: scale(1.05); 
+    letter-spacing: 0.15em; 
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 10%;
   }
 
-.animacao-titulo {
-  transition: transform 0.5s, letter-spacing 0.5s;
-  box-shadow: 7px 7px 10px #a7d3b4; /* Sombra na direita e embaixo */
-}
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+  }
 
-.animacao-titulo h2 {
-  border-style: solid; 
-  border-color: green; 
-  border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
-}
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+  }
 
+  @media (max-width: 768px) {
+    .txt-conceito,
+    .txt-exemplo{
+      font-size: 6vw; 
+      margin-bottom: 10%;
+      margin-top: 10%;
+    }
+    
+    .animacao-titulo h2 {
+      font-size: 6vw;
+    }
+    
+    .video video {
+      width: 100%; 
+      height: 100%;
+    }
 
-
-.animacao-titulo:hover {
-  transform: scale(1.05); 
-  letter-spacing: 0.15em; 
-}
-.row {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 10%;
-
-}
-.row2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10%;
-}
-.row3 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10%;
-
-}
+    .imgs img {
+      width: 80%; 
+      height: 80%;
+    }
+  }

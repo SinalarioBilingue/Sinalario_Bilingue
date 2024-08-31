@@ -1,373 +1,373 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
 
 /*******************************************************************************************************
-                                                  cabeçalho
+                                                    cabeçalho
 *******************************************************************************************************/
 
-.fundo-cabecalho{
-  position: fixed;
-  z-index: 1;
-}
-
-.sobre {
-  background-color: transparent;
-  color: black; 
-  border: none; 
-  text-align: center; 
-  top: 6%;
-  text-decoration: none; 
-  display: inline-block;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 2.5vw;
-  position: fixed;
-  left: 5%;
-  cursor: pointer; 
-  z-index: 2; 
-  letter-spacing: 0.10em;
-  transition: 0.5s;
-}
-
-.sobre:hover {
-  transform: scale(1.2); 
-}
-
-.NomeSite {
-  top: 2%; 
-  left: 50%;
-  transform: translateX(-50%);
-  position: fixed;
-  z-index: 2;
-  font-size: 3.5vw;
-  text-align: center;
-  font-family: 'Bebas Neue', sans-serif;
-  color: #000;
-  letter-spacing: 0.10em; 
-  transition: transform 0.3s ease-in-out; 
-}
-
-.NomeSite:hover {
-  transform: translateX(-50%) scale(1.1);
-}
-
-.logo {
-  width: 15vw;
-  max-width: 80vw;
-  height: auto;
-  top: 5%; 
-  right: 5%; 
-  z-index: 2; 
-  transition: transform 0.3s;
-  position: fixed;
-}
-
-.logo:hover {
-  transform: scale(1.2);
-}
-
-.apresentacao {
-  text-align: center;
-  margin-top: 25%;
-  margin-bottom: 7%;
-}
-
-.enunciado {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 3vw;
-  color: black;
-  box-shadow: 7px 7px 10px #a7d3b4; 
-  border-width: 5vw;
-  border-style: solid; 
-  border-color: green; 
-  border-width: 1px 5px 5px 1px; 
-  margin-bottom: 7%;
-  transition: 0.5s;
-}
-
-.enunciado:hover{
-  transform: scale(1.05); 
-  letter-spacing: 0.15vw; 
-}
-
-.videoapresentacao {
-  height: 25vw;
-  border-radius: 50px;
-}
-
-.divisoria, .divisoria2 {
-  margin-bottom: 15%;
-}
-
-.divisoria{
-  margin-top: -15%;
-}
-
-@media (max-width: 1600px) {
-  .fundo-cabecalho img {
-    height: 200px;
-  }
-  .apresentacao{
-    margin-top: 20%;
-  }
-}
-
-@media (max-width: 500px) {
   .fundo-cabecalho{
-    margin-top: -3%;
+    position: fixed;
+    z-index: 1;
   }
-  
-  .sobre{
-    font-size: 5vw;
-    margin-left: -1%;
+
+  .sobre {
+    background-color: transparent;
+    color: black; 
+    border: none; 
+    text-align: center; 
+    top: 6%;
+    text-decoration: none; 
+    display: inline-block;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5vw;
+    position: fixed;
+    left: 5%;
+    cursor: pointer; 
+    z-index: 2; 
+    letter-spacing: 0.10em;
+    transition: 0.5s;
+  }
+
+  .sobre:hover {
+    transform: scale(1.2); 
   }
 
   .NomeSite {
-    font-size: 6.7vw; 
+    top: 2%; 
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 2;
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    letter-spacing: 0.10em; 
+    transition: transform 0.3s ease-in-out; 
   }
-  
-  .logo{   
-    width: 23vw;
-    margin-top: 2%;
+
+  .NomeSite:hover {
+    transform: translateX(-50%) scale(1.1);
   }
+
+  .logo {
+    width: 15vw;
+    max-width: 80vw;
+    height: auto;
+    top: 5%; 
+    right: 5%; 
+    z-index: 2; 
+    transition: transform 0.3s;
+    position: fixed;
+  }
+
+  .logo:hover {
+    transform: scale(1.2);
+  }
+
+  .apresentacao {
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 7%;
+  }
+
+  .enunciado {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    color: black;
+    box-shadow: 7px 7px 10px #a7d3b4; 
+    border-width: 5vw;
+    border-style: solid; 
+    border-color: green; 
+    border-width: 1px 5px 5px 1px; 
+    margin-bottom: 7%;
+    transition: 0.5s;
+  }
+
+  .enunciado:hover{
+    transform: scale(1.05); 
+    letter-spacing: 0.15vw; 
+  }
+
+  .videoapresentacao {
+    height: 25vw;
+    border-radius: 50px;
+  }
+
+  .divisoria, .divisoria2 {
+    margin-bottom: 15%;
+  }
+
+  .divisoria{
+    margin-top: -15%;
+  }
+
+  @media (max-width: 1600px) {
+    .fundo-cabecalho img {
+      height: 200px;
+    }
+    .apresentacao{
+      margin-top: 20%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .fundo-cabecalho{
+      margin-top: -3%;
+    }
     
-.apresentacao {
-    margin-top: 70%;
+    .sobre{
+      font-size: 5vw;
+      margin-left: -1%;
+    }
+
+    .NomeSite {
+      font-size: 6.7vw; 
+    }
+    
+    .logo{   
+      width: 23vw;
+      margin-top: 2%;
+    }
+      
+  .apresentacao {
+      margin-top: 70%;
+    }
+
+  .enunciado{
+      font-size: 8vw;
+      margin-bottom: 10%;
   }
 
-.enunciado{
-    font-size: 8vw;
-    margin-bottom: 10%;
-}
+  .videoapresentacao {
+      height: 50vw;
+  }
 
-.videoapresentacao {
-    height: 50vw;
-}
+  .divisoria{
+    margin-top: -25%;
+    margin-bottom: 40%;
+  }
+  }
 
-.divisoria{
-  margin-top: -25%;
-  margin-bottom: 40%;
-}
-}
+  @media (max-width: 400px){
+  .apresentacao{
+    margin-top: 60%;
+  }
 
-@media (max-width: 400px){
-.apresentacao{
-  margin-top: 60%;
-}
+  .divisoria{
+    margin-bottom: 55%;
+  }
+  }
 
-.divisoria{
-  margin-bottom: 55%;
-}
-}
-
-/*******************************************************************************************************
-                                                  Categorias
-*******************************************************************************************************/
+  /*******************************************************************************************************
+                                                    Categorias
+  *******************************************************************************************************/
 
 
-.container-fluid{
-  margin-top: -8vw;
-  margin-bottom: 12vh;
-}
-
-.row{
-  padding-bottom: 5vw;
-}
-
-.categorias{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.TextoCategoriaUnidades, 
-.TextoCategoriaEquipamentos, 
-.TextoCategoriaComponentes, 
-.TextoCategoriaConceitos{
-  background: rgb(241, 242, 248);
-  border-radius: 70px;
-  padding: 1vw 4vw;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 2.5vw;
-  text-align: center;
-  transition: 0.5s;
-  margin-left: 2vw;
-  max-width: 20vw;
-}
-
-.TextoCategoriaConceitos{
-  margin-left: 3.5vw;
-}
-
-.TextoCategoriaUnidades:hover, 
-.TextoCategoriaEquipamentos:hover, 
-.TextoCategoriaComponentes:hover, 
-.TextoCategoriaConceitos:hover{
-  color: black;
-  text-decoration: none;
-  letter-spacing: 0.15vw;
-  background-color: rgb(169, 232, 169);
-  box-shadow: 0 0 35px rgb(14, 229, 14);
-}
-
-.VideoCategoria {
-  height: 13vw;
-  border-radius: 50px;
-}
-
-@media (max-width: 500px){
-.container-fluid{
-  margin-top: -10vw;
-}
-
-.row{
-  padding-bottom: 1vw;
-}
-
-.categorias{
-  margin-bottom: 10vw;
-  flex-wrap: wrap;
-  justify-content: center;
-  column-gap: 30vw;
-}
-
-.TextoCategoriaUnidades, 
-.TextoCategoriaEquipamentos, 
-.TextoCategoriaComponentes, 
-.TextoCategoriaConceitos{
-  background: rgb(241, 242, 248);
-  border-radius: 70px;
-  padding: 6vw 15vw;
-  max-width: 100vw;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 8vw;
-  margin-bottom: 10%;
-  text-align: center;
-  transition: 0.5s;
-  margin-left: 0%;
-}
-
-.TextoCategoriaUnidades:hover, 
-.TextoCategoriaEquipamentoshover, 
-.TextoCategoriaComponenteshover, 
-.TextoCategoriaConceitoshover{
-  color: black;
-  text-decoration: none;
-  letter-spacing: 0.15vw;
-  background-color: rgb(169, 232, 169);
-  box-shadow: 0 0 35px rgb(14, 229, 14);
-}
-
-.VideoCategoria {
-  height: 40vw;
-  border-radius: 50px;
-}
-}
-
-@media (max-width: 400px){
   .container-fluid{
-    margin-top: -50vw;
-    margin-bottom: 10vh;
+    margin-top: -8vw;
+    margin-bottom: 12vh;
   }
 
-  .TextoCategoriaUnidades{
-    margin-left: 3vw;
+  .row{
+    padding-bottom: 5vw;
+  }
+
+  .categorias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .TextoCategoriaUnidades, 
+  .TextoCategoriaEquipamentos, 
+  .TextoCategoriaComponentes, 
+  .TextoCategoriaConceitos{
+    background: rgb(241, 242, 248);
+    border-radius: 70px;
+    padding: 1vw 4vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    transition: 0.5s;
+    margin-left: 2vw;
+    max-width: 20vw;
   }
 
   .TextoCategoriaConceitos{
-    margin-left: 4vw;
-  }
-}
-
-/*******************************************************************************************************
-                                                  Rodapé
-*******************************************************************************************************/
-
-#RowLinkedin{
-  padding: 0;
-}
-
-#RowEmail{
-  padding: 0;
-}
-
-#ColLinkedin,
-#ColLinkedin2 {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1vw;
-  justify-content: space-between; 
-  align-items: center; 
-}
-
-.login, 
-.email{
-  color: black;
-  font-size: 2vw;
-  font-family: "Bebas Neue", sans-serif;
-  transition: 0.5s;
-}
-
-.login:hover,
-.email:hover{
-  text-decoration: none;
-  color: black;
-  letter-spacing: 0.1vw;
-}
-
-.login i,
-.email i {
-  padding-right: 0.5vw;
-}
-
-.lattes{
-  height: 2.5vw;
-}
-
-.email {
-  text-align: center; 
-  flex: 1; 
-  padding-left: 6vw;
-  padding-right: 6vw;
-}
-
-@media (max-width: 2600px) {
-  #bottom {
-    margin-bottom: -30vh;
-  }
-}
-
-@media (max-width: 1600px) {
-  #bottom {
-    margin-bottom: -40vh;
-  }
-}
-
-@media (max-width: 500px){
-  #bottom{
-    margin-bottom: -35vh;
+    margin-left: 3.5vw;
   }
 
-  .login,
+  .TextoCategoriaUnidades:hover, 
+  .TextoCategoriaEquipamentos:hover, 
+  .TextoCategoriaComponentes:hover, 
+  .TextoCategoriaConceitos:hover{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.15vw;
+    background-color: rgb(169, 232, 169);
+    box-shadow: 0 0 35px rgb(14, 229, 14);
+  }
+
+  .VideoCategoria {
+    height: 13vw;
+    border-radius: 50px;
+  }
+
+  @media (max-width: 500px){
+  .container-fluid{
+    margin-top: -10vw;
+  }
+
+  .row{
+    padding-bottom: 1vw;
+  }
+
+  .categorias{
+    margin-bottom: 10vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30vw;
+  }
+
+  .TextoCategoriaUnidades, 
+  .TextoCategoriaEquipamentos, 
+  .TextoCategoriaComponentes, 
+  .TextoCategoriaConceitos{
+    background: rgb(241, 242, 248);
+    border-radius: 70px;
+    padding: 6vw 15vw;
+    max-width: 100vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 8vw;
+    margin-bottom: 10%;
+    text-align: center;
+    transition: 0.5s;
+    margin-left: 0%;
+  }
+
+  .TextoCategoriaUnidades:hover, 
+  .TextoCategoriaEquipamentoshover, 
+  .TextoCategoriaComponenteshover, 
+  .TextoCategoriaConceitoshover{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.15vw;
+    background-color: rgb(169, 232, 169);
+    box-shadow: 0 0 35px rgb(14, 229, 14);
+  }
+
+  .VideoCategoria {
+    height: 40vw;
+    border-radius: 50px;
+  }
+  }
+
+  @media (max-width: 400px){
+    .container-fluid{
+      margin-top: -50vw;
+      margin-bottom: 10vh;
+    }
+
+    .TextoCategoriaUnidades{
+      margin-left: 3vw;
+    }
+
+    .TextoCategoriaConceitos{
+      margin-left: 4vw;
+    }
+  }
+
+  /*******************************************************************************************************
+                                                    Rodapé
+  *******************************************************************************************************/
+
+  #RowLinkedin{
+    padding: 0;
+  }
+
+  #RowEmail{
+    padding: 0;
+  }
+
+  #ColLinkedin,
+  #ColLinkedin2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+
+  .login, 
   .email{
-    font-size: 5.5vw;
+    color: black;
+    font-size: 2vw;
+    font-family: "Bebas Neue", sans-serif;
+    transition: 0.5s;
+  }
+
+  .login:hover,
+  .email:hover{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1vw;
+  }
+
+  .login i,
+  .email i {
+    padding-right: 0.5vw;
   }
 
   .lattes{
-    height: 5vw;
+    height: 2.5vw;
   }
 
-  .FundoFooter{
-    max-height: 300px;
+  .email {
+    text-align: center; 
+    flex: 1; 
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
-}
+
+  @media (max-width: 2600px) {
+    #bottom {
+      margin-bottom: -30vh;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    #bottom {
+      margin-bottom: -40vh;
+    }
+  }
+
+  @media (max-width: 500px){
+    #bottom{
+      margin-bottom: -35vh;
+    }
+
+    .login,
+    .email{
+      font-size: 5.5vw;
+    }
+
+    .lattes{
+      height: 5vw;
+    }
+
+    .FundoFooter{
+      max-height: 300px;
+    }
+  }

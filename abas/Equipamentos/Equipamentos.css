@@ -1,199 +1,199 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
 
-/*******************************************************************************************************
-                                                cabeçalho
-*******************************************************************************************************/
-
-
-.cabecalho {
-  position: relative;
-  text-align: center;
-}
-
-.titulo-wrapper {
-  position: absolute;
-  top: 15%; 
-  left: 50%;
-  transform: translateX(-50%); 
-}
-
-.titulo {
-  font-size: 4vw;
-  text-align: center;
-  margin: 0;
-  font-family: 'Bebas Neue', sans-serif;
-  color: #000;
-  letter-spacing: 0.10em;
-  transition: transform 0.5s, letter-spacing 0.5s;
-}
-
-.titulo:hover{
-  transform: scale(1.05); 
-  letter-spacing: 0.15em;
-}
-
-.back-button {
-  background-color: transparent;
-  color: black; 
-  border: none; 
-  padding: 10px 20px; 
-  text-align: center; 
-  text-decoration: none; 
-  display: inline-block;
-  font-size: 280%; 
-  font-family: "Bebas Neue", sans-serif;
-  position: absolute;
-  left: 10%; 
-  cursor: pointer; 
-  z-index: 1100; 
-  top: 10%;
-  transition: transform 0.3s;
-}
-
-.back-button:hover {
-  transform: scale(1.1);
-}
+  /*******************************************************************************************************
+                                                  cabeçalho
+  *******************************************************************************************************/
 
 
-.Logo {
-  position: absolute; 
-  top: 15%; 
-  right: 5%; 
-  z-index: 1000; 
-  transition: transform 0.3s;  
-}
+  .cabecalho {
+    position: relative;
+    text-align: center;
+  }
 
-.Logo:hover {
-  transform: scale(1.1);
-}
+  .titulo-wrapper {
+    position: absolute;
+    top: 15%; 
+    left: 50%;
+    transform: translateX(-50%); 
+  }
 
-.Logo img {
-  width: 15vw; 
-  max-width: 80vw; 
-  height: auto; 
-}
-  
-@media (max-width: 768px) {
   .titulo {
-      font-size: 7vw; 
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    letter-spacing: 0.10em;
+    transition: transform 0.5s, letter-spacing 0.5s;
   }
 
-  .back-button{
-    font-size: 7vw; 
-    top: 4.5vw;
-    left: 5%;
-    height: 20%;
-    transform: scale(0.6);
+  .titulo:hover{
+    transform: scale(1.05); 
+    letter-spacing: 0.15em;
   }
+
+  .back-button {
+    background-color: transparent;
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 280%; 
+    font-family: "Bebas Neue", sans-serif;
+    position: absolute;
+    left: 10%; 
+    cursor: pointer; 
+    z-index: 1100; 
+    top: 10%;
+    transition: transform 0.3s;
+  }
+
+  .back-button:hover {
+    transform: scale(1.1);
+  }
+
 
   .Logo {
-    top: 19.5%;
-    right: 3%;
+    position: absolute; 
+    top: 15%; 
+    right: 5%; 
+    z-index: 1000; 
+    transition: transform 0.3s;  
+  }
+
+  .Logo:hover {
+    transform: scale(1.1);
+  }
+
+  .Logo img {
+    width: 15vw; 
+    max-width: 80vw; 
+    height: auto; 
   }
     
-  .Logo img {
-      width: 25vw; 
+  @media (max-width: 768px) {
+    .titulo {
+        font-size: 7vw; 
+    }
+
+    .back-button{
+      font-size: 7vw; 
+      top: 4.5vw;
+      left: 5%;
+      height: 20%;
+      transform: scale(0.6);
+    }
+
+    .Logo {
+      top: 19.5%;
+      right: 3%;
+    }
+      
+    .Logo img {
+        width: 25vw; 
+    }
   }
-}
 
-/*******************************************************************************************************
-                                                lista de equipamentos
-*******************************************************************************************************/
+  /*******************************************************************************************************
+                                                  lista de equipamentos
+  *******************************************************************************************************/
 
-.videos {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  height: 100%;
-  margin-top: 5%;
-}
-
-.videos video {
-  border-radius: 50px;
-}
-
-.row {
-  align-items: center;
-  margin-top: 10%;
-}
-
-a.btn-link {
-  text-decoration: none !important; 
-}
-
-.animacao-titulo {
-  background: rgb(241, 242, 248);
-  border-radius: 70px;
-  border: none;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 10em;
-  transition: 0.5s;
-  box-sizing: border-box;
-  padding: 2vw 2vw;
-}
-
-.animacao-titulo:hover {
-  letter-spacing: 0.03em;
-  background-color: rgb(169, 232, 169);
-  box-shadow: 0 0 35px rgb(14, 229, 14);
-  max-height: 100vw;
-}
-
-#ScrollTopButton {
-  position: fixed;
-  background-color: rgb(14, 229, 14);
-  width: 60px;
-  height: 60px;
-  padding: 8px;
-  bottom: 30px;
-  right: 30px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
-  transition: bottom 200ms, transform 200ms;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-#ScrollTopButton:hover {
-  bottom: 35px;
-}
-
-#ScrollTopButton span {
-  transition: 0.2s ease-out;
-  color: black;
-  font-size: 3rem;
-}
-
-#ScrollTopButton:hover span {
-  transform: translateY(-4px);
-} 
-
-@media (max-width: 768px) {
   .videos {
-      margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    margin-top: 5%;
   }
 
-  .animacao-titulo h2{
-      font-size: 7vw;
-      padding: 4vw 10vw;
-      max-width: 100vw;
-      margin-top: 2%;
+  .videos video {
+    border-radius: 50px;
   }
 
-  .animacao-titulo{
-    margin-bottom: 10%;
+  .row {
+    align-items: center;
+    margin-top: 10%;
   }
-}
+
+  a.btn-link {
+    text-decoration: none !important; 
+  }
+
+  .animacao-titulo {
+    background: rgb(241, 242, 248);
+    border-radius: 70px;
+    border: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10em;
+    transition: 0.5s;
+    box-sizing: border-box;
+    padding: 2vw 2vw;
+  }
+
+  .animacao-titulo:hover {
+    letter-spacing: 0.03em;
+    background-color: rgb(169, 232, 169);
+    box-shadow: 0 0 35px rgb(14, 229, 14);
+    max-height: 100vw;
+  }
+
+  #ScrollTopButton {
+    position: fixed;
+    background-color: rgb(14, 229, 14);
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    transition: bottom 200ms, transform 200ms;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  #ScrollTopButton:hover {
+    bottom: 35px;
+  }
+
+  #ScrollTopButton span {
+    transition: 0.2s ease-out;
+    color: black;
+    font-size: 3rem;
+  }
+
+  #ScrollTopButton:hover span {
+    transform: translateY(-4px);
+  } 
+
+  @media (max-width: 768px) {
+    .videos {
+        margin-bottom: 5%;
+    }
+
+    .animacao-titulo h2{
+        font-size: 7vw;
+        padding: 4vw 10vw;
+        max-width: 100vw;
+        margin-top: 2%;
+    }
+
+    .animacao-titulo{
+      margin-bottom: 10%;
+    }
+  }
