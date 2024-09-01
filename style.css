@@ -74,9 +74,10 @@ html, body {
 
 .apresentacao {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 20%;
   margin-bottom: 7%;
 }
+
 
 .enunciado {
   font-family: 'Bebas Neue', sans-serif;
@@ -88,6 +89,11 @@ html, body {
   border-color: green; 
   border-width: 1px 5px 5px 1px; 
   margin-bottom: 7%;
+  transition: transform 0.3s ease-in-out; 
+
+}
+.enunciado:hover {
+  transform: scale(1.1);
 }
 
 .videoapresentacao {
@@ -109,7 +115,7 @@ html, body {
     height: 200px;
   }
   .apresentacao{
-    margin-top: 20%;
+    margin-top: 15%;
   }
 }
 
@@ -315,7 +321,7 @@ font-family: "Bebas Neue", sans-serif;
 transition: 0.5s;
 
 }
-
+.email:hover,
 .login:hover{
 text-decoration: none;
 color: black;
@@ -336,6 +342,7 @@ text-align: center;
 flex: 1; 
 padding-left: 6vw;
 padding-right: 6vw;
+
 }
 
 

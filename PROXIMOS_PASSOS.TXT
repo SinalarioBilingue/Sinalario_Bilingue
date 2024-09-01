@@ -5,29 +5,28 @@
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
 
-[X] - Responsividade do Site (
 
-    [X] - Tela inicial
+[] - Fazer a parte dos conceitos utilizados.
 
-    [X] - Tela de escolha (
+[] - Falar com vini sobre indexar o site na UFRGS e colocar o logo da UFRGS no site por conta da indexação do site.
 
-        [X] - Tela componentes (Gui)
-        [X] - Tela unidades (Maicon)
-        [X] - Tela equipamentos (Maicon)
-        [X] - Tela conceitos (Gui){
-            terminar de ajustar as imagens, indexar as certas
-        }
+[] - Falar com vini sobre alfabeto SIGNWRITTING.
 
-    )
+[] - Otimização do site (
+    
+    [] - ver tamanho dos videos
+    
+        https://youtu.be/3hng-hmSv2Y?si=LSq15pwALavnsf0j
 
-    [X] - Tela componentes
-)
+    [] - HTML desnecessários?
+    
+    [] - CSS desnecessários?
 
-[] - Fazer a parte dos conceitos utilizados
+    [] - Tentar tirar as coisas "inúteis" que colocamos nos códigos.
 
-[] - Indexar os htmls dos itens
+).
 
-[X] - Refazer o roteiro para enviar para o vini.
+[] - Preencher o site com os respectivos videos em Libras.
    
 
 
