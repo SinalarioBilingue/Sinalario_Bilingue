@@ -4,13 +4,23 @@
 
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
+                                                    PARA FEICIT:
 
+-------------------------------------------------------------------------------------------------------------------------------                                                    
 
 [] - Fazer a parte dos conceitos utilizados.
 
 [] - Falar com vini sobre indexar o site na UFRGS e colocar o logo da UFRGS no site por conta da indexação do site.
 
 [] - Falar com vini sobre alfabeto SIGNWRITTING.
+
+[] - Preencher o site com os respectivos videos em Libras.
+   
+-------------------------------------------------------------------------------------------------------------------------------
+
+                                                    PARA MOSTRATEC:
+
+-------------------------------------------------------------------------------------------------------------------------------                                                    
 
 [] - Otimização do site (
     
@@ -25,9 +35,6 @@
     [] - Tentar tirar as coisas "inúteis" que colocamos nos códigos.
 
 ).
-
-[] - Preencher o site com os respectivos videos em Libras.
-   
 
 
 -------------------------------------------------------------------------------------------------------------------------------
