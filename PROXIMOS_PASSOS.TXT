@@ -8,16 +8,105 @@
 
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
-[] - Docs SIGNWRITTING vini
+[X] - Docs SIGNWRITTING vini
 
-[] - Revisar textos
+[] - Revisar textos e fazer a parte dos conceitos utilizados.
+{
 
-[] - Fazer a parte dos conceitos utilizados.
+    [] - Unidades
+
+	[] - Sistema Internacional de Unidades
+	[] - Série E12
+	[] - Série E24
+	[] - Ohm
+	[] - Volts
+	[] - Ampere
+	[] - Joule
+	[] - Watt
+	[] - Hertz
+	[] - Rpm
+	[] - Farad
+	[] - Henry
+
+    [] - Equipamentos
+
+	[] - Chave Phillips e Fenda
+	[] - Alicates de Bico e de Corte
+	[] - Pinça
+	[] - Banana Jacaré
+	[] - Protoboard
+	[] - Fonte
+	[] - Multímetro
+	[] - Alicate Amperímetro
+	[] - Osciloscópio
+	[] - Gerador de Sinais
+	[] - Placa de Cobre
+	[] - Placa de Cobre Perfurada
+	[] - Furador de Placa
+	[] - Estanho
+	[] - Pasta de Solda
+	[] - Fluxo de Solda
+	[] - Ferro de Solda
+	[] - Solda a Ar quente
+	[] - CLP
+
+    [] - Componentes
+
+	[] - Resistor
+	[] - Diodo
+	[] - Led
+	[] - Botão e Chave
+    [] - Potenciômetro
+    [] - Display de 7 segmentos
+    [] - Portas Lógicas 
+    [] - Diodo Zener
+    [] - PTC
+    [] - NTC
+    [] - LDR
+    [] - Transistor TBJ
+    [] - Circuito Integrado
+    [] - Capacitor
+    [] - Relé
+    [] - Indutor
+    [] - Transformador
+    [] - Motores
+    [] - Amplificador Operacional	
+
+    [] - Conceitos
+
+	[] - Curto-Circuito
+	[] - Circuito em Série
+	[] - Circuito Paralelo
+	[] - Polaridade
+	[] - Tensão Direta
+	[] - Lei de OHM
+	[] - Frequência
+	[] - Terra ou GND
+	[] - VCC
+	[] - VCA
+	[] - Alimentação
+	[] - Divisor de Tensão
+	[] - Pico e Vale
+	[] - Período
+	[] - Flutuação
+	[] - Níveis Lógicos
+	[] - Resistor de Pull-Up
+	[] - Resistor de Pull-Down
+	[] - Malha
+	[] - Lei das Malhas 
+	[] - Nós
+	[] - Lei dos Nós
+	[] - Ruído
+	[] - Tensão Alternada
+	[] - Magnetismo
+	[] - Tensão Eficaz ou VRMS
+
+}
 
 [] - colocar fotos de SIGNWRITTING "padrao" em cada coisa
 
-
                     STANDBY
+
 [] - Preencher o site com os respectivos videos em Libras.
 [] - SIGNWRITTING vini
 
