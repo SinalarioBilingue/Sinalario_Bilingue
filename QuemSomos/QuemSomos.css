@@ -1,0 +1,335 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  /*******************************************************************************************************
+                                                    cabeçalho
+  *******************************************************************************************************/
+  
+  .fundo-cabecalho{
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .back-button {
+    background-color: transparent;
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 280%; 
+    font-family: "Bebas Neue", sans-serif;
+    position: absolute;
+    left: 10%; 
+    cursor: pointer; 
+    z-index: 1100; 
+    top: 3%;
+    transition: transform 0.3s; /* Transição para o tamanho */
+  }
+  .back-button:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+  
+  .QuemSomos {
+    top: 6%; 
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 2;
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    letter-spacing: 0.10em; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .QuemSomos:hover {
+    transform: translateX(-50%) scale(1.1);
+  }
+  
+  .logo {
+    width: 15vw;
+    max-width: 80vw;
+    height: auto;
+    top: 5%; 
+    right: 5%; 
+    z-index: 2; 
+    transition: transform 0.3s;
+    position: fixed;
+  }
+  
+  .logo:hover {
+    transform: scale(1.2);
+  }
+  
+ 
+  
+ 
+  
+  @media (max-width: 1600px) {
+    .fundo-cabecalho img {
+      height: 200px;
+    }
+   
+  }
+  
+  @media (max-width: 500px) {
+    .fundo-cabecalho{
+      margin-top: -3%;
+    }
+    .back-button{
+        font-size: 5vw; 
+        top: 1vw;
+        left: 5%;
+        height: 20%;
+        transform: scale(0.6);
+      }
+    .sobre{
+      font-size: 5vw;
+      margin-left: -1%;
+    }
+  
+    .QuemSomos {
+      font-size: 6.7vw; 
+    }
+    
+    .logo{   
+      width: 23vw;
+      margin-top: 2%;
+    } 
+  }
+  
+  /*******************************************************************************************************
+                                                    Categorias
+  *******************************************************************************************************/
+  #RowLinkedin {
+    display: flex;
+    justify-content: space-evenly; /* Alinha os itens nas extremidades */
+    align-items: center; /* Alinha verticalmente no centro */
+
+}
+#RowLattes {
+    display: flex;
+    justify-content: space-evenly; /* Alinha os itens nas extremidades */
+    align-items: center; /* Alinha verticalmente no centro */
+
+}
+.lattes{
+    height: 2.5vw;
+  }
+
+.login {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+    transition: 0.5s;
+}
+
+.login:hover {
+    color: black;
+    letter-spacing: 0.15em;
+    background-color: rgb(169, 232, 169);
+    box-shadow: 0 0 35px rgb(14, 229, 14);
+    transform: scale(1.1);
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+  
+  .container-fluid{
+    margin-top: 20vw;
+  }
+  
+  .row{
+    padding-bottom: 5vw;
+  }
+  
+  .desenvolvedores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media (max-width: 800px){
+    
+    .QuemSomos{
+        font-size: 6vw;
+    }
+    .login {
+        font-size: 5vw;
+       
+    }
+  
+  .desenvolvedores{
+    margin-bottom: 10vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30vw;
+  }
+  .container-fluid{
+      margin-top: 30vw;
+      margin-bottom: 10vh;
+    }
+}
+
+ 
+  
+  @media (max-width: 500px){
+    
+    .lattes {
+        height: 6vw;
+
+    }
+    .QuemSomos{
+        font-size: 7vw;
+    }
+    .login {
+        font-size: 5vw;
+       
+    }
+  
+  .desenvolvedores{
+    margin-bottom: 10vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30vw;
+  }
+  .container-fluid{
+      margin-top: -50vw;
+      margin-bottom: 10vh;
+    }
+  
+   
+  }
+ 
+  /*******************************************************************************************************
+                                                    Animation
+  *******************************************************************************************************/
+  
+
+
+  @property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false; 
+  }  
+  
+  
+  #ColDesenvolvedores, 
+  #ColOrientadores, 
+  #ColEquipeTecnica {
+    height: 16vh;
+    overflow: hidden;
+    border-radius: 50px;
+    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
+    animation: 5s spin linear infinite;
+  }
+  
+  @keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+  }
+  
+  #ColDesenvolvedores:after {
+    content: "DESENVOLVEDORES";
+    margin-top: 1.5vh;
+    transform: translateX(-0.5%);
+    height: 80%;
+    width: 101%;
+    background-color: white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 7vh;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.15vw;
+    color: black;
+  }
+  
+  #ColOrientadores:after {
+    content: "ORIENTADORES";
+    margin-top: 1.5vh;
+    transform: translateX(-0.5%);
+    height: 80%;
+    width: 101%;
+    background-color: white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 7vh;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.15vw;
+    color: black;
+  }
+  
+  #ColEquipeTecnica:after {
+    content: "EQUIPE TÉCNICA";
+    margin-top: 1.5vh;
+    transform: translateX(-0.5%);
+    height: 80%;
+    width: 101%;
+    background-color: white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 7vh;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.15vw;
+    color: black;
+  }
+  
+  @media (max-width: 500px) {
+    #ColDesenvolvedores{
+      margin-top: 100vw;
+        height: 9vh;
+    }
+  
+    #ColDesenvolvedores::after{
+      font-size: 4vh;
+      margin-top: 0.9vh;
+      width: 103%;
+      transform: translateX(-1.5%);
+    }
+  
+    #ColOrientadores{
+      height: 9vh;
+    }
+  
+    #ColOrientadores:after{
+      font-size: 4vh;
+      margin-top: 0.9vh;
+      width: 103%;
+      transform: translateX(-1.5%);
+    }
+  
+    #ColEquipeTecnica{
+      height: 9vh;
+    }
+  
+    #ColEquipeTecnica:after{
+      font-size: 4vh;
+      margin-top: 0.9vh;
+      width: 103%;
+      transform: translateX(-1.5%);
+    }
+  }
+  
+ 
