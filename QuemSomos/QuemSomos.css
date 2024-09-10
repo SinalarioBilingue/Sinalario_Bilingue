@@ -12,6 +12,33 @@ html, body {
                                                     cabeçalho
   *******************************************************************************************************/
   
+  .primeiro{
+    margin-top: 20%;
+  }
+
+  .apresentacao {
+    text-align: center;
+    margin-bottom: 7%;
+  }
+  
+  
+  .enunciado {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vw;
+    color: black;
+    box-shadow: 7px 7px 10px #a7d3b4; 
+    border-width: 5vw;
+    border-style: solid; 
+    border-color: green; 
+    border-width: 1px 5px 5px 1px; 
+    margin-bottom: 7%;
+    transition: transform 0.3s ease-in-out; 
+  
+  }
+  .enunciado:hover {
+    transform: scale(1.1);
+  }
+
   .fundo-cabecalho{
     position: fixed;
     z-index: 1;
@@ -82,10 +109,17 @@ html, body {
    
   }
   
+  
   @media (max-width: 500px) {
     .fundo-cabecalho{
       margin-top: -3%;
     }
+    .enunciado{
+    font-size: 10vw;
+  }
+  .primeiro{
+    margin-top: 60vw;
+  }
     .back-button{
         font-size: 5vw; 
         top: 1vw;
@@ -99,7 +133,7 @@ html, body {
     }
   
     .QuemSomos {
-      font-size: 6.7vw; 
+      font-size: 8vw; 
     }
     
     .logo{   
@@ -216,120 +250,6 @@ html, body {
    
   }
  
-  /*******************************************************************************************************
-                                                    Animation
-  *******************************************************************************************************/
-  
-
-
-  @property --angle{
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false; 
-  }  
-  
-  
-  #ColDesenvolvedores, 
-  #ColOrientadores, 
-  #ColEquipeTecnica {
-    height: 16vh;
-    overflow: hidden;
-    border-radius: 50px;
-    background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
-    animation: 5s spin linear infinite;
-  }
-  
-  @keyframes spin{
-    from{
-        --angle: 0deg;
-    }
-    to{
-        --angle: 360deg;
-    }
-  }
-  
-  #ColDesenvolvedores:after {
-    content: "DESENVOLVEDORES";
-    margin-top: 1.5vh;
-    transform: translateX(-0.5%);
-    height: 80%;
-    width: 101%;
-    background-color: white;
-    border-radius: 50px;
-    display: grid;
-    place-items: center;
-    font-size: 7vh;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.15vw;
-    color: black;
-  }
-  
-  #ColOrientadores:after {
-    content: "ORIENTADORES";
-    margin-top: 1.5vh;
-    transform: translateX(-0.5%);
-    height: 80%;
-    width: 101%;
-    background-color: white;
-    border-radius: 50px;
-    display: grid;
-    place-items: center;
-    font-size: 7vh;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.15vw;
-    color: black;
-  }
-  
-  #ColEquipeTecnica:after {
-    content: "EQUIPE TÉCNICA";
-    margin-top: 1.5vh;
-    transform: translateX(-0.5%);
-    height: 80%;
-    width: 101%;
-    background-color: white;
-    border-radius: 50px;
-    display: grid;
-    place-items: center;
-    font-size: 7vh;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 0.15vw;
-    color: black;
-  }
-  
-  @media (max-width: 500px) {
-    #ColDesenvolvedores{
-      margin-top: 100vw;
-        height: 9vh;
-    }
-  
-    #ColDesenvolvedores::after{
-      font-size: 4vh;
-      margin-top: 0.9vh;
-      width: 103%;
-      transform: translateX(-1.5%);
-    }
-  
-    #ColOrientadores{
-      height: 9vh;
-    }
-  
-    #ColOrientadores:after{
-      font-size: 4vh;
-      margin-top: 0.9vh;
-      width: 103%;
-      transform: translateX(-1.5%);
-    }
-  
-    #ColEquipeTecnica{
-      height: 9vh;
-    }
-  
-    #ColEquipeTecnica:after{
-      font-size: 4vh;
-      margin-top: 0.9vh;
-      width: 103%;
-      transform: translateX(-1.5%);
-    }
-  }
+ 
   
  
