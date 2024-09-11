@@ -294,59 +294,56 @@ html, body {
                                                   Rodapé
 *******************************************************************************************************/
 
-
-
-#RowLinkedin{
-padding: 0;
-}
-
-#RowEmail{
-padding: 0;
-}
-
-#ColLinkedin,
-#ColLinkedin2 {
-display: flex;
-flex-direction: column;
-row-gap: 1vw;
-justify-content: space-between; 
-align-items: center; 
-}
-
-.login, 
-.email{
-color: black;
-font-size: 2vw;
-font-family: "Bebas Neue", sans-serif;
-transition: 0.5s;
-
-}
-.email:hover,
-.login:hover{
-text-decoration: none;
-color: black;
-letter-spacing: 0.1vw;
-}
-
-.login i,
-.email i {
-padding-right: 0.5vw;
-}
-
-.lattes{
-  height: 2.5vw;
-}
-
-.email {
-text-align: center; 
-flex: 1; 
-padding-left: 6vw;
-padding-right: 6vw;
-
+/* Supondo que #bottom está dentro de um contêiner flexível */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ajusta o alinhamento vertical */
+  margin-top: 50px; /* Ajusta o espaço acima da seção de apoio */
 }
 
 
-/* Regra para larguras de tela menores ou iguais a 1300px */
+.apoio {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3vw;
+  color: black;
+  margin-bottom: 20px; 
+  transition: transform 0.3s ease-in-out; 
+
+}
+
+.imagens-apoio {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.logo-gettlibras {
+  height: 75px; 
+  margin-right: 20px; 
+  transition: transform 0.3s ease-in-out; 
+
+}
+
+.logo-ufrgs {
+  height: 120px; 
+  margin-left: 20px; 
+  transition: transform 0.3s ease-in-out; 
+  margin-left: -80%;
+}
+
+.logo-ufrgs:hover{
+    transform: scale(1.2); 
+}
+.logo-gettlibras:hover{
+  transform: scale(1.2); 
+}
+.apoio:hover{
+  transform: scale(1.2); 
+}
+
 @media (max-width: 2600px) {
   #bottom {
     margin-bottom: -30vh;
@@ -364,14 +361,7 @@ padding-right: 6vw;
     margin-bottom: -35vh;
   }
 
-  .login,
-  .email{
-    font-size: 5.5vw;
-  }
-
-  .lattes{
-    height: 5vw;
-  }
+  
 
   .FundoFooter{
     max-height: 300px;
