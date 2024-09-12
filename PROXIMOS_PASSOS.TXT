@@ -6,29 +6,30 @@
 
                                                 REUNIÃO COM SANDRA:
 
-	x Edital da FEICIT
+	[X] - Edital da FEICIT
 
 		Educação e Engenharia Eletrônica
 
-	x Revisar Texto de Apresentação/Video pra FEICIT
+	[X] - Revisar Texto de Apresentação/Video pra FEICIT
 
-	x Banner/Poster
+	[X] - Banner/Poster
 
 
-Verificar com o Vini sobre área do trabalho
-Deixar o caderno de campo com a Sandra
+[] - Verificar com o Vini sobre área do trabalho
 
-Colocar um QR code com do material didatico e tal
+[] - Deixar o caderno de campo com a Sandra
 
-colocar logos do Liberato e UFRGS no quem somos
+[] - Colocar um QR code com do material didatico e tal
 
-nao citar no banner os trabalhos antigos, mas citar no video que vamos gravar
+[] - Colocar logos do Liberato e UFRGS no quem somos
 
-falar com o vini sobre o termo de autorização de imagem sobre as pessoas que gravaram os videos em Libras
+[] - Nao citar no banner os trabalhos antigos, mas citar no video que vamos gravar
 
-perguntar sobre relatorio
+[] - Falar com o vini sobre o termo de autorização de imagem sobre as pessoas que gravaram os videos em Libras
 
-confirmar com a deise sobre os apoios
+[X] - perguntar sobre relatorio
+
+[X] - confirmar com a deise sobre os apoios
 
 -------------------------------------------------------------------------------------------------------------------------------                                                      
 
