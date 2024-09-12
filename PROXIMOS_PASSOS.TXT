@@ -15,7 +15,6 @@
 	x Banner/Poster
 
 
-Perguntar para deise sobre o vídeo de 5min
 Verificar com o Vini sobre área do trabalho
 Deixar o caderno de campo com a Sandra
 
@@ -39,7 +38,7 @@ confirmar com a deise sobre os apoios
 
 	[X] - Libras - Vini
 
-	[] - Técnico - (Raul, Sandro)
+	[] - Técnico - (Dvilla, Raul, Sandro, Fernandinho, Anderson)
 
 	[X] - Surdos - Gideon
 
