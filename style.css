@@ -17,7 +17,7 @@ html, body {
   z-index: 1;
 }
 
-.sobre {
+.sobre{
   background-color: transparent;
   color: black; 
   border: none; 
@@ -28,11 +28,32 @@ html, body {
   font-family: "Bebas Neue", sans-serif;
   font-size: 2.5vw;
   position: fixed;
-  left: 5%;
+  left: 2%;
   cursor: pointer; 
   z-index: 2; 
   letter-spacing: 0.10em;
   transition: 0.5s;
+}
+
+.sinal-QuemSomos{
+  background-color: transparent;
+  color: black; 
+  border: none; 
+  text-align: center; 
+  top: 4%;
+  text-decoration: none; 
+  display: inline-block;
+  font-family: "Bebas Neue", sans-serif;
+  height: 80px;
+  position: fixed;
+  left: 18%;
+  cursor: pointer; 
+  z-index: 2; 
+  transition: 0.5s;
+}
+
+.sinal:hover {
+  transform: scale(1.2); 
 }
 
 .sobre:hover {
@@ -72,12 +93,17 @@ html, body {
   transform: scale(1.2);
 }
 
-.apresentacao {
+#apresentacao {
   text-align: center;
   margin-top: 20%;
   margin-bottom: 7%;
 }
 
+#RowApresentacao,
+#RowVideoApresentacao {
+  display: flex;
+  justify-content: center;
+}
 
 .enunciado {
   font-family: 'Bebas Neue', sans-serif;
@@ -90,8 +116,11 @@ html, body {
   border-width: 1px 5px 5px 1px; 
   margin-bottom: 7%;
   transition: transform 0.3s ease-in-out; 
-
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
 }
+
 .enunciado:hover {
   transform: scale(1.1);
 }
@@ -103,7 +132,6 @@ html, body {
 
 .divisoria, .divisoria2 {
   margin-bottom: 15%;
-
 }
 
 .divisoria{
@@ -126,7 +154,13 @@ html, body {
   
   .sobre{
     font-size: 5vw;
-    margin-left: -1%;
+    left: 3%;
+  }
+
+  .sinal-QuemSomos{
+    height: 12vw;
+    left: 13%;
+    top: 10%;
   }
 
   .NomeSite {
