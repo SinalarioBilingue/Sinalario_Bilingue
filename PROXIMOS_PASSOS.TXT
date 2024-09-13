@@ -17,6 +17,8 @@
 
 [] - Verificar com o Vini sobre área do trabalho
 
+[] - Adicionar mais conteudo no caderno de campo, explicar as coisas grandes, falar das dificuldades e tals
+
 [] - Deixar o caderno de campo com a Sandra
 
 [] - Colocar um QR code com do material didatico e tal
@@ -25,7 +27,9 @@
 
 [] - Nao citar no banner os trabalhos antigos, mas citar no video que vamos gravar
 
-[] - Falar com o vini sobre o termo de autorização de imagem sobre as pessoas que gravaram os videos em Libras
+[X] - Falar com o vini sobre o termo de autorização de imagem sobre as pessoas que gravaram os videos em Libras{
+	resposta = Ele tem um molde pronto e vai usar ele com a equipe de gravacao/traducao
+}
 
 [X] - perguntar sobre relatorio
 
@@ -145,7 +149,7 @@
 
 }
 
-[] - colocar fotos de SIGNWRITTING "padrao" em cada coisa
+[X] - colocar fotos de SIGNWRITTING "padrao" em cada coisa
 
                     STANDBY
 

@@ -114,11 +114,10 @@ html, body {
   border-style: solid; 
   border-color: green; 
   border-width: 1px 5px 5px 1px; 
-  margin-bottom: 7%;
+  margin-top: 5%;
   transition: transform 0.3s ease-in-out; 
   padding-left: 10%;
   padding-right: 10%;
-  align-items: center;
 }
 
 .enunciado:hover {
@@ -172,13 +171,16 @@ html, body {
     margin-top: 2%;
   }
     
-.apresentacao {
-    margin-top: 70%;
+#apresentacao {
+    margin-top: 65%;
   }
 
 .enunciado{
-    font-size: 8vw;
-    margin-bottom: 10%;
+  font-size: 6vw;
+}
+
+.sinal-enunciado{
+  height: 20vw;
 }
 
 .videoapresentacao {
@@ -217,8 +219,9 @@ html, body {
 
 .categorias{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  column-gap: 4vw;
 }
 
 .TextoCategoriaUnidades, 
@@ -238,10 +241,6 @@ html, body {
   max-width: 20vw;
 }
 
-.TextoCategoriaConceitos{
-  margin-left: 3.5vw;
-}
-
 .TextoCategoriaUnidades:hover, 
 .TextoCategoriaEquipamentos:hover, 
 .TextoCategoriaComponentes:hover, 
@@ -256,6 +255,11 @@ html, body {
 .VideoCategoria {
   height: 13vw;
   border-radius: 50px;
+}
+
+.linha{
+  height: 10px;
+  background-color: rgb(20, 250, 50);
 }
 
 @media (max-width: 500px){
@@ -289,7 +293,7 @@ html, body {
   margin-bottom: 10%;
   text-align: center;
   transition: 0.5s;
-  margin-left: 0%;
+  margin-top: 7%;
 }
 
 .TextoCategoriaUnidades:hover, 
