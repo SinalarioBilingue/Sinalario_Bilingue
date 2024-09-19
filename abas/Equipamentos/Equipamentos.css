@@ -211,5 +211,88 @@ a.btn-link {
   max-height: 100vw;
 }
 
+/*******************************************************************************************************
+                                                  Rodapé
+*******************************************************************************************************/
+#bottom {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.FundoFooter {
+  z-index: 1;
+}
+
+#apoio, #livros1, #livros2, #livros3 {
+  position: absolute;
+  width: 100%;
+  z-index: 2; /* Para garantir que os textos fiquem sobre a imagem */
+}
+
+#apoio {
+  top: 90%; /* Ajuste conforme necessário */
+}
+
+#livros1 {
+  top: 10vw; /* Ajuste conforme necessário */
+}
+
+#livros2 {
+  top: 12vw; /* Ajuste conforme necessário */
+}
+
+#livros3 {
+  top: 14vw; /* Ajuste conforme necessário */
+}
+
+.apoio, .livros1, .livros2, .livros3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.apoio {
+  font-size: 2vw;
+}
+
+.apoio:hover,
+.livros1:hover,
+.livros2:hover,
+.livros3:hover {
+transform: scale(1.1);
+}
+
+.livros1, .livros2, .livros3 {
+  font-size: 1.5vw;
+}
+
+@media (max-width: 500px) {
+  #apoio {
+    top: 60vw; /* Ajuste para a posição no viewport menor */
+  }
+
+  #livros1 {
+    top: 70vw; /* Ajuste conforme necessário */
+  }
+
+  #livros2 {
+    top: 80vw; /* Ajuste conforme necessário */
+  }
+
+  #livros3 {
+    top: 85vw; /* Ajuste conforme necessário */
+  }
+
+  .apoio {
+    font-size: 6vw;
+  }
+
+  .livros1, .livros2, .livros3 {
+    font-size: 4vw;
+  }
+}
+
 
  
