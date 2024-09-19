@@ -232,7 +232,7 @@ html, body {
   #ColAvançados {
     height: 16vh;
     overflow: hidden;
-    border-radius: 50px;
+    border-radius: 70px;
     background-image: conic-gradient(from var(--angle), transparent 0%, rgb(19, 174, 19));
     animation: 2s spin linear infinite;
   }
@@ -253,7 +253,7 @@ html, body {
     height: 80%;
     width: 101%;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 150px;
     display: grid;
     place-items: center;
     font-size: 7vh;
@@ -269,7 +269,7 @@ html, body {
     height: 80%;
     width: 101%;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 150px;
     display: grid;
     place-items: center;
     font-size: 7vh;
@@ -285,7 +285,7 @@ html, body {
     height: 80%;
     width: 101%;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 150px;
     display: grid;
     place-items: center;
     font-size: 7vh;

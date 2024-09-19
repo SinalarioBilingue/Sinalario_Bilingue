@@ -15,7 +15,7 @@
 	[X] - Banner/Poster
 
 
-[] - Verificar com o Vini sobre área do trabalho
+[X] - Verificar com o Vini sobre área do trabalho
 
 [] - Adicionar mais conteudo no caderno de campo, explicar as coisas grandes, falar das dificuldades e tals
 
@@ -43,7 +43,7 @@
 
 	[X] - Libras - Vini
 
-	[] - Técnico - (Dvilla, Raul, Sandro, Fernandinho, Anderson)
+	[X] - Técnico - (Dvilla, Raul, Sandro, Fernandinho, Anderson)
 
 	[X] - Surdos - Gideon
 
@@ -55,6 +55,22 @@
 -------------------------------------------------------------------------------------------------------------------------------                                                    
 
 [X] - Docs SIGNWRITTING vini
+
+[] - Colocar as logos no Quem somos
+
+[] - Colocar os livros em um "rodapé" das categorias
+
+	Livros {
+
+		1 - Dispositivos Eletrônicos e Teoria dos Circuitos - Robert L. Boylestad & Louis Nashelsky
+		2 - Eletricidade Básica - Vol 1 - Van Valkengurgh
+		3 - Eletricidade Básica - Vol 2 - Van Valkengurgh
+		4 - Eletricidade Básica - Vol 3 - Van Valkengurgh
+		5 - Eletricidade Básica - Vol 4 - Van Valkengurgh
+		6 - Eletricidade Básica - Vol 5 - Van Valkengurgh
+		7 - Laboratory Manual to accompany Electronics - Second Edition - Nigel P. Cook & Gary A. Lancaster
+
+	}
 
 [] - Revisar textos e fazer a parte dos conceitos utilizados.
 {
