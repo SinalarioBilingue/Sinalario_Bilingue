@@ -56,9 +56,7 @@
 
 [X] - Docs SIGNWRITTING vini
 
-[] - Colocar as logos no Quem somos
-
-[] - Colocar os livros em um "rodapé" das categorias
+[X] - Colocar os livros em um "rodapé" das categorias
 
 	Livros {
 

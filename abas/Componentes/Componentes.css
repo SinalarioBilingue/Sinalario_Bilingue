@@ -308,7 +308,7 @@ transform: translateY(-4px);
 *******************************************************************************************************/
 #bottom {
   position: relative;
-  height: 150px;
+  height: 100px;
   width: 100%;
 }
 
@@ -322,21 +322,7 @@ transform: translateY(-4px);
   z-index: 2; /* Para garantir que os textos fiquem sobre a imagem */
 }
 
-#apoio {
-  top: 90%; /* Ajuste conforme necessário */
-}
 
-#livros1 {
-  top: 10vw; /* Ajuste conforme necessário */
-}
-
-#livros2 {
-  top: 12vw; /* Ajuste conforme necessário */
-}
-
-#livros3 {
-  top: 14vw; /* Ajuste conforme necessário */
-}
 
 .apoio, .livros1, .livros2, .livros3 {
   font-family: "Bebas Neue", sans-serif;
@@ -358,6 +344,42 @@ transform: scale(1.1);
 
 .livros1, .livros2, .livros3 {
   font-size: 1.5vw;
+}
+
+@media (max-width: 2600px) {
+  #apoio {
+    top: 90%; /* Ajuste conforme necessário */
+  }
+  
+  #livros1 {
+    top: 10vw; /* Ajuste conforme necessário */
+  }
+  
+  #livros2 {
+    top: 12vw; /* Ajuste conforme necessário */
+  }
+  
+  #livros3 {
+    top: 14vw; /* Ajuste conforme necessário */
+  }
+}
+
+@media (max-width: 1600px) {
+  #apoio {
+    top: 110%; /* Ajuste conforme necessário */
+  }
+  
+  #livros1 {
+    top: 11vw; /* Ajuste conforme necessário */
+  }
+  
+  #livros2 {
+    top: 13vw; /* Ajuste conforme necessário */
+  }
+  
+  #livros3 {
+    top: 15vw; /* Ajuste conforme necessário */
+  }
 }
 
 @media (max-width: 500px) {
