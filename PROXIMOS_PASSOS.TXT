@@ -21,9 +21,7 @@
 
 [] - Deixar o caderno de campo com a Sandra
 
-[] - Colocar um QR code com do material didatico e tal
-
-[] - Colocar logos do Liberato e UFRGS no quem somos
+[] - Colocar um QR code com do material didatico e tal ??????????????????????
 
 [] - Nao citar no banner os trabalhos antigos, mas citar no video que vamos gravar
 
@@ -199,6 +197,4 @@
                                                 NÃO TÃO URGENTES:
 
 -------------------------------------------------------------------------------------------------------------------------------                                                
-
-[] - tentar achar algo interressante para colocar no fundo do site
 
