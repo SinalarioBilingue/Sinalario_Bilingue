@@ -159,7 +159,7 @@ html, body {
   .sinal-QuemSomos{
     height: 12vw;
     left: 13%;
-    top: 10%;
+    top: 11%;
   }
 
   .NomeSite {
@@ -179,7 +179,8 @@ html, body {
   font-size: 6vw;
 }
 
-.sinal-enunciado{
+.sinal-enunciado, 
+.sinal-categorias{
   height: 20vw;
 }
 
@@ -257,14 +258,10 @@ html, body {
   border-radius: 50px;
 }
 
-.linha{
-  height: 10px;
-  background-color: rgb(20, 250, 50);
-}
-
 @media (max-width: 500px){
 .container-fluid{
-  margin-top: -10vw;
+  margin-top: -40vw;
+  margin-bottom: 10vh;
 }
 
 .row{
@@ -290,11 +287,9 @@ html, body {
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
   font-size: 8vw;
-  margin-bottom: 10%;
   text-align: center;
   transition: 0.5s;
-  margin-top: 7%;
-}
+  }
 
 .TextoCategoriaUnidades:hover, 
 .TextoCategoriaEquipamentoshover, 
@@ -305,26 +300,22 @@ html, body {
   letter-spacing: 0.15vw;
   background-color: rgb(169, 232, 169);
   box-shadow: 0 0 35px rgb(14, 229, 14);
+  }
+
+.sinal-categorias{
+  margin: 5%;
 }
 
 .VideoCategoria {
   height: 40vw;
   border-radius: 50px;
-}
+  }
 }
 
 @media (max-width: 400px){
   .container-fluid{
     margin-top: -50vw;
     margin-bottom: 10vh;
-  }
-
-  .TextoCategoriaUnidades{
-    margin-left: 3vw;
-  }
-
-  .TextoCategoriaConceitos{
-    margin-left: 4vw;
   }
 }
 
@@ -381,7 +372,7 @@ html, body {
 
 @media (max-width: 500px){
   #bottom{
-    margin-bottom: -30vh;
+    margin-bottom: -40vh;
   }
 
   .apoio{
