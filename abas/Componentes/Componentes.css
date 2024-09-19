@@ -384,7 +384,7 @@ transform: scale(1.1);
 
 @media (max-width: 500px) {
   #apoio {
-    top: 30vw; /* Ajuste para a posição no viewport menor */
+    top: 40vw; /* Ajuste para a posição no viewport menor */
   }
 
   #livros1 {
