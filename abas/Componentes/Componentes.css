@@ -384,19 +384,19 @@ transform: scale(1.1);
 
 @media (max-width: 500px) {
   #apoio {
-    top: 40vw; /* Ajuste para a posição no viewport menor */
+    top: 30vw; /* Ajuste para a posição no viewport menor */
   }
 
   #livros1 {
-    top: 60vw; /* Ajuste conforme necessário */
+    top: 55vw; /* Ajuste conforme necessário */
   }
 
   #livros2 {
-    top: 70vw; /* Ajuste conforme necessário */
+    top: 65vw; /* Ajuste conforme necessário */
   }
 
   #livros3 {
-    top: 75vw; /* Ajuste conforme necessário */
+    top: 70vw; /* Ajuste conforme necessário */
   }
 
   .apoio {
