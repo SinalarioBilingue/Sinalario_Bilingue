@@ -256,55 +256,55 @@ transform: scale(1.1);
 
 @media (max-width: 2600px) {
   #apoio {
-    top: 90%; /* Ajuste conforme necessário */
+    top: 90%;  
   }
   
   #livros1 {
-    top: 10vw; /* Ajuste conforme necessário */
+    top: 8vw; 
   }
   
   #livros2 {
-    top: 12vw; /* Ajuste conforme necessário */
+    top: 10vw;
   }
   
   #livros3 {
-    top: 14vw; /* Ajuste conforme necessário */
+    top: 12vw;
   }
 }
 
 @media (max-width: 1600px) {
   #apoio {
-    top: 110%; /* Ajuste conforme necessário */
+    top: 110%; 
   }
   
   #livros1 {
-    top: 11vw; /* Ajuste conforme necessário */
+    top: 11vw; 
   }
   
   #livros2 {
-    top: 13vw; /* Ajuste conforme necessário */
+    top: 13vw; 
   }
   
   #livros3 {
-    top: 15vw; /* Ajuste conforme necessário */
+    top: 15vw; 
   }
 }
 
 @media (max-width: 500px) {
   #apoio {
-    top: 40vw; /* Ajuste para a posição no viewport menor */
+    top: 40vw; 
   }
 
   #livros1 {
-    top: 55vw; /* Ajuste conforme necessário */
+    top: 55vw; 
   }
 
   #livros2 {
-    top: 65vw; /* Ajuste conforme necessário */
+    top: 65vw; 
   }
 
   #livros3 {
-    top: 70vw; /* Ajuste conforme necessário */
+    top: 70vw; 
   }
 
   .apoio {

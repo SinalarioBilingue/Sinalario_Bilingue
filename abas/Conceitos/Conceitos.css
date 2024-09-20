@@ -377,15 +377,15 @@ transform: scale(1.1);
   }
   
   #livros1 {
-    top: 10vw; /* Ajuste conforme necessário */
+    top: 8vw; /* Ajuste conforme necessário */
   }
   
   #livros2 {
-    top: 12vw; /* Ajuste conforme necessário */
+    top: 10vw; /* Ajuste conforme necessário */
   }
   
   #livros3 {
-    top: 14vw; /* Ajuste conforme necessário */
+    top: 12vw; /* Ajuste conforme necessário */
   }
 }
 
