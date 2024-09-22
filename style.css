@@ -17,6 +17,11 @@ html, body {
   z-index: 1;
 }
 
+#signApp{
+  margin-left: -25vw;
+  padding-right: 1vw;
+}
+
 .sobre{
   background-color: transparent;
   color: black; 
@@ -183,6 +188,12 @@ html, body {
   }
   .sinal-apoio{
     height: 15vw;
+  }
+#signApp{
+  margin-left: -3vw;
+  }
+  .sinal-site{
+    height: 10vw;
   }
   .sinal-unidade{
     height: 12vw;
