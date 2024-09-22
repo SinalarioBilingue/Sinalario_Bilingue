@@ -182,13 +182,20 @@ html, body {
     top: 17%;
   }
   .sinal-apoio{
-    height: 12vw;
+    height: 15vw;
   }
   .sinal-unidade{
     height: 12vw;
+    margin-left: -130%;
+
   }
   .sinal-medida{
-    height: 12vw;
+    height: 50vw;
+    margin-left: -200%;
+  } 
+  .sinal-componentes{
+    height: 14vw;
+    width: 14vw;
   }
 
   .NomeSite {
