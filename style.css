@@ -197,13 +197,13 @@ html, body {
   }
   .sinal-unidade{
     height: 12vw;
-    margin-left: -90%;
+    margin-left: -100%;
     margin-top: 10vw;
 
   }
   .sinal-medida{
     height: 50vw;
-    margin-left: -150%;
+    margin-left: -170%;
     margin-bottom: 10vw;
   } 
   .sinal-componentes{
