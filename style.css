@@ -171,9 +171,24 @@ html, body {
   }
 
   .sinal-QuemSomos{
-    height: 12vw;
+    height: 10vw;
     left: 13%;
     top: 11%;
+  }
+  .sinal-QuemSomos2{
+    height: 4vw;
+    width: 10vw;
+    left: 13%;
+    top: 17%;
+  }
+  .sinal-apoio{
+    height: 12vw;
+  }
+  .sinal-unidade{
+    height: 12vw;
+  }
+  .sinal-medida{
+    height: 12vw;
   }
 
   .NomeSite {
