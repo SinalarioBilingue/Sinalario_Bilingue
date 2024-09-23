@@ -190,6 +190,7 @@ html, body {
   }
   .sinal-site{
     height: 10vw;
+    margin-bottom: 10%;
   }
   .sinal-unidade{
     height: 12vw;
@@ -456,6 +457,9 @@ html, body {
     text-align: center;
     margin-top: 50%;
     margin-bottom: 7%;
+  }
+  .enunciado { 
+  margin-bottom: 10%;
   }
 
   .apoio{
