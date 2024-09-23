@@ -139,10 +139,6 @@ html, body {
   transform: scale(1.1);
 }
 
-.videoapresentacao {
-  height: 25vw;
-  border-radius: 50px;
-}
 
 .divisoria, .divisoria2 {
   margin-bottom: 15%;
@@ -231,9 +227,6 @@ html, body {
   height: 20vw;
 }
 
-.videoapresentacao {
-    height: 50vw;
-}
 
 .divisoria{
   margin-top: -25%;
@@ -450,6 +443,11 @@ html, body {
 }
 
 @media (max-width: 500px){
+  
+  .videoapresentacao {
+    height: 40vw;
+  }
+  
   #bottom{
     margin-bottom: -30vh;
   }
