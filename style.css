@@ -452,6 +452,11 @@ html, body {
   #bottom{
     margin-bottom: -30vh;
   }
+  #apresentacao {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 7%;
+  }
 
   .apoio{
     font-size: 6vw;
