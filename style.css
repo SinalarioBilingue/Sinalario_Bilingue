@@ -112,11 +112,7 @@ html, body {
   transform: scale(1.2);
 }
 
-#apresentacao {
-  text-align: center;
-  margin-top: 20%;
-  margin-bottom: 7%;
-}
+
 
 #RowApresentacao,
 #RowVideoApresentacao {
@@ -426,11 +422,29 @@ html, body {
   #bottom {
     margin-bottom: -30vh;
   }
+  .videoapresentacao {
+    height: 40vh;
+    margin-left: 10%;
+  }
+  #apresentacao {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 7%;
+  }
 }
 
 @media (max-width: 1600px) {
   #bottom {
     margin-bottom: -40vh;
+  }
+  .videoapresentacao {
+    height: 50vh;
+    margin-left: -2%;
+  }
+  #apresentacao {
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 7%;
   }
 }
 
