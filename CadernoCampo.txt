@@ -1,20 +1,25 @@
 
+    [X] - Explicações do PP{
+    
+        [X] - Justificativas {
+        
+            [X] - Explicar : Como Libras é uma lingua muito nova nem todos os surdos possuem acesso a ela na primeira infancia, impactando
+        diretamente em como essas pessoas aprendem a Libra e o proprio portugues
 
-    Explicar : Como Libras é uma lingua muito nova nem todos os surdos possuem acesso a ela na primeira infancia, impactando
-diretamente em como essas pessoas aprendem a Libra e o proprio portugues
+            [X] - Explicar: Como era a vida das pessoas surdas antes da Lei das Cotas e como que essa Lei Impactou diretamente na vida
+        dessa pessoas tornando o mercado de trabalho e a sociedade mais inclusivos, porém explicar também que essa lei tem falhas
+        e mesmo após a inclusao da lei as empresas justificaram que nao haviam pessoas capacitadas para ocupar esses cargos.
+        }
+    }
 
-    Explicar: Como era a vida das pessoas surdas antes da Lei das Cotas e como que essa Lei Impactou diretamente na vida
-dessa pessoas tornando o mercado de trabalho e a sociedade mais inclusivos, porém explicar também que essa lei tem falhas
-e mesmo após a inclusao da lei as empresas justificaram que nao haviam pessoas capacitadas para ocupar esses cargos.
-
-    Material Didático {
+        [X] - Material Didático {
         
         Explicar dos Livros que utilizamos e pqq utilizamos esses especificos - que eles sao mais simples e sao para iniciantes e tal...
         Curso Texto-Fácil da UFGRS
-
-
     }
 
-    Validações {
-        
-    }
+    [] - Site
+
+    [] - Pré FEICIT
+    
+    [] - Validações
