@@ -17,6 +17,11 @@ html, body {
   z-index: 1;
 }
 
+#signApp{
+  margin-left: -25vw;
+  padding-right: 1vw;
+}
+
 .sobre{
   background-color: transparent;
   color: black; 
@@ -40,11 +45,25 @@ html, body {
   color: black; 
   border: none; 
   text-align: center; 
-  top: 4%;
+  top: 2vw;
   text-decoration: none; 
   display: inline-block;
   font-family: "Bebas Neue", sans-serif;
-  height: 80px;
+  position: fixed;
+  left: 18%;
+  cursor: pointer; 
+  z-index: 2; 
+  transition: 0.5s;
+}
+.sinal-QuemSomos2{
+  background-color: transparent;
+  color: black; 
+  border: none; 
+  text-align: center; 
+  top: 6vw;
+  text-decoration: none; 
+  display: inline-block;
+  font-family: "Bebas Neue", sans-serif;
   position: fixed;
   left: 18%;
   cursor: pointer; 
@@ -93,11 +112,7 @@ html, body {
   transform: scale(1.2);
 }
 
-#apresentacao {
-  text-align: center;
-  margin-top: 20%;
-  margin-bottom: 7%;
-}
+
 
 #RowApresentacao,
 #RowVideoApresentacao {
@@ -124,10 +139,6 @@ html, body {
   transform: scale(1.1);
 }
 
-.videoapresentacao {
-  height: 25vw;
-  border-radius: 50px;
-}
 
 .divisoria, .divisoria2 {
   margin-bottom: 15%;
@@ -157,9 +168,41 @@ html, body {
   }
 
   .sinal-QuemSomos{
-    height: 12vw;
+    height: 10vw;
     left: 13%;
     top: 11%;
+  }
+  .sinal-QuemSomos2{
+    height: 4vw;
+    width: 10vw;
+    left: 13%;
+    top: 17%;
+  }
+  .sinal-apoio{
+    height: 15vw;
+  }
+#signApp{
+  margin-left: -3vw;
+  }
+  .sinal-site{
+    height: 10vw;
+    margin-bottom: 10%;
+  }
+  .sinal-unidade{
+    height: 12vw;
+    margin-left: -100%;
+    margin-top: 10vw;
+
+  }
+  .sinal-medida{
+    height: 50vw;
+    margin-left: -170%;
+    margin-bottom: 10vw;
+  } 
+  .sinal-componentes{
+    height: 14vw;
+    width: 14vw;
+    margin-top: 5vw;
   }
 
   .NomeSite {
@@ -184,9 +227,6 @@ html, body {
   height: 20vw;
 }
 
-.videoapresentacao {
-    height: 50vw;
-}
 
 .divisoria{
   margin-top: -25%;
@@ -376,17 +416,48 @@ html, body {
   #bottom {
     margin-bottom: -30vh;
   }
+  .videoapresentacao {
+    height: 40vh;
+    margin-left: 7.5%;
+  }
+  #apresentacao {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 7%;
+  }
 }
 
 @media (max-width: 1600px) {
   #bottom {
     margin-bottom: -40vh;
   }
+  .videoapresentacao {
+    height: 50vh;
+    margin-left: -2%;
+  }
+  #apresentacao {
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 7%;
+  }
 }
 
 @media (max-width: 500px){
+  
+  .videoapresentacao {
+    height: 40vw;
+  }
+  
   #bottom{
     margin-bottom: -30vh;
+  }
+  #apresentacao {
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 7%;
+  }
+  .enunciado { 
+  margin-bottom: 10%;
   }
 
   .apoio{
