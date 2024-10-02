@@ -164,8 +164,7 @@ html, body {
   margin-top: 5%;
 }
 
-/* Estilo do vídeo */
-.videos video {
+.videos img {
  border-radius: 50px;
 }
 
