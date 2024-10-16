@@ -130,11 +130,17 @@ html, body {
       }
     }
     
-    .imgs,
-    .video{
-      margin-top: 10%;
-      margin-bottom: 10%;
-    }
+  .imgs,
+  .video{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 50px;
+  }
+
+  .video iframe{
+    border-radius: 50px;
+  }
+
   .animacao-titulo {
     transition: transform 0.5s, letter-spacing 0.5s;
     box-shadow: 7px 7px 10px #a7d3b4; /* Sombra na direita e embaixo */

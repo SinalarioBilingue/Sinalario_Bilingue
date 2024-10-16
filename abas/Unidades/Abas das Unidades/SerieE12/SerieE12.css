@@ -131,8 +131,8 @@ html, body {
     
     .imgs,
     .video{
-      margin-top: 10%;
-      margin-bottom: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
     }
   
   .animacao-titulo {
@@ -152,17 +152,18 @@ html, body {
     transform: scale(1.05); 
     letter-spacing: 0.15em; 
   }
+
   .row {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 10%;
-  
+    margin-bottom: 5%;
   }
+
   .row2 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10%;
   }
+  
   .row3 {
     display: flex;
     flex-wrap: wrap;

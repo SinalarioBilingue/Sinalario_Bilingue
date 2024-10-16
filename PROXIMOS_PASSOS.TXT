@@ -2,174 +2,13 @@
 
                                                     URGENTES:
 
-------------------------------------------------------------------------------------------------------------------------------- 
-
-                                                REUNIÃO COM SANDRA:
-
-	[X] - Edital da FEICIT
-
-		Educação e Engenharia Eletrônica
-
-	[X] - Revisar Texto de Apresentação/Video pra FEICIT
-
-	[X] - Banner/Poster
-
-
-[X] - Verificar com o Vini sobre área do trabalho
-
-[] - Adicionar mais conteudo no caderno de campo, explicar as coisas grandes, falar das dificuldades e tals
-
-[] - Deixar o caderno de campo com a Sandra
-
-[] - Colocar um QR code com do material didatico e tal ??????????????????????
-
-[] - Nao citar no banner os trabalhos antigos, mas citar no video que vamos gravar
-
-[X] - Falar com o vini sobre o termo de autorização de imagem sobre as pessoas que gravaram os videos em Libras{
-	resposta = Ele tem um molde pronto e vai usar ele com a equipe de gravacao/traducao
-}
-
-[X] - perguntar sobre relatorio
-
-[X] - confirmar com a deise sobre os apoios
-
 -------------------------------------------------------------------------------------------------------------------------------                                                      
 
                                                     AVALIAÇÕES:
 
--------------------------------------------------------------------------------------------------------------------------------                                                    
-
-	[X] - Libras - Vini
-
-	[X] - Técnico - (Dvilla, Raul, Sandro, Fernandinho, Anderson)
-
-	[X] - Surdos - Gideon
-
-
 -------------------------------------------------------------------------------------------------------------------------------                                                      
 
                                                     PARA FEICIT:
-
--------------------------------------------------------------------------------------------------------------------------------                                                    
-
-[X] - Docs SIGNWRITTING vini
-
-[X] - Colocar os livros em um "rodapé" das categorias
-
-	Livros {
-
-		1 - Dispositivos Eletrônicos e Teoria dos Circuitos - Robert L. Boylestad & Louis Nashelsky
-		2 - Eletricidade Básica - Vol 1 - Van Valkengurgh
-		3 - Eletricidade Básica - Vol 2 - Van Valkengurgh
-		4 - Eletricidade Básica - Vol 3 - Van Valkengurgh
-		5 - Eletricidade Básica - Vol 4 - Van Valkengurgh
-		6 - Eletricidade Básica - Vol 5 - Van Valkengurgh
-		7 - Laboratory Manual to accompany Electronics - Second Edition - Nigel P. Cook & Gary A. Lancaster
-
-	}
-
-[] - Revisar textos e fazer a parte dos conceitos utilizados.
-{
-
-    [] - Unidades
-
-	[] - Sistema Internacional de Unidades
-	[] - Série E12
-	[] - Série E24
-	[] - Ohm
-	[] - Volts
-	[] - Ampere
-	[] - Joule
-	[] - Watt
-	[] - Hertz
-	[] - Rpm
-	[] - Farad
-	[] - Henry
-
-    [] - Equipamentos
-
-	[] - Chave Phillips e Fenda
-	[] - Alicates de Bico e de Corte
-	[] - Pinça
-	[] - Banana Jacaré
-	[] - Protoboard
-	[] - Fonte
-	[] - Multímetro
-	[] - Alicate Amperímetro
-	[] - Osciloscópio
-	[] - Gerador de Sinais
-	[] - Placa de Cobre
-	[] - Placa de Cobre Perfurada
-	[] - Furador de Placa
-	[] - Estanho
-	[] - Pasta de Solda
-	[] - Fluxo de Solda
-	[] - Ferro de Solda
-	[] - Solda a Ar quente
-	[] - CLP
-
-    [] - Componentes
-
-	[] - Resistor
-	[] - Diodo
-	[] - Led
-	[] - Botão e Chave
-    [] - Potenciômetro
-    [] - Display de 7 segmentos
-    [] - Portas Lógicas 
-    [] - Diodo Zener
-    [] - PTC
-    [] - NTC
-    [] - LDR
-    [] - Transistor TBJ
-    [] - Circuito Integrado
-    [] - Capacitor
-    [] - Relé
-    [] - Indutor
-    [] - Transformador
-    [] - Motores
-    [] - Amplificador Operacional	
-
-    [] - Conceitos
-
-	[] - Curto-Circuito
-	[] - Circuito em Série
-	[] - Circuito Paralelo
-	[] - Polaridade
-	[] - Tensão Direta
-	[] - Lei de OHM
-	[] - Frequência
-	[] - Terra ou GND
-	[] - VCC
-	[] - VCA
-	[] - Alimentação
-	[] - Divisor de Tensão
-	[] - Pico e Vale
-	[] - Período
-	[] - Flutuação
-	[] - Níveis Lógicos
-	[] - Resistor de Pull-Up
-	[] - Resistor de Pull-Down
-	[] - Malha
-	[] - Lei das Malhas 
-	[] - Nós
-	[] - Lei dos Nós
-	[] - Ruído
-	[] - Tensão Alternada
-	[] - Magnetismo
-	[] - Tensão Eficaz ou VRMS
-
-}
-
-[X] - colocar fotos de SIGNWRITTING "padrao" em cada coisa
-
-                    STANDBY
-
-[] - Preencher o site com os respectivos videos em Libras.
-
-[] - SIGNWRITTING vini
-
-
 
 -------------------------------------------------------------------------------------------------------------------------------
 
@@ -179,9 +18,97 @@
 
 [] - Otimização do site (
     
-    [] - ver tamanho dos videos
-    
-        https://youtu.be/3hng-hmSv2Y?si=LSq15pwALavnsf0j
+    [] - edição e upload no youtube {
+
+		[X] - Unidades
+
+		[X] - Sistema Internacional de Unidades
+		[X] - Série E12
+		[X] - Série E24
+		[X] - Ohm
+		[X] - Volts
+		[X] - Ampere
+		[X] - Joule
+		[X] - Watt
+		[X] - Hertz
+		[X] - Rpm
+		[X] - Farad
+		[] - Henry
+
+		[] - Equipamentos
+
+		[] - Chave Phillips e Fenda
+		[] - Alicates de Bico e de Corte
+		[] - Pinça
+		[] - Banana Jacaré
+		[] - Protoboard
+		[] - Fonte
+		[] - Multímetro
+		[] - Alicate Amperímetro
+		[] - Osciloscópio
+		[] - Gerador de Sinais
+		[] - Placa de Cobre
+		[] - Placa de Cobre Perfurada
+		[] - Furador de Placa
+		[] - Estanho
+		[] - Pasta de Solda
+		[] - Fluxo de Solda
+		[] - Ferro de Solda
+		[] - Solda a Ar quente
+		[] - CLP
+
+		[] - Componentes
+
+		[] - Resistor
+		[] - Diodo
+		[] - Led
+		[] - Botão e Chave
+		[] - Potenciômetro
+		[] - Display de 7 segmentos
+		[] - Portas Lógicas 
+		[] - Diodo Zener
+		[] - PTC
+		[] - NTC
+		[] - LDR
+		[] - Transistor TBJ
+		[] - Circuito Integrado
+		[] - Capacitor
+		[] - Relé
+		[] - Indutor
+		[] - Transformador
+		[] - Motores
+		[] - Amplificador Operacional	
+
+		[] - Conceitos
+
+		[] - Curto-Circuito
+		[] - Circuito em Série
+		[] - Circuito Paralelo
+		[X] - Polaridade
+		[] - Tensão Direta
+		[] - Lei de OHM
+		[] - Frequência
+		[] - Terra ou GND
+		[] - VCC
+		[] - VCA
+		[] - Alimentação
+		[] - Divisor de Tensão
+		[] - Pico e Vale
+		[] - Período
+		[] - Flutuação
+		[] - Níveis Lógicos
+		[] - Resistor de Pull-Up
+		[] - Resistor de Pull-Down
+		[] - Malha
+		[] - Lei das Malhas 
+		[] - Nós
+		[] - Lei dos Nós
+		[] - Ruído
+		[] - Tensão Alternada
+		[] - Magnetismo
+		[] - Tensão Eficaz ou VRMS
+
+}
 
     [] - HTML desnecessários?
     
