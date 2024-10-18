@@ -112,8 +112,6 @@ html, body {
   transform: scale(1.2);
 }
 
-
-
 #RowApresentacao,
 #RowVideoApresentacao {
   display: flex;
@@ -178,6 +176,7 @@ html, body {
     left: 13%;
     top: 17%;
   }
+  
   .sinal-apoio{
     height: 15vw;
   }

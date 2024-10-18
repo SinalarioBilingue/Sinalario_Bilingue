@@ -110,7 +110,21 @@ html, body {
     height: auto; 
   }
   
-  
+  .sinal{
+  display: flex;
+  flex-direction: column;
+  transform: scaleX(-50%);
+  }
+
+  .videos img {
+    height: 20vw;
+    border-radius: 50px;
+  }
+
+  .row {
+    margin-top: 10%;
+  }
+
   @media (max-width: 768px) {
     .titulo {
         font-size: 7vw; 
@@ -136,11 +150,19 @@ html, body {
 
   
   @media (max-width: 768px) {
+    .row{
+      row-gap: 50px;
+    }
+    
     .videos {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column; /* Ajusta a direção dos itens se necessário */
+    }
+
+    .videos img {
+      height: 50vw;
     }
 
     .animacao-titulo h2{
@@ -155,23 +177,6 @@ html, body {
     }
 }
 
-/* Estilo geral do contêiner de vídeo */
-.videos {
-  display: flex; /* Define o contêiner como flexível */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100%; /* Garante que o contêiner tenha altura suficiente */
-  margin-top: 5%;
-}
-
-.videos img {
- border-radius: 50px;
-}
-
-.row {
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    margin-top: 10%;
-}
 
 a.btn-link {
   text-decoration: none !important; /* Remove o sublinhado do link */
