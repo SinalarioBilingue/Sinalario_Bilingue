@@ -322,8 +322,6 @@ transform: translateY(-4px);
   z-index: 2; /* Para garantir que os textos fiquem sobre a imagem */
 }
 
-
-
 .apoio, .livros1, .livros2, .livros3 {
   font-family: "Bebas Neue", sans-serif;
   color: black;
