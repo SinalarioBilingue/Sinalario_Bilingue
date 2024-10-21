@@ -161,6 +161,7 @@ html, body {
 .imgs {
   margin-top: 5%;
 }
+
 /* Estilo geral do contêiner de vídeo */
 .videos {
   display: flex; /* Define o contêiner como flexível */
@@ -174,8 +175,6 @@ html, body {
 .videos video {
  border-radius: 50px;
 }
-
-
 
 .row {
     align-items: center; /* Alinha os itens verticalmente no centro */
