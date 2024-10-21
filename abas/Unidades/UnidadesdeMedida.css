@@ -111,13 +111,18 @@ html, body {
   }
   
   .sinal{
-  display: flex;
-  flex-direction: column;
-  transform: scaleX(-50%);
+    display: flex;
+    flex-direction: column;
+    transform: scaleX(-80%);
+  }
+
+  .videos{
+    display: flex;
+    justify-content: center;
   }
 
   .videos img {
-    height: 20vw;
+    height: 15vw;
     border-radius: 50px;
   }
 
@@ -158,7 +163,8 @@ html, body {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column; /* Ajusta a direção dos itens se necessário */
+        flex-direction: column;
+        margin-bottom: 10%;
     }
 
     .videos img {
