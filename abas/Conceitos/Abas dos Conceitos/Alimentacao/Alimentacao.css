@@ -139,34 +139,24 @@ html, body {
     margin-bottom: 5%;
   }
 
-
-
-.animacao-titulo h2 {
-  border-style: solid; 
-  border-color: green; 
-  border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
-}
-
-
-
-.animacao-titulo:hover {
-  transform: scale(1.05); 
-  letter-spacing: 0.15em; 
-}
+  .animacao-titulo {
+    transition: transform 0.5s, letter-spacing 0.5s;
+    box-shadow: 7px 7px 10px #a7d3b4; /* Sombra na direita e embaixo */
+  }
+  
+  .animacao-titulo h2 {
+    border-style: solid; 
+    border-color: green; 
+    border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
+  }
+  
+  .animacao-titulo:hover {
+    transform: scale(1.05); 
+    letter-spacing: 0.15em; 
+  }
 .row {
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 10%;
-
-}
-.row2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10%;
-}
-.row3 {
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: 10%;
 
 }
