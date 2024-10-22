@@ -29,7 +29,6 @@ html, body {
   color: #000;
   letter-spacing: 0.10em; /* Aumenta o espaçamento entre letras */
   transition: transform 0.5s, letter-spacing 0.5s; /* Define a duração da animação */
-
 }
 
 .titulo:hover{
@@ -58,7 +57,6 @@ html, body {
 .back-button:hover {
   transform: scale(1.1); /* Aumenta o tamanho em 10% */
 }
-
 
 .Logo {
   position: absolute; 
@@ -102,8 +100,9 @@ html, body {
       width: 25vw; 
     }
 }
+
 @media (max-width: 768px) {
-    
+
   .txt-conceito,
   .txt-exemplo{
       font-size: 6vw; 
@@ -118,22 +117,21 @@ html, body {
   
   @media (max-width: 768px) {
     
-    .video video {
-        width: 100%; 
-        height: 100%;
+    .video iframe {
+      height: 45vw;
+      width: 80vw;
     }
   
     .imgs img {
         width: 80%; 
         height: 80%;
-  
     }
   }
   
   .imgs,
   .video{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
 .animacao-titulo {
@@ -147,12 +145,11 @@ html, body {
   border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
 }
 
-
-
 .animacao-titulo:hover {
   transform: scale(1.05); 
   letter-spacing: 0.15em; 
 }
+
 .row {
   margin-left: 0;
   margin-right: 0;

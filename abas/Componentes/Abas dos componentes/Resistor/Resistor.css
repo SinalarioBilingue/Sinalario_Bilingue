@@ -116,15 +116,14 @@ html, body {
     
     @media (max-width: 768px) {
       
-      .video video {
-          width: 100%; 
-          height: 100%;
+      .video iframe {
+        height: 45vw;
+        width: 80vw;
       }
     
       .imgs img {
           width: 80%; 
           height: 80%;
-    
       }
     }
     

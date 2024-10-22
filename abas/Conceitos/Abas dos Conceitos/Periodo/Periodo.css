@@ -117,23 +117,22 @@ html, body {
   
   @media (max-width: 768px) {
     
-    .video video {
-        width: 100%; 
-        height: 100%;
+    .video iframe {
+      height: 45vw;
+      width: 80vw;
     }
   
     .imgs img {
         width: 80%; 
         height: 80%;
-  
     }
   }
   
-  .imgs,
-  .video{
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
+.imgs,
+.video  {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 .animacao-titulo {
   transition: transform 0.5s, letter-spacing 0.5s;
@@ -146,8 +145,6 @@ html, body {
   border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
 }
 
-
-
 .animacao-titulo:hover {
   transform: scale(1.05); 
   letter-spacing: 0.15em; 
@@ -156,16 +153,16 @@ html, body {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 10%;
-
 }
+
 .row2 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10%;
 }
+
 .row3 {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10%;
-
 }

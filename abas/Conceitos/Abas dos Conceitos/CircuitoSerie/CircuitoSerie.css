@@ -118,22 +118,21 @@ html, body {
   
   @media (max-width: 768px) {
     
-    .video video {
-        width: 100%; 
-        height: 100%;
+    .video iframe {
+      height: 45vw;
+      width: 80vw;
     }
   
     .imgs img {
         width: 80%; 
         height: 80%;
-  
     }
   }
   
   .imgs,
   .video{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
 .animacao-titulo {
@@ -146,8 +145,6 @@ html, body {
   border-color: green; 
   border-width: 1px 5px 5px 1px; /* topo, direita, baixo, esquerda */
 }
-
-
 
 .animacao-titulo:hover {
   transform: scale(1.05); 
