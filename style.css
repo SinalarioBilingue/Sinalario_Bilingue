@@ -176,7 +176,7 @@ html, body {
     left: 13%;
     top: 17%;
   }
-  
+
   .sinal-apoio{
     height: 15vw;
   }
@@ -444,7 +444,8 @@ html, body {
 @media (max-width: 500px){
   
   .videoapresentacao {
-    height: 40vw;
+    height: 45vw;
+    width: 80vw;
   }
   
   #bottom{
