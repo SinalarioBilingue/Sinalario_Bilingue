@@ -1,23 +1,8 @@
 -------------------------------------------------------------------------------------------------------------------------------
 
-                                                    URGENTES:
-
--------------------------------------------------------------------------------------------------------------------------------                                                      
-
-                                                    AVALIAÇÕES:
-
--------------------------------------------------------------------------------------------------------------------------------                                                      
-
-                                                    PARA FEICIT:
-
--------------------------------------------------------------------------------------------------------------------------------
-
                                                     PARA MOSTRATEC:
 
--------------------------------------------------------------------------------------------------------------------------------                                                    
-
-[] - Otimização do site (
-    
+-------------------------------------------------------------------------------------------------------------------------------                                                        
     [] - edição e upload no youtube da explicação e exemplo de uso {
 
 		[X] - Unidades
@@ -59,23 +44,23 @@
 
 		[] - Componentes
 
-		[] - Resistor
+		[X] - Resistor
 		[X] - Diodo
 		[] - Led
 		[] - Botão e Chave
-		[] - Potenciômetro
+		[X] - Potenciômetro
 		[] - Display de 7 segmentos
 		[] - Portas Lógicas 
 		[] - Diodo Zener
-		[] - PTC
-		[] - NTC
-		[] - LDR
+		[X] - PTC
+		[X] - NTC
+		[X] - LDR
 		[] - Transistor TBJ
 		[] - Circuito Integrado
-		[] - Capacitor
+		[X] - Capacitor
 		[] - Relé
 		[] - Indutor
-		[] - Transformador
+		[X] - Transformador
 		[] - Motores
 		[] - Amplificador Operacional	
 
@@ -96,120 +81,28 @@
 		[X] - Divisor de Tensão
 		[] - Pico e Vale
 		[X] - Período
-		[] - Flutuação
-		[] - Níveis Lógicos
-		[] - Resistor de Pull-Up
-		[] - Resistor de Pull-Down
+		[X] - Flutuação
+		[X] - Níveis Lógicos
+		[X] - Resistor de Pull-Up
+		[X] - Resistor de Pull-Down
 		[] - Malha
-		[] - Lei das Malhas 
+		[] - Lei das Malhas
 		[] - Nós
 		[X] - Lei dos Nós
 		[] - Ruído
 		[] - Tensão Alternada
 		[] - Magnetismo
 		[] - Tensão Eficaz ou VRMS
-
 }
 
-[] - sinais termos em gif {
-
-		[X] - Unidades
-
-		[X] - Sistema Internacional de Unidades
-		[X] - Série E12
-		[X] - Série E24
-		[X] - Ohm
-		[X] - Volts
-		[X] - Ampere
-		[X] - Joule
-		[X] - Watt
-		[X] - Hertz
-		[X] - Rpm
-		[X] - Farad
-		[X] - Henry
-
-		[] - Equipamentos
-
-		[] - Chave Phillips e Fenda
-		[] - Alicates de Bico e de Corte
-		[] - Pinça
-		[] - Banana Jacaré
-		[] - Protoboard
-		[] - Fonte
-		[] - Multímetro
-		[] - Alicate Amperímetro
-		[] - Osciloscópio
-		[] - Gerador de Sinais
-		[] - Placa de Cobre
-		[] - Placa de Cobre Perfurada
-		[] - Furador de Placa
-		[] - Estanho
-		[] - Pasta de Solda
-		[] - Fluxo de Solda
-		[] - Ferro de Solda
-		[] - Solda a Ar quente
-		[] - CLP
-
-		[] - Componentes
-
-		[] - Resistor
-		[] - Diodo
-		[] - Led
-		[] - Botão e Chave
-		[] - Potenciômetro
-		[] - Display de 7 segmentos
-		[] - Portas Lógicas 
-		[] - Diodo Zener
-		[] - PTC
-		[] - NTC
-		[] - LDR
-		[] - Transistor TBJ
-		[] - Circuito Integrado
-		[] - Capacitor
-		[] - Relé
-		[] - Indutor
-		[] - Transformador
-		[] - Motores
-		[] - Amplificador Operacional	
-
-		[] - Conceitos
-
-		[] - Curto-Circuito
-		[] - Circuito em Série
-		[] - Circuito Paralelo
-		[X] - Polaridade
-		[] - Tensão Direta
-		[] - Lei de OHM
-		[] - Frequência
-		[] - Terra ou GND
-		[] - VCC
-		[] - VCA
-		[] - Alimentação
-		[] - Divisor de Tensão
-		[] - Pico e Vale
-		[] - Período
-		[] - Flutuação
-		[] - Níveis Lógicos
-		[] - Resistor de Pull-Up
-		[] - Resistor de Pull-Down
-		[] - Malha
-		[] - Lei das Malhas 
-		[] - Nós
-		[] - Lei dos Nós
-		[] - Ruído
-		[] - Tensão Alternada
-		[] - Magnetismo
-		[] - Tensão Eficaz ou VRMS
-
-}
+[] - Otimização do site {
 
     [] - HTML desnecessários?
     
     [] - CSS desnecessários?
 
     [] - Tentar tirar as coisas "inúteis" que colocamos nos códigos.
-
-)
+}
 
 
 -------------------------------------------------------------------------------------------------------------------------------
