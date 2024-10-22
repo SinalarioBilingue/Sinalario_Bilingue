@@ -126,14 +126,13 @@ html, body {
       .imgs img {
           width: 80%; 
           height: 80%;
-    
       }
     }
     
     .imgs,
     .video{
-      margin-top: 10%;
-      margin-bottom: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
     }
   
   .animacao-titulo {

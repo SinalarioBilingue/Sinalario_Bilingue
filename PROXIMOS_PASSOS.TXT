@@ -81,20 +81,21 @@
 
 		[] - Conceitos
 
-		[] - Curto-Circuito
-		[] - Circuito em Série
-		[] - Circuito Paralelo
+		[X] - Curto-Circuito
+		[X] - Circuito em Série
+		[X] - Circuito Paralelo
 		[X] - Polaridade
-		[] - Tensão Direta
-		[] - Lei de OHM
-		[] - Frequência
+		[X] - Tensão Direta
+		[X] - Lei de OHM
+		[X] - Frequência
 		[X] - Terra ou GND
-		[] - VCC
-		[] - VCA
+		[X] - VCC
+		[X] - VCA
 		[X] - Alimentação
+		[X] - Barramento
 		[X] - Divisor de Tensão
 		[] - Pico e Vale
-		[] - Período
+		[X] - Período
 		[] - Flutuação
 		[] - Níveis Lógicos
 		[] - Resistor de Pull-Up
